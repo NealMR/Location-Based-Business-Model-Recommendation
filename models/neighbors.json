@@ -1,0 +1,5756 @@
+{
+ "Colaba": [
+  {
+   "name": "Navy Nagar",
+   "zone": "South Mumbai",
+   "distance": 1.52
+  },
+  {
+   "name": "Worli",
+   "zone": "South Mumbai",
+   "distance": 1.86
+  },
+  {
+   "name": "Jacob Circle",
+   "zone": "South Mumbai",
+   "distance": 2.19
+  },
+  {
+   "name": "Goregaon (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.4
+  },
+  {
+   "name": "Malabar Hill",
+   "zone": "South Mumbai",
+   "distance": 2.42
+  },
+  {
+   "name": "Versova",
+   "zone": "Western Suburbs",
+   "distance": 2.6
+  },
+  {
+   "name": "Khar (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.64
+  },
+  {
+   "name": "Breach Candy",
+   "zone": "South Mumbai",
+   "distance": 2.72
+  }
+ ],
+ "Cuffe Parade": [
+  {
+   "name": "Mandvi",
+   "zone": "South Mumbai",
+   "distance": 2.57
+  },
+  {
+   "name": "Khar (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.66
+  },
+  {
+   "name": "Charni Road",
+   "zone": "South Mumbai",
+   "distance": 2.67
+  },
+  {
+   "name": "Ballard Estate",
+   "zone": "South Mumbai",
+   "distance": 2.7
+  },
+  {
+   "name": "Bhendi Bazaar",
+   "zone": "South Mumbai",
+   "distance": 2.73
+  },
+  {
+   "name": "Worli",
+   "zone": "South Mumbai",
+   "distance": 2.81
+  },
+  {
+   "name": "Masjid Bunder",
+   "zone": "South Mumbai",
+   "distance": 2.82
+  },
+  {
+   "name": "Malabar Hill",
+   "zone": "South Mumbai",
+   "distance": 2.99
+  }
+ ],
+ "Navy Nagar": [
+  {
+   "name": "Colaba",
+   "zone": "South Mumbai",
+   "distance": 1.52
+  },
+  {
+   "name": "Versova",
+   "zone": "Western Suburbs",
+   "distance": 1.95
+  },
+  {
+   "name": "Worli",
+   "zone": "South Mumbai",
+   "distance": 2.0
+  },
+  {
+   "name": "Goregaon (East)",
+   "zone": "Western Suburbs",
+   "distance": 2.08
+  },
+  {
+   "name": "Kanjurmarg",
+   "zone": "Eastern Suburbs",
+   "distance": 2.38
+  },
+  {
+   "name": "Juhu",
+   "zone": "Western Suburbs",
+   "distance": 2.4
+  },
+  {
+   "name": "Malabar Hill",
+   "zone": "South Mumbai",
+   "distance": 2.43
+  },
+  {
+   "name": "Cotton Green",
+   "zone": "Central Mumbai",
+   "distance": 2.48
+  }
+ ],
+ "Churchgate": [
+  {
+   "name": "Fort",
+   "zone": "South Mumbai",
+   "distance": 2.37
+  },
+  {
+   "name": "Ballard Estate",
+   "zone": "South Mumbai",
+   "distance": 6.14
+  },
+  {
+   "name": "Bandra (East)",
+   "zone": "Western Suburbs",
+   "distance": 6.32
+  },
+  {
+   "name": "Lower Parel",
+   "zone": "Central Mumbai",
+   "distance": 6.34
+  },
+  {
+   "name": "Crawford Market",
+   "zone": "South Mumbai",
+   "distance": 6.78
+  },
+  {
+   "name": "Bandra (West)",
+   "zone": "Western Suburbs",
+   "distance": 7.04
+  },
+  {
+   "name": "Oshiwara",
+   "zone": "Western Suburbs",
+   "distance": 7.38
+  },
+  {
+   "name": "Marine Lines",
+   "zone": "South Mumbai",
+   "distance": 7.47
+  }
+ ],
+ "Fort": [
+  {
+   "name": "Churchgate",
+   "zone": "South Mumbai",
+   "distance": 2.37
+  },
+  {
+   "name": "Ballard Estate",
+   "zone": "South Mumbai",
+   "distance": 5.14
+  },
+  {
+   "name": "Bandra (East)",
+   "zone": "Western Suburbs",
+   "distance": 5.21
+  },
+  {
+   "name": "Crawford Market",
+   "zone": "South Mumbai",
+   "distance": 5.38
+  },
+  {
+   "name": "Bandra (West)",
+   "zone": "Western Suburbs",
+   "distance": 6.03
+  },
+  {
+   "name": "Lower Parel",
+   "zone": "Central Mumbai",
+   "distance": 6.16
+  },
+  {
+   "name": "Marine Lines",
+   "zone": "South Mumbai",
+   "distance": 6.26
+  },
+  {
+   "name": "Cuffe Parade",
+   "zone": "South Mumbai",
+   "distance": 6.87
+  }
+ ],
+ "Ballard Estate": [
+  {
+   "name": "Marine Lines",
+   "zone": "South Mumbai",
+   "distance": 1.96
+  },
+  {
+   "name": "Cuffe Parade",
+   "zone": "South Mumbai",
+   "distance": 2.7
+  },
+  {
+   "name": "Mandvi",
+   "zone": "South Mumbai",
+   "distance": 2.81
+  },
+  {
+   "name": "Crawford Market",
+   "zone": "South Mumbai",
+   "distance": 2.86
+  },
+  {
+   "name": "Charni Road",
+   "zone": "South Mumbai",
+   "distance": 3.08
+  },
+  {
+   "name": "Khar (West)",
+   "zone": "Western Suburbs",
+   "distance": 3.24
+  },
+  {
+   "name": "Vile Parle (West)",
+   "zone": "Western Suburbs",
+   "distance": 3.25
+  },
+  {
+   "name": "Bhendi Bazaar",
+   "zone": "South Mumbai",
+   "distance": 3.4
+  }
+ ],
+ "Mandvi": [
+  {
+   "name": "Bhendi Bazaar",
+   "zone": "South Mumbai",
+   "distance": 1.08
+  },
+  {
+   "name": "Masjid Bunder",
+   "zone": "South Mumbai",
+   "distance": 1.47
+  },
+  {
+   "name": "Dongri",
+   "zone": "South Mumbai",
+   "distance": 1.76
+  },
+  {
+   "name": "Nagpada",
+   "zone": "South Mumbai",
+   "distance": 1.83
+  },
+  {
+   "name": "Charni Road",
+   "zone": "South Mumbai",
+   "distance": 1.92
+  },
+  {
+   "name": "Byculla",
+   "zone": "South Mumbai",
+   "distance": 2.29
+  },
+  {
+   "name": "Sakinaka",
+   "zone": "Western Suburbs",
+   "distance": 2.43
+  },
+  {
+   "name": "Kurla (East)",
+   "zone": "Central Mumbai",
+   "distance": 2.52
+  }
+ ],
+ "Masjid Bunder": [
+  {
+   "name": "Bhendi Bazaar",
+   "zone": "South Mumbai",
+   "distance": 1.06
+  },
+  {
+   "name": "Nagpada",
+   "zone": "South Mumbai",
+   "distance": 1.19
+  },
+  {
+   "name": "Mandvi",
+   "zone": "South Mumbai",
+   "distance": 1.47
+  },
+  {
+   "name": "Dongri",
+   "zone": "South Mumbai",
+   "distance": 1.64
+  },
+  {
+   "name": "Sakinaka",
+   "zone": "Western Suburbs",
+   "distance": 1.82
+  },
+  {
+   "name": "Mazgaon",
+   "zone": "South Mumbai",
+   "distance": 1.93
+  },
+  {
+   "name": "Kurla (East)",
+   "zone": "Central Mumbai",
+   "distance": 1.98
+  },
+  {
+   "name": "Kurla (West)",
+   "zone": "Central Mumbai",
+   "distance": 2.09
+  }
+ ],
+ "Crawford Market": [
+  {
+   "name": "Mandvi",
+   "zone": "South Mumbai",
+   "distance": 2.72
+  },
+  {
+   "name": "Ballard Estate",
+   "zone": "South Mumbai",
+   "distance": 2.86
+  },
+  {
+   "name": "Marine Lines",
+   "zone": "South Mumbai",
+   "distance": 3.16
+  },
+  {
+   "name": "Bandra (East)",
+   "zone": "Western Suburbs",
+   "distance": 3.17
+  },
+  {
+   "name": "Charni Road",
+   "zone": "South Mumbai",
+   "distance": 3.33
+  },
+  {
+   "name": "Bhendi Bazaar",
+   "zone": "South Mumbai",
+   "distance": 3.47
+  },
+  {
+   "name": "Nagpada",
+   "zone": "South Mumbai",
+   "distance": 3.69
+  },
+  {
+   "name": "Santacruz (East)",
+   "zone": "Western Suburbs",
+   "distance": 3.71
+  }
+ ],
+ "Marine Lines": [
+  {
+   "name": "Ballard Estate",
+   "zone": "South Mumbai",
+   "distance": 1.96
+  },
+  {
+   "name": "Charni Road",
+   "zone": "South Mumbai",
+   "distance": 2.31
+  },
+  {
+   "name": "Mandvi",
+   "zone": "South Mumbai",
+   "distance": 3.01
+  },
+  {
+   "name": "Cuffe Parade",
+   "zone": "South Mumbai",
+   "distance": 3.13
+  },
+  {
+   "name": "Crawford Market",
+   "zone": "South Mumbai",
+   "distance": 3.16
+  },
+  {
+   "name": "Vile Parle (West)",
+   "zone": "Western Suburbs",
+   "distance": 3.19
+  },
+  {
+   "name": "Parel",
+   "zone": "Central Mumbai",
+   "distance": 3.44
+  },
+  {
+   "name": "Byculla",
+   "zone": "South Mumbai",
+   "distance": 3.48
+  }
+ ],
+ "Charni Road": [
+  {
+   "name": "Mandvi",
+   "zone": "South Mumbai",
+   "distance": 1.92
+  },
+  {
+   "name": "Parel",
+   "zone": "Central Mumbai",
+   "distance": 1.96
+  },
+  {
+   "name": "Byculla",
+   "zone": "South Mumbai",
+   "distance": 2.08
+  },
+  {
+   "name": "Lalbaug",
+   "zone": "Central Mumbai",
+   "distance": 2.17
+  },
+  {
+   "name": "Bhendi Bazaar",
+   "zone": "South Mumbai",
+   "distance": 2.18
+  },
+  {
+   "name": "Dongri",
+   "zone": "South Mumbai",
+   "distance": 2.21
+  },
+  {
+   "name": "Marine Lines",
+   "zone": "South Mumbai",
+   "distance": 2.31
+  },
+  {
+   "name": "Jacob Circle",
+   "zone": "South Mumbai",
+   "distance": 2.35
+  }
+ ],
+ "Grant Road": [
+  {
+   "name": "Girgaon",
+   "zone": "South Mumbai",
+   "distance": 2.05
+  },
+  {
+   "name": "Dadar (West)",
+   "zone": "Central Mumbai",
+   "distance": 2.19
+  },
+  {
+   "name": "Dadar (East)",
+   "zone": "Central Mumbai",
+   "distance": 2.85
+  },
+  {
+   "name": "Vile Parle (East)",
+   "zone": "Western Suburbs",
+   "distance": 3.24
+  },
+  {
+   "name": "Mahim",
+   "zone": "Central Mumbai",
+   "distance": 3.25
+  },
+  {
+   "name": "Matunga",
+   "zone": "Central Mumbai",
+   "distance": 3.32
+  },
+  {
+   "name": "Sion",
+   "zone": "Central Mumbai",
+   "distance": 3.72
+  },
+  {
+   "name": "Tardeo",
+   "zone": "South Mumbai",
+   "distance": 3.76
+  }
+ ],
+ "Girgaon": [
+  {
+   "name": "Grant Road",
+   "zone": "South Mumbai",
+   "distance": 2.05
+  },
+  {
+   "name": "Mahim",
+   "zone": "Central Mumbai",
+   "distance": 2.89
+  },
+  {
+   "name": "Tardeo",
+   "zone": "South Mumbai",
+   "distance": 2.9
+  },
+  {
+   "name": "Mulund (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 3.07
+  },
+  {
+   "name": "Chembur",
+   "zone": "Central Mumbai",
+   "distance": 3.24
+  },
+  {
+   "name": "Vile Parle (East)",
+   "zone": "Western Suburbs",
+   "distance": 3.24
+  },
+  {
+   "name": "Byculla",
+   "zone": "South Mumbai",
+   "distance": 3.25
+  },
+  {
+   "name": "Mulund (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 3.27
+  }
+ ],
+ "Malabar Hill": [
+  {
+   "name": "Worli",
+   "zone": "South Mumbai",
+   "distance": 1.92
+  },
+  {
+   "name": "Breach Candy",
+   "zone": "South Mumbai",
+   "distance": 1.93
+  },
+  {
+   "name": "Pedder Road",
+   "zone": "South Mumbai",
+   "distance": 2.32
+  },
+  {
+   "name": "Juhu",
+   "zone": "Western Suburbs",
+   "distance": 2.33
+  },
+  {
+   "name": "Colaba",
+   "zone": "South Mumbai",
+   "distance": 2.42
+  },
+  {
+   "name": "Navy Nagar",
+   "zone": "South Mumbai",
+   "distance": 2.43
+  },
+  {
+   "name": "Santacruz (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.47
+  },
+  {
+   "name": "Khar (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.7
+  }
+ ],
+ "Pedder Road": [
+  {
+   "name": "Breach Candy",
+   "zone": "South Mumbai",
+   "distance": 0.59
+  },
+  {
+   "name": "Tardeo",
+   "zone": "South Mumbai",
+   "distance": 2.01
+  },
+  {
+   "name": "Malabar Hill",
+   "zone": "South Mumbai",
+   "distance": 2.32
+  },
+  {
+   "name": "Juhu",
+   "zone": "Western Suburbs",
+   "distance": 2.64
+  },
+  {
+   "name": "Vile Parle (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.64
+  },
+  {
+   "name": "Worli",
+   "zone": "South Mumbai",
+   "distance": 2.8
+  },
+  {
+   "name": "Colaba",
+   "zone": "South Mumbai",
+   "distance": 2.84
+  },
+  {
+   "name": "Khar (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.92
+  }
+ ],
+ "Breach Candy": [
+  {
+   "name": "Pedder Road",
+   "zone": "South Mumbai",
+   "distance": 0.59
+  },
+  {
+   "name": "Malabar Hill",
+   "zone": "South Mumbai",
+   "distance": 1.93
+  },
+  {
+   "name": "Tardeo",
+   "zone": "South Mumbai",
+   "distance": 2.12
+  },
+  {
+   "name": "Worli",
+   "zone": "South Mumbai",
+   "distance": 2.59
+  },
+  {
+   "name": "Juhu",
+   "zone": "Western Suburbs",
+   "distance": 2.61
+  },
+  {
+   "name": "Colaba",
+   "zone": "South Mumbai",
+   "distance": 2.72
+  },
+  {
+   "name": "Vile Parle (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.84
+  },
+  {
+   "name": "Khar (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.95
+  }
+ ],
+ "Tardeo": [
+  {
+   "name": "Pedder Road",
+   "zone": "South Mumbai",
+   "distance": 2.01
+  },
+  {
+   "name": "Breach Candy",
+   "zone": "South Mumbai",
+   "distance": 2.12
+  },
+  {
+   "name": "Mahim",
+   "zone": "Central Mumbai",
+   "distance": 2.35
+  },
+  {
+   "name": "Vile Parle (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.39
+  },
+  {
+   "name": "Sion",
+   "zone": "Central Mumbai",
+   "distance": 2.51
+  },
+  {
+   "name": "Worli",
+   "zone": "South Mumbai",
+   "distance": 2.67
+  },
+  {
+   "name": "Byculla",
+   "zone": "South Mumbai",
+   "distance": 2.69
+  },
+  {
+   "name": "Jacob Circle",
+   "zone": "South Mumbai",
+   "distance": 2.7
+  }
+ ],
+ "Bhendi Bazaar": [
+  {
+   "name": "Masjid Bunder",
+   "zone": "South Mumbai",
+   "distance": 1.06
+  },
+  {
+   "name": "Mandvi",
+   "zone": "South Mumbai",
+   "distance": 1.08
+  },
+  {
+   "name": "Dongri",
+   "zone": "South Mumbai",
+   "distance": 1.31
+  },
+  {
+   "name": "Nagpada",
+   "zone": "South Mumbai",
+   "distance": 1.39
+  },
+  {
+   "name": "Sakinaka",
+   "zone": "Western Suburbs",
+   "distance": 1.99
+  },
+  {
+   "name": "Kurla (West)",
+   "zone": "Central Mumbai",
+   "distance": 2.16
+  },
+  {
+   "name": "Charni Road",
+   "zone": "South Mumbai",
+   "distance": 2.18
+  },
+  {
+   "name": "Kurla (East)",
+   "zone": "Central Mumbai",
+   "distance": 2.19
+  }
+ ],
+ "Nagpada": [
+  {
+   "name": "Masjid Bunder",
+   "zone": "South Mumbai",
+   "distance": 1.19
+  },
+  {
+   "name": "Bhendi Bazaar",
+   "zone": "South Mumbai",
+   "distance": 1.39
+  },
+  {
+   "name": "Santacruz (East)",
+   "zone": "Western Suburbs",
+   "distance": 1.74
+  },
+  {
+   "name": "Mandvi",
+   "zone": "South Mumbai",
+   "distance": 1.83
+  },
+  {
+   "name": "Sakinaka",
+   "zone": "Western Suburbs",
+   "distance": 1.96
+  },
+  {
+   "name": "Dongri",
+   "zone": "South Mumbai",
+   "distance": 2.01
+  },
+  {
+   "name": "Santacruz (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.06
+  },
+  {
+   "name": "Byculla",
+   "zone": "South Mumbai",
+   "distance": 2.1
+  }
+ ],
+ "Dongri": [
+  {
+   "name": "Bhendi Bazaar",
+   "zone": "South Mumbai",
+   "distance": 1.31
+  },
+  {
+   "name": "Kurla (West)",
+   "zone": "Central Mumbai",
+   "distance": 1.45
+  },
+  {
+   "name": "Sakinaka",
+   "zone": "Western Suburbs",
+   "distance": 1.49
+  },
+  {
+   "name": "Mazgaon",
+   "zone": "South Mumbai",
+   "distance": 1.52
+  },
+  {
+   "name": "Masjid Bunder",
+   "zone": "South Mumbai",
+   "distance": 1.64
+  },
+  {
+   "name": "Vikhroli (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.66
+  },
+  {
+   "name": "Kurla (East)",
+   "zone": "Central Mumbai",
+   "distance": 1.68
+  },
+  {
+   "name": "Mandvi",
+   "zone": "South Mumbai",
+   "distance": 1.76
+  }
+ ],
+ "Mazgaon": [
+  {
+   "name": "Dongri",
+   "zone": "South Mumbai",
+   "distance": 1.52
+  },
+  {
+   "name": "Sakinaka",
+   "zone": "Western Suburbs",
+   "distance": 1.54
+  },
+  {
+   "name": "Kurla (West)",
+   "zone": "Central Mumbai",
+   "distance": 1.55
+  },
+  {
+   "name": "Kurla (East)",
+   "zone": "Central Mumbai",
+   "distance": 1.58
+  },
+  {
+   "name": "Goregaon (West)",
+   "zone": "Western Suburbs",
+   "distance": 1.62
+  },
+  {
+   "name": "Sewri",
+   "zone": "Central Mumbai",
+   "distance": 1.73
+  },
+  {
+   "name": "Malad (East)",
+   "zone": "Western Suburbs",
+   "distance": 1.76
+  },
+  {
+   "name": "Jacob Circle",
+   "zone": "South Mumbai",
+   "distance": 1.77
+  }
+ ],
+ "Reay Road": [
+  {
+   "name": "Sewri",
+   "zone": "Central Mumbai",
+   "distance": 0.46
+  },
+  {
+   "name": "Cotton Green",
+   "zone": "Central Mumbai",
+   "distance": 0.8
+  },
+  {
+   "name": "Tilaknagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.83
+  },
+  {
+   "name": "Ulhasnagar",
+   "zone": "Thane",
+   "distance": 0.85
+  },
+  {
+   "name": "Thane (West)",
+   "zone": "Thane",
+   "distance": 0.88
+  },
+  {
+   "name": "Nahur West",
+   "zone": "Eastern Suburbs",
+   "distance": 0.91
+  },
+  {
+   "name": "Garodia Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.91
+  },
+  {
+   "name": "Tagore Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.91
+  }
+ ],
+ "Byculla": [
+  {
+   "name": "Lalbaug",
+   "zone": "Central Mumbai",
+   "distance": 1.14
+  },
+  {
+   "name": "Jacob Circle",
+   "zone": "South Mumbai",
+   "distance": 1.42
+  },
+  {
+   "name": "Sakinaka",
+   "zone": "Western Suburbs",
+   "distance": 1.72
+  },
+  {
+   "name": "Mahim",
+   "zone": "Central Mumbai",
+   "distance": 1.76
+  },
+  {
+   "name": "Santacruz (East)",
+   "zone": "Western Suburbs",
+   "distance": 1.95
+  },
+  {
+   "name": "Parel",
+   "zone": "Central Mumbai",
+   "distance": 2.0
+  },
+  {
+   "name": "Kurla (West)",
+   "zone": "Central Mumbai",
+   "distance": 2.0
+  },
+  {
+   "name": "Charni Road",
+   "zone": "South Mumbai",
+   "distance": 2.08
+  }
+ ],
+ "Jacob Circle": [
+  {
+   "name": "Byculla",
+   "zone": "South Mumbai",
+   "distance": 1.42
+  },
+  {
+   "name": "Sakinaka",
+   "zone": "Western Suburbs",
+   "distance": 1.58
+  },
+  {
+   "name": "Kurla (West)",
+   "zone": "Central Mumbai",
+   "distance": 1.58
+  },
+  {
+   "name": "Santacruz (East)",
+   "zone": "Western Suburbs",
+   "distance": 1.67
+  },
+  {
+   "name": "Mazgaon",
+   "zone": "South Mumbai",
+   "distance": 1.77
+  },
+  {
+   "name": "Santacruz (West)",
+   "zone": "Western Suburbs",
+   "distance": 1.83
+  },
+  {
+   "name": "Kurla (East)",
+   "zone": "Central Mumbai",
+   "distance": 1.99
+  },
+  {
+   "name": "Govandi",
+   "zone": "Central Mumbai",
+   "distance": 2.02
+  }
+ ],
+ "Worli": [
+  {
+   "name": "Colaba",
+   "zone": "South Mumbai",
+   "distance": 1.86
+  },
+  {
+   "name": "Malabar Hill",
+   "zone": "South Mumbai",
+   "distance": 1.92
+  },
+  {
+   "name": "Navy Nagar",
+   "zone": "South Mumbai",
+   "distance": 2.0
+  },
+  {
+   "name": "Juhu",
+   "zone": "Western Suburbs",
+   "distance": 2.12
+  },
+  {
+   "name": "Vile Parle (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.46
+  },
+  {
+   "name": "Jacob Circle",
+   "zone": "South Mumbai",
+   "distance": 2.5
+  },
+  {
+   "name": "Charni Road",
+   "zone": "South Mumbai",
+   "distance": 2.53
+  },
+  {
+   "name": "Breach Candy",
+   "zone": "South Mumbai",
+   "distance": 2.59
+  }
+ ],
+ "Dadar (East)": [
+  {
+   "name": "Dadar (West)",
+   "zone": "Central Mumbai",
+   "distance": 1.43
+  },
+  {
+   "name": "Grant Road",
+   "zone": "South Mumbai",
+   "distance": 2.85
+  },
+  {
+   "name": "Matunga",
+   "zone": "Central Mumbai",
+   "distance": 4.03
+  },
+  {
+   "name": "Girgaon",
+   "zone": "South Mumbai",
+   "distance": 4.19
+  },
+  {
+   "name": "Sion",
+   "zone": "Central Mumbai",
+   "distance": 4.26
+  },
+  {
+   "name": "Vile Parle (East)",
+   "zone": "Western Suburbs",
+   "distance": 4.32
+  },
+  {
+   "name": "Mahim",
+   "zone": "Central Mumbai",
+   "distance": 4.37
+  },
+  {
+   "name": "Bandra (East)",
+   "zone": "Western Suburbs",
+   "distance": 4.42
+  }
+ ],
+ "Dadar (West)": [
+  {
+   "name": "Dadar (East)",
+   "zone": "Central Mumbai",
+   "distance": 1.43
+  },
+  {
+   "name": "Grant Road",
+   "zone": "South Mumbai",
+   "distance": 2.19
+  },
+  {
+   "name": "Girgaon",
+   "zone": "South Mumbai",
+   "distance": 3.29
+  },
+  {
+   "name": "Matunga",
+   "zone": "Central Mumbai",
+   "distance": 3.59
+  },
+  {
+   "name": "Sion",
+   "zone": "Central Mumbai",
+   "distance": 3.62
+  },
+  {
+   "name": "Mahim",
+   "zone": "Central Mumbai",
+   "distance": 3.63
+  },
+  {
+   "name": "Vile Parle (East)",
+   "zone": "Western Suburbs",
+   "distance": 3.82
+  },
+  {
+   "name": "Andheri (West)",
+   "zone": "Western Suburbs",
+   "distance": 3.95
+  }
+ ],
+ "Mahim": [
+  {
+   "name": "Sion",
+   "zone": "Central Mumbai",
+   "distance": 1.33
+  },
+  {
+   "name": "Byculla",
+   "zone": "South Mumbai",
+   "distance": 1.76
+  },
+  {
+   "name": "Mulund (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 2.13
+  },
+  {
+   "name": "Santacruz (East)",
+   "zone": "Western Suburbs",
+   "distance": 2.16
+  },
+  {
+   "name": "Nagpada",
+   "zone": "South Mumbai",
+   "distance": 2.17
+  },
+  {
+   "name": "Santacruz (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.3
+  },
+  {
+   "name": "Tardeo",
+   "zone": "South Mumbai",
+   "distance": 2.35
+  },
+  {
+   "name": "Jacob Circle",
+   "zone": "South Mumbai",
+   "distance": 2.42
+  }
+ ],
+ "Matunga": [
+  {
+   "name": "Wadala",
+   "zone": "Central Mumbai",
+   "distance": 2.62
+  },
+  {
+   "name": "Dharavi",
+   "zone": "Central Mumbai",
+   "distance": 3.22
+  },
+  {
+   "name": "Grant Road",
+   "zone": "South Mumbai",
+   "distance": 3.32
+  },
+  {
+   "name": "Tardeo",
+   "zone": "South Mumbai",
+   "distance": 3.34
+  },
+  {
+   "name": "Dadar (West)",
+   "zone": "Central Mumbai",
+   "distance": 3.59
+  },
+  {
+   "name": "Girgaon",
+   "zone": "South Mumbai",
+   "distance": 3.64
+  },
+  {
+   "name": "Sion",
+   "zone": "Central Mumbai",
+   "distance": 3.77
+  },
+  {
+   "name": "Antop Hill",
+   "zone": "Central Mumbai",
+   "distance": 3.8
+  }
+ ],
+ "Parel": [
+  {
+   "name": "Lalbaug",
+   "zone": "Central Mumbai",
+   "distance": 1.38
+  },
+  {
+   "name": "Kurla (West)",
+   "zone": "Central Mumbai",
+   "distance": 1.79
+  },
+  {
+   "name": "Charni Road",
+   "zone": "South Mumbai",
+   "distance": 1.96
+  },
+  {
+   "name": "Sakinaka",
+   "zone": "Western Suburbs",
+   "distance": 1.98
+  },
+  {
+   "name": "Byculla",
+   "zone": "South Mumbai",
+   "distance": 2.0
+  },
+  {
+   "name": "Jacob Circle",
+   "zone": "South Mumbai",
+   "distance": 2.14
+  },
+  {
+   "name": "Mazgaon",
+   "zone": "South Mumbai",
+   "distance": 2.21
+  },
+  {
+   "name": "Dongri",
+   "zone": "South Mumbai",
+   "distance": 2.26
+  }
+ ],
+ "Lower Parel": [
+  {
+   "name": "Oshiwara",
+   "zone": "Western Suburbs",
+   "distance": 3.19
+  },
+  {
+   "name": "Andheri (East)",
+   "zone": "Western Suburbs",
+   "distance": 3.64
+  },
+  {
+   "name": "Lalbaug",
+   "zone": "Central Mumbai",
+   "distance": 4.05
+  },
+  {
+   "name": "Charni Road",
+   "zone": "South Mumbai",
+   "distance": 4.09
+  },
+  {
+   "name": "Mandvi",
+   "zone": "South Mumbai",
+   "distance": 4.14
+  },
+  {
+   "name": "Byculla",
+   "zone": "South Mumbai",
+   "distance": 4.16
+  },
+  {
+   "name": "Ballard Estate",
+   "zone": "South Mumbai",
+   "distance": 4.17
+  },
+  {
+   "name": "Khar (West)",
+   "zone": "Western Suburbs",
+   "distance": 4.22
+  }
+ ],
+ "Lalbaug": [
+  {
+   "name": "Byculla",
+   "zone": "South Mumbai",
+   "distance": 1.14
+  },
+  {
+   "name": "Parel",
+   "zone": "Central Mumbai",
+   "distance": 1.38
+  },
+  {
+   "name": "Sakinaka",
+   "zone": "Western Suburbs",
+   "distance": 1.86
+  },
+  {
+   "name": "Kurla (West)",
+   "zone": "Central Mumbai",
+   "distance": 2.01
+  },
+  {
+   "name": "Jacob Circle",
+   "zone": "South Mumbai",
+   "distance": 2.02
+  },
+  {
+   "name": "Charni Road",
+   "zone": "South Mumbai",
+   "distance": 2.17
+  },
+  {
+   "name": "Kurla (East)",
+   "zone": "Central Mumbai",
+   "distance": 2.31
+  },
+  {
+   "name": "Dongri",
+   "zone": "South Mumbai",
+   "distance": 2.34
+  }
+ ],
+ "Sewri": [
+  {
+   "name": "Reay Road",
+   "zone": "South Mumbai",
+   "distance": 0.46
+  },
+  {
+   "name": "Manpada",
+   "zone": "Thane",
+   "distance": 0.91
+  },
+  {
+   "name": "Tilaknagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.95
+  },
+  {
+   "name": "Cotton Green",
+   "zone": "Central Mumbai",
+   "distance": 0.96
+  },
+  {
+   "name": "Ulhasnagar",
+   "zone": "Thane",
+   "distance": 1.0
+  },
+  {
+   "name": "Thane (West)",
+   "zone": "Thane",
+   "distance": 1.03
+  },
+  {
+   "name": "Vikhroli (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.04
+  },
+  {
+   "name": "Nahur West",
+   "zone": "Eastern Suburbs",
+   "distance": 1.06
+  }
+ ],
+ "Cotton Green": [
+  {
+   "name": "Tilaknagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.69
+  },
+  {
+   "name": "Goregaon (East)",
+   "zone": "Western Suburbs",
+   "distance": 0.71
+  },
+  {
+   "name": "Thane (West)",
+   "zone": "Thane",
+   "distance": 0.75
+  },
+  {
+   "name": "Pant Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.79
+  },
+  {
+   "name": "Tagore Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.79
+  },
+  {
+   "name": "Garodia Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.79
+  },
+  {
+   "name": "Nahur West",
+   "zone": "Eastern Suburbs",
+   "distance": 0.79
+  },
+  {
+   "name": "Chembur Colony",
+   "zone": "Eastern Suburbs",
+   "distance": 0.79
+  }
+ ],
+ "Wadala": [
+  {
+   "name": "Antop Hill",
+   "zone": "Central Mumbai",
+   "distance": 1.9
+  },
+  {
+   "name": "Sion",
+   "zone": "Central Mumbai",
+   "distance": 2.41
+  },
+  {
+   "name": "Matunga",
+   "zone": "Central Mumbai",
+   "distance": 2.62
+  },
+  {
+   "name": "Tardeo",
+   "zone": "South Mumbai",
+   "distance": 2.79
+  },
+  {
+   "name": "Chunabhatti",
+   "zone": "Central Mumbai",
+   "distance": 2.99
+  },
+  {
+   "name": "Mahim",
+   "zone": "Central Mumbai",
+   "distance": 3.07
+  },
+  {
+   "name": "Kurla (East)",
+   "zone": "Central Mumbai",
+   "distance": 3.35
+  },
+  {
+   "name": "Dharavi",
+   "zone": "Central Mumbai",
+   "distance": 3.37
+  }
+ ],
+ "Sion": [
+  {
+   "name": "Mahim",
+   "zone": "Central Mumbai",
+   "distance": 1.33
+  },
+  {
+   "name": "Santacruz (East)",
+   "zone": "Western Suburbs",
+   "distance": 2.04
+  },
+  {
+   "name": "Mulund (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 2.06
+  },
+  {
+   "name": "Antop Hill",
+   "zone": "Central Mumbai",
+   "distance": 2.2
+  },
+  {
+   "name": "Byculla",
+   "zone": "South Mumbai",
+   "distance": 2.33
+  },
+  {
+   "name": "Nagpada",
+   "zone": "South Mumbai",
+   "distance": 2.36
+  },
+  {
+   "name": "Jogeshwari (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.37
+  },
+  {
+   "name": "Vile Parle (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.39
+  }
+ ],
+ "Dharavi": [
+  {
+   "name": "Nerul",
+   "zone": "Navi Mumbai",
+   "distance": 3.12
+  },
+  {
+   "name": "Matunga",
+   "zone": "Central Mumbai",
+   "distance": 3.22
+  },
+  {
+   "name": "Tardeo",
+   "zone": "South Mumbai",
+   "distance": 3.26
+  },
+  {
+   "name": "Wadala",
+   "zone": "Central Mumbai",
+   "distance": 3.37
+  },
+  {
+   "name": "Mulund (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 3.55
+  },
+  {
+   "name": "Sion",
+   "zone": "Central Mumbai",
+   "distance": 3.56
+  },
+  {
+   "name": "Antop Hill",
+   "zone": "Central Mumbai",
+   "distance": 3.63
+  },
+  {
+   "name": "Girgaon",
+   "zone": "South Mumbai",
+   "distance": 3.81
+  }
+ ],
+ "Chunabhatti": [
+  {
+   "name": "Andheri (East)",
+   "zone": "Western Suburbs",
+   "distance": 2.97
+  },
+  {
+   "name": "Wadala",
+   "zone": "Central Mumbai",
+   "distance": 2.99
+  },
+  {
+   "name": "Parel",
+   "zone": "Central Mumbai",
+   "distance": 3.08
+  },
+  {
+   "name": "Antop Hill",
+   "zone": "Central Mumbai",
+   "distance": 3.1
+  },
+  {
+   "name": "Santacruz (East)",
+   "zone": "Western Suburbs",
+   "distance": 3.23
+  },
+  {
+   "name": "Mankhurd",
+   "zone": "Central Mumbai",
+   "distance": 3.26
+  },
+  {
+   "name": "Goregaon (West)",
+   "zone": "Western Suburbs",
+   "distance": 3.26
+  },
+  {
+   "name": "Trombay",
+   "zone": "Central Mumbai",
+   "distance": 3.27
+  }
+ ],
+ "Antop Hill": [
+  {
+   "name": "Wadala",
+   "zone": "Central Mumbai",
+   "distance": 1.9
+  },
+  {
+   "name": "Sion",
+   "zone": "Central Mumbai",
+   "distance": 2.2
+  },
+  {
+   "name": "Kurla (East)",
+   "zone": "Central Mumbai",
+   "distance": 2.75
+  },
+  {
+   "name": "Deonar",
+   "zone": "Eastern Suburbs",
+   "distance": 2.77
+  },
+  {
+   "name": "Bhandup (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 2.85
+  },
+  {
+   "name": "Kharghar",
+   "zone": "Navi Mumbai",
+   "distance": 2.93
+  },
+  {
+   "name": "Goregaon (West)",
+   "zone": "Western Suburbs",
+   "distance": 3.01
+  },
+  {
+   "name": "Jogeshwari (East)",
+   "zone": "Western Suburbs",
+   "distance": 3.01
+  }
+ ],
+ "Chembur": [
+  {
+   "name": "Santacruz (West)",
+   "zone": "Western Suburbs",
+   "distance": 1.75
+  },
+  {
+   "name": "Govandi",
+   "zone": "Central Mumbai",
+   "distance": 2.16
+  },
+  {
+   "name": "Santacruz (East)",
+   "zone": "Western Suburbs",
+   "distance": 2.19
+  },
+  {
+   "name": "Mulund (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 2.26
+  },
+  {
+   "name": "Byculla",
+   "zone": "South Mumbai",
+   "distance": 2.35
+  },
+  {
+   "name": "Sion",
+   "zone": "Central Mumbai",
+   "distance": 2.42
+  },
+  {
+   "name": "Mahim",
+   "zone": "Central Mumbai",
+   "distance": 2.49
+  },
+  {
+   "name": "Jacob Circle",
+   "zone": "South Mumbai",
+   "distance": 2.49
+  }
+ ],
+ "Govandi": [
+  {
+   "name": "Kurla (West)",
+   "zone": "Central Mumbai",
+   "distance": 1.85
+  },
+  {
+   "name": "New Panvel",
+   "zone": "Navi Mumbai",
+   "distance": 1.89
+  },
+  {
+   "name": "Bhandup (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.91
+  },
+  {
+   "name": "Mira Road",
+   "zone": "Western Suburbs",
+   "distance": 1.92
+  },
+  {
+   "name": "Vikhroli (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.95
+  },
+  {
+   "name": "Sakinaka",
+   "zone": "Western Suburbs",
+   "distance": 1.96
+  },
+  {
+   "name": "Jacob Circle",
+   "zone": "South Mumbai",
+   "distance": 2.02
+  },
+  {
+   "name": "Mankhurd",
+   "zone": "Central Mumbai",
+   "distance": 2.08
+  }
+ ],
+ "Mankhurd": [
+  {
+   "name": "Balkum",
+   "zone": "Thane",
+   "distance": 1.61
+  },
+  {
+   "name": "Vikhroli (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.65
+  },
+  {
+   "name": "Manpada",
+   "zone": "Thane",
+   "distance": 1.71
+  },
+  {
+   "name": "Sakinaka",
+   "zone": "Western Suburbs",
+   "distance": 1.72
+  },
+  {
+   "name": "Kharghar",
+   "zone": "Navi Mumbai",
+   "distance": 1.74
+  },
+  {
+   "name": "Dahisar (West)",
+   "zone": "Western Suburbs",
+   "distance": 1.75
+  },
+  {
+   "name": "Bhandup (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.77
+  },
+  {
+   "name": "Kurla (West)",
+   "zone": "Central Mumbai",
+   "distance": 1.78
+  }
+ ],
+ "Trombay": [
+  {
+   "name": "Mankhurd",
+   "zone": "Central Mumbai",
+   "distance": 2.0
+  },
+  {
+   "name": "Deonar",
+   "zone": "Eastern Suburbs",
+   "distance": 2.47
+  },
+  {
+   "name": "Kandivali (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.52
+  },
+  {
+   "name": "Dahisar (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.71
+  },
+  {
+   "name": "Balkum",
+   "zone": "Thane",
+   "distance": 2.82
+  },
+  {
+   "name": "Sakinaka",
+   "zone": "Western Suburbs",
+   "distance": 3.1
+  },
+  {
+   "name": "Dombivli (West)",
+   "zone": "Thane",
+   "distance": 3.14
+  },
+  {
+   "name": "Kharghar",
+   "zone": "Navi Mumbai",
+   "distance": 3.14
+  }
+ ],
+ "Kurla (West)": [
+  {
+   "name": "Sakinaka",
+   "zone": "Western Suburbs",
+   "distance": 1.02
+  },
+  {
+   "name": "Bhandup (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.42
+  },
+  {
+   "name": "Kurla (East)",
+   "zone": "Central Mumbai",
+   "distance": 1.44
+  },
+  {
+   "name": "Dongri",
+   "zone": "South Mumbai",
+   "distance": 1.45
+  },
+  {
+   "name": "Nahur",
+   "zone": "Eastern Suburbs",
+   "distance": 1.46
+  },
+  {
+   "name": "Mazgaon",
+   "zone": "South Mumbai",
+   "distance": 1.55
+  },
+  {
+   "name": "Vikhroli (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.56
+  },
+  {
+   "name": "Jacob Circle",
+   "zone": "South Mumbai",
+   "distance": 1.58
+  }
+ ],
+ "Kurla (East)": [
+  {
+   "name": "Kurla (West)",
+   "zone": "Central Mumbai",
+   "distance": 1.44
+  },
+  {
+   "name": "Sakinaka",
+   "zone": "Western Suburbs",
+   "distance": 1.49
+  },
+  {
+   "name": "Mazgaon",
+   "zone": "South Mumbai",
+   "distance": 1.58
+  },
+  {
+   "name": "Nahur",
+   "zone": "Eastern Suburbs",
+   "distance": 1.6
+  },
+  {
+   "name": "Dongri",
+   "zone": "South Mumbai",
+   "distance": 1.68
+  },
+  {
+   "name": "Goregaon (West)",
+   "zone": "Western Suburbs",
+   "distance": 1.84
+  },
+  {
+   "name": "Mankhurd",
+   "zone": "Central Mumbai",
+   "distance": 1.94
+  },
+  {
+   "name": "Masjid Bunder",
+   "zone": "South Mumbai",
+   "distance": 1.98
+  }
+ ],
+ "Ghatkopar (West)": [
+  {
+   "name": "Borivali (West)",
+   "zone": "Western Suburbs",
+   "distance": 1.99
+  },
+  {
+   "name": "Asalpha",
+   "zone": "Eastern Suburbs",
+   "distance": 2.18
+  },
+  {
+   "name": "Ghatkopar (East)",
+   "zone": "Central Mumbai",
+   "distance": 2.25
+  },
+  {
+   "name": "Andheri (West)",
+   "zone": "Western Suburbs",
+   "distance": 3.24
+  },
+  {
+   "name": "Jogeshwari (West)",
+   "zone": "Western Suburbs",
+   "distance": 3.35
+  },
+  {
+   "name": "Mulund (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 3.4
+  },
+  {
+   "name": "Chembur",
+   "zone": "Central Mumbai",
+   "distance": 3.56
+  },
+  {
+   "name": "Mulund (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 3.73
+  }
+ ],
+ "Ghatkopar (East)": [
+  {
+   "name": "Borivali (West)",
+   "zone": "Western Suburbs",
+   "distance": 1.95
+  },
+  {
+   "name": "Asalpha",
+   "zone": "Eastern Suburbs",
+   "distance": 2.13
+  },
+  {
+   "name": "Ghatkopar (West)",
+   "zone": "Central Mumbai",
+   "distance": 2.25
+  },
+  {
+   "name": "Dombivli (East)",
+   "zone": "Thane",
+   "distance": 2.36
+  },
+  {
+   "name": "Jogeshwari (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.47
+  },
+  {
+   "name": "Chembur",
+   "zone": "Central Mumbai",
+   "distance": 2.55
+  },
+  {
+   "name": "Kandivali (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.56
+  },
+  {
+   "name": "Kalyan (East)",
+   "zone": "Thane",
+   "distance": 2.68
+  }
+ ],
+ "Bandra (West)": [
+  {
+   "name": "Bandra (East)",
+   "zone": "Western Suburbs",
+   "distance": 4.8
+  },
+  {
+   "name": "Shivaji Nagar (E)",
+   "zone": "Eastern Suburbs",
+   "distance": 4.99
+  },
+  {
+   "name": "Vartak Nagar",
+   "zone": "Thane",
+   "distance": 5.28
+  },
+  {
+   "name": "Juhu",
+   "zone": "Western Suburbs",
+   "distance": 5.39
+  },
+  {
+   "name": "Pedder Road",
+   "zone": "South Mumbai",
+   "distance": 5.78
+  },
+  {
+   "name": "Nerul",
+   "zone": "Navi Mumbai",
+   "distance": 5.79
+  },
+  {
+   "name": "Breach Candy",
+   "zone": "South Mumbai",
+   "distance": 5.86
+  },
+  {
+   "name": "Airoli",
+   "zone": "Navi Mumbai",
+   "distance": 5.9
+  }
+ ],
+ "Bandra (East)": [
+  {
+   "name": "Andheri (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.57
+  },
+  {
+   "name": "Crawford Market",
+   "zone": "South Mumbai",
+   "distance": 3.17
+  },
+  {
+   "name": "Khar (West)",
+   "zone": "Western Suburbs",
+   "distance": 3.29
+  },
+  {
+   "name": "Santacruz (East)",
+   "zone": "Western Suburbs",
+   "distance": 3.39
+  },
+  {
+   "name": "Chembur",
+   "zone": "Central Mumbai",
+   "distance": 3.42
+  },
+  {
+   "name": "Nerul",
+   "zone": "Navi Mumbai",
+   "distance": 3.51
+  },
+  {
+   "name": "Vile Parle (West)",
+   "zone": "Western Suburbs",
+   "distance": 3.51
+  },
+  {
+   "name": "Sion",
+   "zone": "Central Mumbai",
+   "distance": 3.61
+  }
+ ],
+ "Santacruz (West)": [
+  {
+   "name": "Santacruz (East)",
+   "zone": "Western Suburbs",
+   "distance": 1.71
+  },
+  {
+   "name": "Khar (West)",
+   "zone": "Western Suburbs",
+   "distance": 1.74
+  },
+  {
+   "name": "Chembur",
+   "zone": "Central Mumbai",
+   "distance": 1.75
+  },
+  {
+   "name": "Jacob Circle",
+   "zone": "South Mumbai",
+   "distance": 1.83
+  },
+  {
+   "name": "Nagpada",
+   "zone": "South Mumbai",
+   "distance": 2.06
+  },
+  {
+   "name": "Byculla",
+   "zone": "South Mumbai",
+   "distance": 2.11
+  },
+  {
+   "name": "Mahim",
+   "zone": "Central Mumbai",
+   "distance": 2.3
+  },
+  {
+   "name": "Govandi",
+   "zone": "Central Mumbai",
+   "distance": 2.33
+  }
+ ],
+ "Santacruz (East)": [
+  {
+   "name": "Jacob Circle",
+   "zone": "South Mumbai",
+   "distance": 1.67
+  },
+  {
+   "name": "Santacruz (West)",
+   "zone": "Western Suburbs",
+   "distance": 1.71
+  },
+  {
+   "name": "Nagpada",
+   "zone": "South Mumbai",
+   "distance": 1.74
+  },
+  {
+   "name": "Khar (West)",
+   "zone": "Western Suburbs",
+   "distance": 1.87
+  },
+  {
+   "name": "Byculla",
+   "zone": "South Mumbai",
+   "distance": 1.95
+  },
+  {
+   "name": "Sion",
+   "zone": "Central Mumbai",
+   "distance": 2.04
+  },
+  {
+   "name": "Vile Parle (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.11
+  },
+  {
+   "name": "Mahim",
+   "zone": "Central Mumbai",
+   "distance": 2.16
+  }
+ ],
+ "Vile Parle (West)": [
+  {
+   "name": "Juhu",
+   "zone": "Western Suburbs",
+   "distance": 2.09
+  },
+  {
+   "name": "Santacruz (East)",
+   "zone": "Western Suburbs",
+   "distance": 2.11
+  },
+  {
+   "name": "Khar (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.15
+  },
+  {
+   "name": "Nagpada",
+   "zone": "South Mumbai",
+   "distance": 2.35
+  },
+  {
+   "name": "Bhendi Bazaar",
+   "zone": "South Mumbai",
+   "distance": 2.35
+  },
+  {
+   "name": "Tardeo",
+   "zone": "South Mumbai",
+   "distance": 2.39
+  },
+  {
+   "name": "Sion",
+   "zone": "Central Mumbai",
+   "distance": 2.39
+  },
+  {
+   "name": "Worli",
+   "zone": "South Mumbai",
+   "distance": 2.46
+  }
+ ],
+ "Vile Parle (East)": [
+  {
+   "name": "Andheri (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.78
+  },
+  {
+   "name": "Mahim",
+   "zone": "Central Mumbai",
+   "distance": 2.97
+  },
+  {
+   "name": "Santacruz (East)",
+   "zone": "Western Suburbs",
+   "distance": 3.01
+  },
+  {
+   "name": "Grant Road",
+   "zone": "South Mumbai",
+   "distance": 3.24
+  },
+  {
+   "name": "Girgaon",
+   "zone": "South Mumbai",
+   "distance": 3.24
+  },
+  {
+   "name": "Byculla",
+   "zone": "South Mumbai",
+   "distance": 3.25
+  },
+  {
+   "name": "Chembur",
+   "zone": "Central Mumbai",
+   "distance": 3.35
+  },
+  {
+   "name": "Sion",
+   "zone": "Central Mumbai",
+   "distance": 3.41
+  }
+ ],
+ "Khar (West)": [
+  {
+   "name": "Santacruz (West)",
+   "zone": "Western Suburbs",
+   "distance": 1.74
+  },
+  {
+   "name": "Santacruz (East)",
+   "zone": "Western Suburbs",
+   "distance": 1.87
+  },
+  {
+   "name": "Jacob Circle",
+   "zone": "South Mumbai",
+   "distance": 2.1
+  },
+  {
+   "name": "Vile Parle (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.15
+  },
+  {
+   "name": "Nagpada",
+   "zone": "South Mumbai",
+   "distance": 2.36
+  },
+  {
+   "name": "Masjid Bunder",
+   "zone": "South Mumbai",
+   "distance": 2.52
+  },
+  {
+   "name": "Byculla",
+   "zone": "South Mumbai",
+   "distance": 2.52
+  },
+  {
+   "name": "Bhendi Bazaar",
+   "zone": "South Mumbai",
+   "distance": 2.57
+  }
+ ],
+ "Juhu": [
+  {
+   "name": "Vile Parle (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.09
+  },
+  {
+   "name": "Worli",
+   "zone": "South Mumbai",
+   "distance": 2.12
+  },
+  {
+   "name": "Malabar Hill",
+   "zone": "South Mumbai",
+   "distance": 2.33
+  },
+  {
+   "name": "Navy Nagar",
+   "zone": "South Mumbai",
+   "distance": 2.4
+  },
+  {
+   "name": "Breach Candy",
+   "zone": "South Mumbai",
+   "distance": 2.61
+  },
+  {
+   "name": "Pedder Road",
+   "zone": "South Mumbai",
+   "distance": 2.64
+  },
+  {
+   "name": "Colaba",
+   "zone": "South Mumbai",
+   "distance": 2.82
+  },
+  {
+   "name": "Khar (West)",
+   "zone": "Western Suburbs",
+   "distance": 3.0
+  }
+ ],
+ "Andheri (West)": [
+  {
+   "name": "Santacruz (East)",
+   "zone": "Western Suburbs",
+   "distance": 2.25
+  },
+  {
+   "name": "Chembur",
+   "zone": "Central Mumbai",
+   "distance": 2.5
+  },
+  {
+   "name": "Bandra (East)",
+   "zone": "Western Suburbs",
+   "distance": 2.57
+  },
+  {
+   "name": "Sion",
+   "zone": "Central Mumbai",
+   "distance": 2.69
+  },
+  {
+   "name": "Santacruz (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.69
+  },
+  {
+   "name": "Vile Parle (East)",
+   "zone": "Western Suburbs",
+   "distance": 2.78
+  },
+  {
+   "name": "Mahim",
+   "zone": "Central Mumbai",
+   "distance": 2.94
+  },
+  {
+   "name": "Ghatkopar (East)",
+   "zone": "Central Mumbai",
+   "distance": 2.98
+  }
+ ],
+ "Andheri (East)": [
+  {
+   "name": "Jacob Circle",
+   "zone": "South Mumbai",
+   "distance": 2.28
+  },
+  {
+   "name": "Santacruz (East)",
+   "zone": "Western Suburbs",
+   "distance": 2.45
+  },
+  {
+   "name": "Goregaon (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.59
+  },
+  {
+   "name": "Kurla (West)",
+   "zone": "Central Mumbai",
+   "distance": 2.62
+  },
+  {
+   "name": "Sakinaka",
+   "zone": "Western Suburbs",
+   "distance": 2.66
+  },
+  {
+   "name": "Khar (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.71
+  },
+  {
+   "name": "Kandivali (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.74
+  },
+  {
+   "name": "Byculla",
+   "zone": "South Mumbai",
+   "distance": 2.79
+  }
+ ],
+ "Jogeshwari (West)": [
+  {
+   "name": "Goregaon (West)",
+   "zone": "Western Suburbs",
+   "distance": 1.93
+  },
+  {
+   "name": "Kurla (West)",
+   "zone": "Central Mumbai",
+   "distance": 1.95
+  },
+  {
+   "name": "Kandivali (East)",
+   "zone": "Western Suburbs",
+   "distance": 2.08
+  },
+  {
+   "name": "Dongri",
+   "zone": "South Mumbai",
+   "distance": 2.15
+  },
+  {
+   "name": "Vikhroli (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 2.19
+  },
+  {
+   "name": "Santacruz (East)",
+   "zone": "Western Suburbs",
+   "distance": 2.22
+  },
+  {
+   "name": "Bhandup (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 2.23
+  },
+  {
+   "name": "Nagpada",
+   "zone": "South Mumbai",
+   "distance": 2.25
+  }
+ ],
+ "Jogeshwari (East)": [
+  {
+   "name": "Bhandup (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.16
+  },
+  {
+   "name": "Vikhroli (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.22
+  },
+  {
+   "name": "Kalyan (East)",
+   "zone": "Thane",
+   "distance": 1.29
+  },
+  {
+   "name": "Bhiwandi",
+   "zone": "Thane",
+   "distance": 1.44
+  },
+  {
+   "name": "Kharghar",
+   "zone": "Navi Mumbai",
+   "distance": 1.55
+  },
+  {
+   "name": "New Panvel",
+   "zone": "Navi Mumbai",
+   "distance": 1.61
+  },
+  {
+   "name": "Dombivli (West)",
+   "zone": "Thane",
+   "distance": 1.74
+  },
+  {
+   "name": "Sewri",
+   "zone": "Central Mumbai",
+   "distance": 1.78
+  }
+ ],
+ "Goregaon (West)": [
+  {
+   "name": "Nahur",
+   "zone": "Eastern Suburbs",
+   "distance": 1.38
+  },
+  {
+   "name": "Malad (East)",
+   "zone": "Western Suburbs",
+   "distance": 1.49
+  },
+  {
+   "name": "Kandivali (East)",
+   "zone": "Western Suburbs",
+   "distance": 1.59
+  },
+  {
+   "name": "Kurla (West)",
+   "zone": "Central Mumbai",
+   "distance": 1.6
+  },
+  {
+   "name": "Mazgaon",
+   "zone": "South Mumbai",
+   "distance": 1.62
+  },
+  {
+   "name": "Kurla (East)",
+   "zone": "Central Mumbai",
+   "distance": 1.84
+  },
+  {
+   "name": "Vikhroli (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.85
+  },
+  {
+   "name": "Bhandup (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.9
+  }
+ ],
+ "Goregaon (East)": [
+  {
+   "name": "Cotton Green",
+   "zone": "Central Mumbai",
+   "distance": 0.71
+  },
+  {
+   "name": "Kanjurmarg",
+   "zone": "Eastern Suburbs",
+   "distance": 0.83
+  },
+  {
+   "name": "Tilaknagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.84
+  },
+  {
+   "name": "Thane (West)",
+   "zone": "Thane",
+   "distance": 0.97
+  },
+  {
+   "name": "Versova",
+   "zone": "Western Suburbs",
+   "distance": 0.97
+  },
+  {
+   "name": "Tagore Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 1.02
+  },
+  {
+   "name": "Garodia Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 1.02
+  },
+  {
+   "name": "Nahur West",
+   "zone": "Eastern Suburbs",
+   "distance": 1.02
+  }
+ ],
+ "Malad (West)": [
+  {
+   "name": "Borivali (West)",
+   "zone": "Western Suburbs",
+   "distance": 3.12
+  },
+  {
+   "name": "Mulund (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 3.16
+  },
+  {
+   "name": "Asalpha",
+   "zone": "Eastern Suburbs",
+   "distance": 3.51
+  },
+  {
+   "name": "Borivali (East)",
+   "zone": "Western Suburbs",
+   "distance": 3.53
+  },
+  {
+   "name": "Ghatkopar (East)",
+   "zone": "Central Mumbai",
+   "distance": 3.67
+  },
+  {
+   "name": "Jogeshwari (West)",
+   "zone": "Western Suburbs",
+   "distance": 3.81
+  },
+  {
+   "name": "Wagle Estate",
+   "zone": "Thane",
+   "distance": 3.84
+  },
+  {
+   "name": "Kandivali (East)",
+   "zone": "Western Suburbs",
+   "distance": 3.89
+  }
+ ],
+ "Malad (East)": [
+  {
+   "name": "Bhandup (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.21
+  },
+  {
+   "name": "Thane (East)",
+   "zone": "Thane",
+   "distance": 1.22
+  },
+  {
+   "name": "Nahur",
+   "zone": "Eastern Suburbs",
+   "distance": 1.22
+  },
+  {
+   "name": "Kandivali (East)",
+   "zone": "Western Suburbs",
+   "distance": 1.25
+  },
+  {
+   "name": "Goregaon (West)",
+   "zone": "Western Suburbs",
+   "distance": 1.49
+  },
+  {
+   "name": "Vikhroli (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.54
+  },
+  {
+   "name": "Goregaon (East)",
+   "zone": "Western Suburbs",
+   "distance": 1.56
+  },
+  {
+   "name": "Sewri",
+   "zone": "Central Mumbai",
+   "distance": 1.61
+  }
+ ],
+ "Kandivali (West)": [
+  {
+   "name": "Goregaon (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.19
+  },
+  {
+   "name": "Jogeshwari (East)",
+   "zone": "Western Suburbs",
+   "distance": 2.21
+  },
+  {
+   "name": "Mankhurd",
+   "zone": "Central Mumbai",
+   "distance": 2.25
+  },
+  {
+   "name": "Kharghar",
+   "zone": "Navi Mumbai",
+   "distance": 2.25
+  },
+  {
+   "name": "Jogeshwari (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.27
+  },
+  {
+   "name": "Kandivali (East)",
+   "zone": "Western Suburbs",
+   "distance": 2.43
+  },
+  {
+   "name": "Bhandup (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 2.49
+  },
+  {
+   "name": "Trombay",
+   "zone": "Central Mumbai",
+   "distance": 2.52
+  }
+ ],
+ "Kandivali (East)": [
+  {
+   "name": "Borivali (East)",
+   "zone": "Western Suburbs",
+   "distance": 0.93
+  },
+  {
+   "name": "Malad (East)",
+   "zone": "Western Suburbs",
+   "distance": 1.25
+  },
+  {
+   "name": "Goregaon (West)",
+   "zone": "Western Suburbs",
+   "distance": 1.59
+  },
+  {
+   "name": "Nahur",
+   "zone": "Eastern Suburbs",
+   "distance": 1.7
+  },
+  {
+   "name": "Kurla (West)",
+   "zone": "Central Mumbai",
+   "distance": 1.8
+  },
+  {
+   "name": "Kharghar",
+   "zone": "Navi Mumbai",
+   "distance": 1.81
+  },
+  {
+   "name": "Bhandup (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.99
+  },
+  {
+   "name": "Thane (East)",
+   "zone": "Thane",
+   "distance": 1.99
+  }
+ ],
+ "Borivali (West)": [
+  {
+   "name": "Ghatkopar (East)",
+   "zone": "Central Mumbai",
+   "distance": 1.95
+  },
+  {
+   "name": "Asalpha",
+   "zone": "Eastern Suburbs",
+   "distance": 1.96
+  },
+  {
+   "name": "Ghatkopar (West)",
+   "zone": "Central Mumbai",
+   "distance": 1.99
+  },
+  {
+   "name": "Jogeshwari (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.52
+  },
+  {
+   "name": "Malad (West)",
+   "zone": "Western Suburbs",
+   "distance": 3.12
+  },
+  {
+   "name": "Mulund (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 3.36
+  },
+  {
+   "name": "Vidyavihar",
+   "zone": "Eastern Suburbs",
+   "distance": 3.39
+  },
+  {
+   "name": "Chembur",
+   "zone": "Central Mumbai",
+   "distance": 3.43
+  }
+ ],
+ "Borivali (East)": [
+  {
+   "name": "Kandivali (East)",
+   "zone": "Western Suburbs",
+   "distance": 0.93
+  },
+  {
+   "name": "Malad (East)",
+   "zone": "Western Suburbs",
+   "distance": 1.82
+  },
+  {
+   "name": "Chandivali",
+   "zone": "Western Suburbs",
+   "distance": 1.93
+  },
+  {
+   "name": "Goregaon (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.05
+  },
+  {
+   "name": "Nahur",
+   "zone": "Eastern Suburbs",
+   "distance": 2.13
+  },
+  {
+   "name": "Kurla (West)",
+   "zone": "Central Mumbai",
+   "distance": 2.25
+  },
+  {
+   "name": "Kharghar",
+   "zone": "Navi Mumbai",
+   "distance": 2.38
+  },
+  {
+   "name": "Jogeshwari (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.45
+  }
+ ],
+ "Dahisar (West)": [
+  {
+   "name": "Ulwe",
+   "zone": "Navi Mumbai",
+   "distance": 1.14
+  },
+  {
+   "name": "Balkum",
+   "zone": "Thane",
+   "distance": 1.23
+  },
+  {
+   "name": "Dombivli (West)",
+   "zone": "Thane",
+   "distance": 1.29
+  },
+  {
+   "name": "Sewri",
+   "zone": "Central Mumbai",
+   "distance": 1.44
+  },
+  {
+   "name": "Manpada",
+   "zone": "Thane",
+   "distance": 1.44
+  },
+  {
+   "name": "Reay Road",
+   "zone": "South Mumbai",
+   "distance": 1.47
+  },
+  {
+   "name": "Ulhasnagar",
+   "zone": "Thane",
+   "distance": 1.5
+  },
+  {
+   "name": "Bhandup (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.57
+  }
+ ],
+ "Dahisar (East)": [
+  {
+   "name": "Trombay",
+   "zone": "Central Mumbai",
+   "distance": 3.96
+  },
+  {
+   "name": "Kandivali (West)",
+   "zone": "Western Suburbs",
+   "distance": 4.2
+  },
+  {
+   "name": "Mankhurd",
+   "zone": "Central Mumbai",
+   "distance": 4.98
+  },
+  {
+   "name": "Andheri (East)",
+   "zone": "Western Suburbs",
+   "distance": 5.04
+  },
+  {
+   "name": "Vile Parle (East)",
+   "zone": "Western Suburbs",
+   "distance": 5.16
+  },
+  {
+   "name": "Chunabhatti",
+   "zone": "Central Mumbai",
+   "distance": 5.38
+  },
+  {
+   "name": "Dahisar (West)",
+   "zone": "Western Suburbs",
+   "distance": 5.39
+  },
+  {
+   "name": "Goregaon (West)",
+   "zone": "Western Suburbs",
+   "distance": 5.43
+  }
+ ],
+ "Mira Road": [
+  {
+   "name": "New Panvel",
+   "zone": "Navi Mumbai",
+   "distance": 1.22
+  },
+  {
+   "name": "Ghodbunder Road",
+   "zone": "Thane",
+   "distance": 1.77
+  },
+  {
+   "name": "Kharghar",
+   "zone": "Navi Mumbai",
+   "distance": 1.79
+  },
+  {
+   "name": "Bhiwandi",
+   "zone": "Thane",
+   "distance": 1.79
+  },
+  {
+   "name": "Kalyan (East)",
+   "zone": "Thane",
+   "distance": 1.82
+  },
+  {
+   "name": "Bhandup (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.85
+  },
+  {
+   "name": "Vikhroli (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.92
+  },
+  {
+   "name": "Govandi",
+   "zone": "Central Mumbai",
+   "distance": 1.92
+  }
+ ],
+ "Bhayander": [
+  {
+   "name": "Dombivli (East)",
+   "zone": "Thane",
+   "distance": 2.67
+  },
+  {
+   "name": "Dahisar (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.96
+  },
+  {
+   "name": "Majiwada",
+   "zone": "Thane",
+   "distance": 2.97
+  },
+  {
+   "name": "Dombivli (West)",
+   "zone": "Thane",
+   "distance": 3.03
+  },
+  {
+   "name": "Mira Road",
+   "zone": "Western Suburbs",
+   "distance": 3.12
+  },
+  {
+   "name": "Ulwe",
+   "zone": "Navi Mumbai",
+   "distance": 3.22
+  },
+  {
+   "name": "Kalyan (East)",
+   "zone": "Thane",
+   "distance": 3.25
+  },
+  {
+   "name": "Ghatkopar (East)",
+   "zone": "Central Mumbai",
+   "distance": 3.26
+  }
+ ],
+ "Versova": [
+  {
+   "name": "Goregaon (East)",
+   "zone": "Western Suburbs",
+   "distance": 0.97
+  },
+  {
+   "name": "Tilaknagar",
+   "zone": "Eastern Suburbs",
+   "distance": 1.16
+  },
+  {
+   "name": "Cotton Green",
+   "zone": "Central Mumbai",
+   "distance": 1.22
+  },
+  {
+   "name": "Sewri",
+   "zone": "Central Mumbai",
+   "distance": 1.27
+  },
+  {
+   "name": "Reay Road",
+   "zone": "South Mumbai",
+   "distance": 1.31
+  },
+  {
+   "name": "Thane (West)",
+   "zone": "Thane",
+   "distance": 1.36
+  },
+  {
+   "name": "Nahur West",
+   "zone": "Eastern Suburbs",
+   "distance": 1.43
+  },
+  {
+   "name": "Tagore Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 1.43
+  }
+ ],
+ "Lokhandwala": [
+  {
+   "name": "Dahisar (East)",
+   "zone": "Western Suburbs",
+   "distance": 8.55
+  },
+  {
+   "name": "Vartak Nagar",
+   "zone": "Thane",
+   "distance": 9.77
+  },
+  {
+   "name": "Kandivali (West)",
+   "zone": "Western Suburbs",
+   "distance": 9.77
+  },
+  {
+   "name": "Oshiwara",
+   "zone": "Western Suburbs",
+   "distance": 9.9
+  },
+  {
+   "name": "Trombay",
+   "zone": "Central Mumbai",
+   "distance": 9.96
+  },
+  {
+   "name": "Vile Parle (East)",
+   "zone": "Western Suburbs",
+   "distance": 10.0
+  },
+  {
+   "name": "Andheri (West)",
+   "zone": "Western Suburbs",
+   "distance": 10.31
+  },
+  {
+   "name": "Majiwada",
+   "zone": "Thane",
+   "distance": 10.35
+  }
+ ],
+ "Oshiwara": [
+  {
+   "name": "Mulund (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 2.23
+  },
+  {
+   "name": "Majiwada",
+   "zone": "Thane",
+   "distance": 2.66
+  },
+  {
+   "name": "Vidyavihar",
+   "zone": "Eastern Suburbs",
+   "distance": 2.97
+  },
+  {
+   "name": "Mahim",
+   "zone": "Central Mumbai",
+   "distance": 3.19
+  },
+  {
+   "name": "Lower Parel",
+   "zone": "Central Mumbai",
+   "distance": 3.19
+  },
+  {
+   "name": "Jogeshwari (West)",
+   "zone": "Western Suburbs",
+   "distance": 3.31
+  },
+  {
+   "name": "Sion",
+   "zone": "Central Mumbai",
+   "distance": 3.32
+  },
+  {
+   "name": "Goregaon (West)",
+   "zone": "Western Suburbs",
+   "distance": 3.36
+  }
+ ],
+ "Powai": [
+  {
+   "name": "Vashi",
+   "zone": "Navi Mumbai",
+   "distance": 2.61
+  },
+  {
+   "name": "Worli",
+   "zone": "South Mumbai",
+   "distance": 2.71
+  },
+  {
+   "name": "Bhendi Bazaar",
+   "zone": "South Mumbai",
+   "distance": 2.79
+  },
+  {
+   "name": "Vikhroli (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 2.91
+  },
+  {
+   "name": "Mandvi",
+   "zone": "South Mumbai",
+   "distance": 2.92
+  },
+  {
+   "name": "Chandivali",
+   "zone": "Western Suburbs",
+   "distance": 2.94
+  },
+  {
+   "name": "Dongri",
+   "zone": "South Mumbai",
+   "distance": 3.03
+  },
+  {
+   "name": "Masjid Bunder",
+   "zone": "South Mumbai",
+   "distance": 3.1
+  }
+ ],
+ "Chandivali": [
+  {
+   "name": "Borivali (East)",
+   "zone": "Western Suburbs",
+   "distance": 1.93
+  },
+  {
+   "name": "Nahur",
+   "zone": "Eastern Suburbs",
+   "distance": 1.94
+  },
+  {
+   "name": "Malad (East)",
+   "zone": "Western Suburbs",
+   "distance": 1.99
+  },
+  {
+   "name": "Thane (East)",
+   "zone": "Thane",
+   "distance": 2.14
+  },
+  {
+   "name": "Kandivali (East)",
+   "zone": "Western Suburbs",
+   "distance": 2.19
+  },
+  {
+   "name": "Goregaon (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.33
+  },
+  {
+   "name": "Kurla (East)",
+   "zone": "Central Mumbai",
+   "distance": 2.57
+  },
+  {
+   "name": "Mazgaon",
+   "zone": "South Mumbai",
+   "distance": 2.63
+  }
+ ],
+ "Sakinaka": [
+  {
+   "name": "Kurla (West)",
+   "zone": "Central Mumbai",
+   "distance": 1.02
+  },
+  {
+   "name": "Kurla (East)",
+   "zone": "Central Mumbai",
+   "distance": 1.49
+  },
+  {
+   "name": "Dongri",
+   "zone": "South Mumbai",
+   "distance": 1.49
+  },
+  {
+   "name": "Mazgaon",
+   "zone": "South Mumbai",
+   "distance": 1.54
+  },
+  {
+   "name": "Jacob Circle",
+   "zone": "South Mumbai",
+   "distance": 1.58
+  },
+  {
+   "name": "Byculla",
+   "zone": "South Mumbai",
+   "distance": 1.72
+  },
+  {
+   "name": "Mankhurd",
+   "zone": "Central Mumbai",
+   "distance": 1.72
+  },
+  {
+   "name": "Masjid Bunder",
+   "zone": "South Mumbai",
+   "distance": 1.82
+  }
+ ],
+ "Vikhroli (West)": [
+  {
+   "name": "Dongri",
+   "zone": "South Mumbai",
+   "distance": 1.66
+  },
+  {
+   "name": "Majiwada",
+   "zone": "Thane",
+   "distance": 1.75
+  },
+  {
+   "name": "Ghodbunder Road",
+   "zone": "Thane",
+   "distance": 1.85
+  },
+  {
+   "name": "Goregaon (West)",
+   "zone": "Western Suburbs",
+   "distance": 1.85
+  },
+  {
+   "name": "Nahur",
+   "zone": "Eastern Suburbs",
+   "distance": 1.92
+  },
+  {
+   "name": "Mazgaon",
+   "zone": "South Mumbai",
+   "distance": 1.98
+  },
+  {
+   "name": "Kurla (West)",
+   "zone": "Central Mumbai",
+   "distance": 2.07
+  },
+  {
+   "name": "Kurla (East)",
+   "zone": "Central Mumbai",
+   "distance": 2.09
+  }
+ ],
+ "Vikhroli (East)": [
+  {
+   "name": "Bhandup (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 0.63
+  },
+  {
+   "name": "Kanjurmarg",
+   "zone": "Eastern Suburbs",
+   "distance": 1.01
+  },
+  {
+   "name": "Sewri",
+   "zone": "Central Mumbai",
+   "distance": 1.04
+  },
+  {
+   "name": "Bhandup (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.06
+  },
+  {
+   "name": "Manpada",
+   "zone": "Thane",
+   "distance": 1.08
+  },
+  {
+   "name": "Ulhasnagar",
+   "zone": "Thane",
+   "distance": 1.12
+  },
+  {
+   "name": "Dombivli (West)",
+   "zone": "Thane",
+   "distance": 1.19
+  },
+  {
+   "name": "Jogeshwari (East)",
+   "zone": "Western Suburbs",
+   "distance": 1.22
+  }
+ ],
+ "Kanjurmarg": [
+  {
+   "name": "Goregaon (East)",
+   "zone": "Western Suburbs",
+   "distance": 0.83
+  },
+  {
+   "name": "Kopri",
+   "zone": "Thane",
+   "distance": 0.93
+  },
+  {
+   "name": "Tilaknagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.99
+  },
+  {
+   "name": "Thane (West)",
+   "zone": "Thane",
+   "distance": 1.01
+  },
+  {
+   "name": "Vikhroli (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.01
+  },
+  {
+   "name": "Garodia Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 1.03
+  },
+  {
+   "name": "Nahur West",
+   "zone": "Eastern Suburbs",
+   "distance": 1.03
+  },
+  {
+   "name": "Tagore Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 1.03
+  }
+ ],
+ "Bhandup (West)": [
+  {
+   "name": "Vikhroli (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 0.63
+  },
+  {
+   "name": "Kharghar",
+   "zone": "Navi Mumbai",
+   "distance": 0.89
+  },
+  {
+   "name": "New Panvel",
+   "zone": "Navi Mumbai",
+   "distance": 1.16
+  },
+  {
+   "name": "Jogeshwari (East)",
+   "zone": "Western Suburbs",
+   "distance": 1.16
+  },
+  {
+   "name": "Kalyan (East)",
+   "zone": "Thane",
+   "distance": 1.27
+  },
+  {
+   "name": "Bhandup (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.36
+  },
+  {
+   "name": "Kanjurmarg",
+   "zone": "Eastern Suburbs",
+   "distance": 1.38
+  },
+  {
+   "name": "Kurla (West)",
+   "zone": "Central Mumbai",
+   "distance": 1.42
+  }
+ ],
+ "Bhandup (East)": [
+  {
+   "name": "Ulhasnagar",
+   "zone": "Thane",
+   "distance": 0.85
+  },
+  {
+   "name": "Manpada",
+   "zone": "Thane",
+   "distance": 0.88
+  },
+  {
+   "name": "Kopri",
+   "zone": "Thane",
+   "distance": 0.88
+  },
+  {
+   "name": "Reay Road",
+   "zone": "South Mumbai",
+   "distance": 1.05
+  },
+  {
+   "name": "Vikhroli (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.06
+  },
+  {
+   "name": "Thane (East)",
+   "zone": "Thane",
+   "distance": 1.08
+  },
+  {
+   "name": "Sewri",
+   "zone": "Central Mumbai",
+   "distance": 1.09
+  },
+  {
+   "name": "Kanjurmarg",
+   "zone": "Eastern Suburbs",
+   "distance": 1.1
+  }
+ ],
+ "Nahur": [
+  {
+   "name": "Malad (East)",
+   "zone": "Western Suburbs",
+   "distance": 1.22
+  },
+  {
+   "name": "Bhandup (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.26
+  },
+  {
+   "name": "Thane (East)",
+   "zone": "Thane",
+   "distance": 1.29
+  },
+  {
+   "name": "Goregaon (West)",
+   "zone": "Western Suburbs",
+   "distance": 1.38
+  },
+  {
+   "name": "Kharghar",
+   "zone": "Navi Mumbai",
+   "distance": 1.44
+  },
+  {
+   "name": "Kurla (West)",
+   "zone": "Central Mumbai",
+   "distance": 1.46
+  },
+  {
+   "name": "Bhandup (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.51
+  },
+  {
+   "name": "Vikhroli (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.53
+  }
+ ],
+ "Mulund (West)": [
+  {
+   "name": "Mulund (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 2.82
+  },
+  {
+   "name": "Chembur",
+   "zone": "Central Mumbai",
+   "distance": 3.03
+  },
+  {
+   "name": "Girgaon",
+   "zone": "South Mumbai",
+   "distance": 3.07
+  },
+  {
+   "name": "Mahim",
+   "zone": "Central Mumbai",
+   "distance": 3.4
+  },
+  {
+   "name": "Ghatkopar (West)",
+   "zone": "Central Mumbai",
+   "distance": 3.4
+  },
+  {
+   "name": "Andheri (West)",
+   "zone": "Western Suburbs",
+   "distance": 3.62
+  },
+  {
+   "name": "Sion",
+   "zone": "Central Mumbai",
+   "distance": 3.69
+  },
+  {
+   "name": "Vile Parle (East)",
+   "zone": "Western Suburbs",
+   "distance": 3.76
+  }
+ ],
+ "Mulund (East)": [
+  {
+   "name": "Sion",
+   "zone": "Central Mumbai",
+   "distance": 2.06
+  },
+  {
+   "name": "Mahim",
+   "zone": "Central Mumbai",
+   "distance": 2.13
+  },
+  {
+   "name": "Oshiwara",
+   "zone": "Western Suburbs",
+   "distance": 2.23
+  },
+  {
+   "name": "Chembur",
+   "zone": "Central Mumbai",
+   "distance": 2.26
+  },
+  {
+   "name": "Majiwada",
+   "zone": "Thane",
+   "distance": 2.28
+  },
+  {
+   "name": "Jogeshwari (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.3
+  },
+  {
+   "name": "Vashi",
+   "zone": "Navi Mumbai",
+   "distance": 2.44
+  },
+  {
+   "name": "Govandi",
+   "zone": "Central Mumbai",
+   "distance": 2.64
+  }
+ ],
+ "Nahur West": [
+  {
+   "name": "Pant Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Tagore Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Garodia Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Chembur Colony",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Vashi Naka",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Kurla North",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Thane (West)",
+   "zone": "Thane",
+   "distance": 0.07
+  },
+  {
+   "name": "Belapur",
+   "zone": "Navi Mumbai",
+   "distance": 0.14
+  }
+ ],
+ "Tagore Nagar": [
+  {
+   "name": "Pant Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Garodia Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Chembur Colony",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Nahur West",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Vashi Naka",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Kurla North",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Thane (West)",
+   "zone": "Thane",
+   "distance": 0.07
+  },
+  {
+   "name": "Belapur",
+   "zone": "Navi Mumbai",
+   "distance": 0.14
+  }
+ ],
+ "Asalpha": [
+  {
+   "name": "Borivali (West)",
+   "zone": "Western Suburbs",
+   "distance": 1.96
+  },
+  {
+   "name": "Ghatkopar (East)",
+   "zone": "Central Mumbai",
+   "distance": 2.13
+  },
+  {
+   "name": "Ghatkopar (West)",
+   "zone": "Central Mumbai",
+   "distance": 2.18
+  },
+  {
+   "name": "Jogeshwari (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.5
+  },
+  {
+   "name": "Vidyavihar",
+   "zone": "Eastern Suburbs",
+   "distance": 2.94
+  },
+  {
+   "name": "Kurla (West)",
+   "zone": "Central Mumbai",
+   "distance": 3.01
+  },
+  {
+   "name": "Nagpada",
+   "zone": "South Mumbai",
+   "distance": 3.05
+  },
+  {
+   "name": "Mulund (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 3.1
+  }
+ ],
+ "Vidyavihar": [
+  {
+   "name": "Jogeshwari (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.36
+  },
+  {
+   "name": "Goregaon (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.49
+  },
+  {
+   "name": "Nahur",
+   "zone": "Eastern Suburbs",
+   "distance": 2.53
+  },
+  {
+   "name": "Kurla (West)",
+   "zone": "Central Mumbai",
+   "distance": 2.58
+  },
+  {
+   "name": "Nagpada",
+   "zone": "South Mumbai",
+   "distance": 2.63
+  },
+  {
+   "name": "Mulund (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 2.67
+  },
+  {
+   "name": "Bhendi Bazaar",
+   "zone": "South Mumbai",
+   "distance": 2.67
+  },
+  {
+   "name": "Dongri",
+   "zone": "South Mumbai",
+   "distance": 2.77
+  }
+ ],
+ "Garodia Nagar": [
+  {
+   "name": "Pant Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Tagore Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Chembur Colony",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Nahur West",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Vashi Naka",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Kurla North",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Thane (West)",
+   "zone": "Thane",
+   "distance": 0.07
+  },
+  {
+   "name": "Belapur",
+   "zone": "Navi Mumbai",
+   "distance": 0.14
+  }
+ ],
+ "Pant Nagar": [
+  {
+   "name": "Tagore Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Garodia Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Chembur Colony",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Nahur West",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Vashi Naka",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Kurla North",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Thane (West)",
+   "zone": "Thane",
+   "distance": 0.07
+  },
+  {
+   "name": "Belapur",
+   "zone": "Navi Mumbai",
+   "distance": 0.14
+  }
+ ],
+ "Tilaknagar": [
+  {
+   "name": "Thane (West)",
+   "zone": "Thane",
+   "distance": 0.2
+  },
+  {
+   "name": "Vashi Naka",
+   "zone": "Eastern Suburbs",
+   "distance": 0.27
+  },
+  {
+   "name": "Kurla North",
+   "zone": "Eastern Suburbs",
+   "distance": 0.27
+  },
+  {
+   "name": "Pant Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.27
+  },
+  {
+   "name": "Tagore Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.27
+  },
+  {
+   "name": "Chembur Colony",
+   "zone": "Eastern Suburbs",
+   "distance": 0.27
+  },
+  {
+   "name": "Nahur West",
+   "zone": "Eastern Suburbs",
+   "distance": 0.27
+  },
+  {
+   "name": "Garodia Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.27
+  }
+ ],
+ "Chembur Colony": [
+  {
+   "name": "Pant Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Tagore Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Garodia Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Nahur West",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Vashi Naka",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Kurla North",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Thane (West)",
+   "zone": "Thane",
+   "distance": 0.07
+  },
+  {
+   "name": "Belapur",
+   "zone": "Navi Mumbai",
+   "distance": 0.14
+  }
+ ],
+ "Deonar": [
+  {
+   "name": "Ghodbunder Road",
+   "zone": "Thane",
+   "distance": 2.17
+  },
+  {
+   "name": "Dombivli (West)",
+   "zone": "Thane",
+   "distance": 2.4
+  },
+  {
+   "name": "Balkum",
+   "zone": "Thane",
+   "distance": 2.41
+  },
+  {
+   "name": "Trombay",
+   "zone": "Central Mumbai",
+   "distance": 2.47
+  },
+  {
+   "name": "Vashi",
+   "zone": "Navi Mumbai",
+   "distance": 2.47
+  },
+  {
+   "name": "Mankhurd",
+   "zone": "Central Mumbai",
+   "distance": 2.6
+  },
+  {
+   "name": "Nerul",
+   "zone": "Navi Mumbai",
+   "distance": 2.66
+  },
+  {
+   "name": "Ulwe",
+   "zone": "Navi Mumbai",
+   "distance": 2.7
+  }
+ ],
+ "Shivaji Nagar (E)": [
+  {
+   "name": "Deonar",
+   "zone": "Eastern Suburbs",
+   "distance": 3.13
+  },
+  {
+   "name": "Vashi",
+   "zone": "Navi Mumbai",
+   "distance": 3.61
+  },
+  {
+   "name": "Nerul",
+   "zone": "Navi Mumbai",
+   "distance": 4.04
+  },
+  {
+   "name": "Bhayander",
+   "zone": "Western Suburbs",
+   "distance": 4.05
+  },
+  {
+   "name": "Ghodbunder Road",
+   "zone": "Thane",
+   "distance": 4.12
+  },
+  {
+   "name": "Majiwada",
+   "zone": "Thane",
+   "distance": 4.27
+  },
+  {
+   "name": "Dombivli (West)",
+   "zone": "Thane",
+   "distance": 4.29
+  },
+  {
+   "name": "Balkum",
+   "zone": "Thane",
+   "distance": 4.29
+  }
+ ],
+ "Vashi Naka": [
+  {
+   "name": "Pant Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Tagore Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Garodia Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Chembur Colony",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Nahur West",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Kurla North",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Thane (West)",
+   "zone": "Thane",
+   "distance": 0.07
+  },
+  {
+   "name": "Belapur",
+   "zone": "Navi Mumbai",
+   "distance": 0.14
+  }
+ ],
+ "Kurla North": [
+  {
+   "name": "Pant Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Tagore Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Garodia Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Chembur Colony",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Nahur West",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Vashi Naka",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Thane (West)",
+   "zone": "Thane",
+   "distance": 0.07
+  },
+  {
+   "name": "Belapur",
+   "zone": "Navi Mumbai",
+   "distance": 0.14
+  }
+ ],
+ "Vashi": [
+  {
+   "name": "Ghodbunder Road",
+   "zone": "Thane",
+   "distance": 2.15
+  },
+  {
+   "name": "Vikhroli (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 2.29
+  },
+  {
+   "name": "Majiwada",
+   "zone": "Thane",
+   "distance": 2.33
+  },
+  {
+   "name": "Mira Road",
+   "zone": "Western Suburbs",
+   "distance": 2.34
+  },
+  {
+   "name": "Mulund (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 2.44
+  },
+  {
+   "name": "Deonar",
+   "zone": "Eastern Suburbs",
+   "distance": 2.47
+  },
+  {
+   "name": "Nahur",
+   "zone": "Eastern Suburbs",
+   "distance": 2.58
+  },
+  {
+   "name": "Powai",
+   "zone": "Western Suburbs",
+   "distance": 2.61
+  }
+ ],
+ "Belapur": [
+  {
+   "name": "Kurla North",
+   "zone": "Eastern Suburbs",
+   "distance": 0.14
+  },
+  {
+   "name": "Vashi Naka",
+   "zone": "Eastern Suburbs",
+   "distance": 0.14
+  },
+  {
+   "name": "Pant Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.14
+  },
+  {
+   "name": "Tagore Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.14
+  },
+  {
+   "name": "Chembur Colony",
+   "zone": "Eastern Suburbs",
+   "distance": 0.14
+  },
+  {
+   "name": "Garodia Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.14
+  },
+  {
+   "name": "Nahur West",
+   "zone": "Eastern Suburbs",
+   "distance": 0.14
+  },
+  {
+   "name": "Murbad",
+   "zone": "Thane",
+   "distance": 0.2
+  }
+ ],
+ "Kharghar": [
+  {
+   "name": "Bhandup (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 0.89
+  },
+  {
+   "name": "New Panvel",
+   "zone": "Navi Mumbai",
+   "distance": 1.15
+  },
+  {
+   "name": "Vikhroli (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.24
+  },
+  {
+   "name": "Kalyan (East)",
+   "zone": "Thane",
+   "distance": 1.34
+  },
+  {
+   "name": "Nahur",
+   "zone": "Eastern Suburbs",
+   "distance": 1.44
+  },
+  {
+   "name": "Jogeshwari (East)",
+   "zone": "Western Suburbs",
+   "distance": 1.55
+  },
+  {
+   "name": "Kurla (West)",
+   "zone": "Central Mumbai",
+   "distance": 1.6
+  },
+  {
+   "name": "Bhiwandi",
+   "zone": "Thane",
+   "distance": 1.6
+  }
+ ],
+ "Panvel": [
+  {
+   "name": "Kalyan (West)",
+   "zone": "Thane",
+   "distance": 0.2
+  },
+  {
+   "name": "Juinagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.41
+  },
+  {
+   "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.41
+  },
+  {
+   "name": "Dronagiri",
+   "zone": "Navi Mumbai",
+   "distance": 0.41
+  },
+  {
+   "name": "Kamothe",
+   "zone": "Navi Mumbai",
+   "distance": 0.41
+  },
+  {
+   "name": "Sanpada",
+   "zone": "Navi Mumbai",
+   "distance": 0.41
+  },
+  {
+   "name": "Roadpali",
+   "zone": "Navi Mumbai",
+   "distance": 0.41
+  },
+  {
+   "name": "Kalamboli",
+   "zone": "Navi Mumbai",
+   "distance": 0.41
+  }
+ ],
+ "Nerul": [
+  {
+   "name": "Sion",
+   "zone": "Central Mumbai",
+   "distance": 2.63
+  },
+  {
+   "name": "Deonar",
+   "zone": "Eastern Suburbs",
+   "distance": 2.66
+  },
+  {
+   "name": "Kopar Khairane",
+   "zone": "Navi Mumbai",
+   "distance": 2.68
+  },
+  {
+   "name": "Seawoods",
+   "zone": "Navi Mumbai",
+   "distance": 2.87
+  },
+  {
+   "name": "Vile Parle (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.92
+  },
+  {
+   "name": "Vashi",
+   "zone": "Navi Mumbai",
+   "distance": 3.05
+  },
+  {
+   "name": "Dharavi",
+   "zone": "Central Mumbai",
+   "distance": 3.12
+  },
+  {
+   "name": "Chembur",
+   "zone": "Central Mumbai",
+   "distance": 3.15
+  }
+ ],
+ "Airoli": [
+  {
+   "name": "Kopar Khairane",
+   "zone": "Navi Mumbai",
+   "distance": 2.65
+  },
+  {
+   "name": "Seawoods",
+   "zone": "Navi Mumbai",
+   "distance": 3.01
+  },
+  {
+   "name": "Majiwada",
+   "zone": "Thane",
+   "distance": 3.24
+  },
+  {
+   "name": "Vikhroli (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 3.33
+  },
+  {
+   "name": "Vartak Nagar",
+   "zone": "Thane",
+   "distance": 3.41
+  },
+  {
+   "name": "Ghansoli",
+   "zone": "Navi Mumbai",
+   "distance": 3.56
+  },
+  {
+   "name": "Dombivli (West)",
+   "zone": "Thane",
+   "distance": 3.62
+  },
+  {
+   "name": "Ghodbunder Road",
+   "zone": "Thane",
+   "distance": 3.81
+  }
+ ],
+ "Ghansoli": [
+  {
+   "name": "Pokhran Road",
+   "zone": "Thane",
+   "distance": 1.44
+  },
+  {
+   "name": "Dombivli (West)",
+   "zone": "Thane",
+   "distance": 1.75
+  },
+  {
+   "name": "Ulwe",
+   "zone": "Navi Mumbai",
+   "distance": 1.82
+  },
+  {
+   "name": "Manpada",
+   "zone": "Thane",
+   "distance": 1.83
+  },
+  {
+   "name": "Kanjurmarg",
+   "zone": "Eastern Suburbs",
+   "distance": 1.84
+  },
+  {
+   "name": "Kopri",
+   "zone": "Thane",
+   "distance": 1.92
+  },
+  {
+   "name": "Bhandup (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.94
+  },
+  {
+   "name": "Vikhroli (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.99
+  }
+ ],
+ "Kopar Khairane": [
+  {
+   "name": "Ghansoli",
+   "zone": "Navi Mumbai",
+   "distance": 2.01
+  },
+  {
+   "name": "Seawoods",
+   "zone": "Navi Mumbai",
+   "distance": 2.14
+  },
+  {
+   "name": "Govandi",
+   "zone": "Central Mumbai",
+   "distance": 2.3
+  },
+  {
+   "name": "Dombivli (West)",
+   "zone": "Thane",
+   "distance": 2.42
+  },
+  {
+   "name": "Vikhroli (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 2.48
+  },
+  {
+   "name": "Chembur",
+   "zone": "Central Mumbai",
+   "distance": 2.6
+  },
+  {
+   "name": "Ghodbunder Road",
+   "zone": "Thane",
+   "distance": 2.63
+  },
+  {
+   "name": "Airoli",
+   "zone": "Navi Mumbai",
+   "distance": 2.65
+  }
+ ],
+ "Sanpada": [
+  {
+   "name": "Kamothe",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Juinagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Kalamboli",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Pushpak Nagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Roadpali",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Dronagiri",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Taloja",
+   "zone": "Navi Mumbai",
+   "distance": 0.04
+  }
+ ],
+ "Turbhe": [
+  {
+   "name": "Kamothe",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Juinagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Kalamboli",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Pushpak Nagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Sanpada",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Roadpali",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Dronagiri",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Taloja",
+   "zone": "Navi Mumbai",
+   "distance": 0.04
+  }
+ ],
+ "Juinagar": [
+  {
+   "name": "Kamothe",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Kalamboli",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Pushpak Nagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Sanpada",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Roadpali",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Dronagiri",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Taloja",
+   "zone": "Navi Mumbai",
+   "distance": 0.04
+  }
+ ],
+ "Seawoods": [
+  {
+   "name": "Kopar Khairane",
+   "zone": "Navi Mumbai",
+   "distance": 2.14
+  },
+  {
+   "name": "Nagpada",
+   "zone": "South Mumbai",
+   "distance": 2.5
+  },
+  {
+   "name": "Vikhroli (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 2.57
+  },
+  {
+   "name": "Ghansoli",
+   "zone": "Navi Mumbai",
+   "distance": 2.85
+  },
+  {
+   "name": "Nerul",
+   "zone": "Navi Mumbai",
+   "distance": 2.87
+  },
+  {
+   "name": "Mahim",
+   "zone": "Central Mumbai",
+   "distance": 2.88
+  },
+  {
+   "name": "Santacruz (East)",
+   "zone": "Western Suburbs",
+   "distance": 2.9
+  },
+  {
+   "name": "Bhendi Bazaar",
+   "zone": "South Mumbai",
+   "distance": 2.91
+  }
+ ],
+ "Ulwe": [
+  {
+   "name": "Dombivli (West)",
+   "zone": "Thane",
+   "distance": 0.72
+  },
+  {
+   "name": "Balkum",
+   "zone": "Thane",
+   "distance": 0.74
+  },
+  {
+   "name": "Manpada",
+   "zone": "Thane",
+   "distance": 1.04
+  },
+  {
+   "name": "Ulhasnagar",
+   "zone": "Thane",
+   "distance": 1.1
+  },
+  {
+   "name": "Dahisar (West)",
+   "zone": "Western Suburbs",
+   "distance": 1.14
+  },
+  {
+   "name": "Bhandup (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.27
+  },
+  {
+   "name": "Badlapur",
+   "zone": "Thane",
+   "distance": 1.32
+  },
+  {
+   "name": "Taloja",
+   "zone": "Navi Mumbai",
+   "distance": 1.32
+  }
+ ],
+ "Dronagiri": [
+  {
+   "name": "Kamothe",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Juinagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Kalamboli",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Pushpak Nagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Sanpada",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Roadpali",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Taloja",
+   "zone": "Navi Mumbai",
+   "distance": 0.04
+  }
+ ],
+ "Kamothe": [
+  {
+   "name": "Juinagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Kalamboli",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Pushpak Nagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Sanpada",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Roadpali",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Dronagiri",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Taloja",
+   "zone": "Navi Mumbai",
+   "distance": 0.04
+  }
+ ],
+ "Roadpali": [
+  {
+   "name": "Kamothe",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Juinagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Kalamboli",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Pushpak Nagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Sanpada",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Dronagiri",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Taloja",
+   "zone": "Navi Mumbai",
+   "distance": 0.04
+  }
+ ],
+ "New Panvel": [
+  {
+   "name": "Kharghar",
+   "zone": "Navi Mumbai",
+   "distance": 1.15
+  },
+  {
+   "name": "Bhandup (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.16
+  },
+  {
+   "name": "Kalyan (East)",
+   "zone": "Thane",
+   "distance": 1.17
+  },
+  {
+   "name": "Bhiwandi",
+   "zone": "Thane",
+   "distance": 1.21
+  },
+  {
+   "name": "Mira Road",
+   "zone": "Western Suburbs",
+   "distance": 1.22
+  },
+  {
+   "name": "Vikhroli (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.42
+  },
+  {
+   "name": "Jogeshwari (East)",
+   "zone": "Western Suburbs",
+   "distance": 1.61
+  },
+  {
+   "name": "Kanjurmarg",
+   "zone": "Eastern Suburbs",
+   "distance": 1.77
+  }
+ ],
+ "Taloja": [
+  {
+   "name": "Juinagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.04
+  },
+  {
+   "name": "Kalamboli",
+   "zone": "Navi Mumbai",
+   "distance": 0.04
+  },
+  {
+   "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.04
+  },
+  {
+   "name": "Roadpali",
+   "zone": "Navi Mumbai",
+   "distance": 0.04
+  },
+  {
+   "name": "Kamothe",
+   "zone": "Navi Mumbai",
+   "distance": 0.04
+  },
+  {
+   "name": "Sanpada",
+   "zone": "Navi Mumbai",
+   "distance": 0.04
+  },
+  {
+   "name": "Dronagiri",
+   "zone": "Navi Mumbai",
+   "distance": 0.04
+  },
+  {
+   "name": "Pushpak Nagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.04
+  }
+ ],
+ "Kalamboli": [
+  {
+   "name": "Kamothe",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Juinagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Pushpak Nagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Sanpada",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Roadpali",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Dronagiri",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Taloja",
+   "zone": "Navi Mumbai",
+   "distance": 0.04
+  }
+ ],
+ "Pushpak Nagar": [
+  {
+   "name": "Kamothe",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Juinagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Kalamboli",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Sanpada",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Roadpali",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Dronagiri",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Taloja",
+   "zone": "Navi Mumbai",
+   "distance": 0.04
+  }
+ ],
+ "Thane (West)": [
+  {
+   "name": "Pant Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.07
+  },
+  {
+   "name": "Kurla North",
+   "zone": "Eastern Suburbs",
+   "distance": 0.07
+  },
+  {
+   "name": "Chembur Colony",
+   "zone": "Eastern Suburbs",
+   "distance": 0.07
+  },
+  {
+   "name": "Nahur West",
+   "zone": "Eastern Suburbs",
+   "distance": 0.07
+  },
+  {
+   "name": "Vashi Naka",
+   "zone": "Eastern Suburbs",
+   "distance": 0.07
+  },
+  {
+   "name": "Garodia Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.07
+  },
+  {
+   "name": "Tagore Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.07
+  },
+  {
+   "name": "Belapur",
+   "zone": "Navi Mumbai",
+   "distance": 0.2
+  }
+ ],
+ "Thane (East)": [
+  {
+   "name": "Bhandup (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.08
+  },
+  {
+   "name": "Kopri",
+   "zone": "Thane",
+   "distance": 1.18
+  },
+  {
+   "name": "Malad (East)",
+   "zone": "Western Suburbs",
+   "distance": 1.22
+  },
+  {
+   "name": "Nahur",
+   "zone": "Eastern Suburbs",
+   "distance": 1.29
+  },
+  {
+   "name": "Kanjurmarg",
+   "zone": "Eastern Suburbs",
+   "distance": 1.49
+  },
+  {
+   "name": "Murbad",
+   "zone": "Thane",
+   "distance": 1.51
+  },
+  {
+   "name": "Badlapur",
+   "zone": "Thane",
+   "distance": 1.51
+  },
+  {
+   "name": "Ambernath",
+   "zone": "Thane",
+   "distance": 1.51
+  }
+ ],
+ "Kopri": [
+  {
+   "name": "Ambernath",
+   "zone": "Thane",
+   "distance": 0.61
+  },
+  {
+   "name": "Murbad",
+   "zone": "Thane",
+   "distance": 0.63
+  },
+  {
+   "name": "Badlapur",
+   "zone": "Thane",
+   "distance": 0.66
+  },
+  {
+   "name": "Taloja",
+   "zone": "Navi Mumbai",
+   "distance": 0.69
+  },
+  {
+   "name": "Roadpali",
+   "zone": "Navi Mumbai",
+   "distance": 0.69
+  },
+  {
+   "name": "Sanpada",
+   "zone": "Navi Mumbai",
+   "distance": 0.69
+  },
+  {
+   "name": "Juinagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.69
+  },
+  {
+   "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.69
+  }
+ ],
+ "Naupada": [
+  {
+   "name": "Wagle Estate",
+   "zone": "Thane",
+   "distance": 1.98
+  },
+  {
+   "name": "Powai",
+   "zone": "Western Suburbs",
+   "distance": 3.25
+  },
+  {
+   "name": "Seawoods",
+   "zone": "Navi Mumbai",
+   "distance": 3.72
+  },
+  {
+   "name": "Mulund (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 3.88
+  },
+  {
+   "name": "Vashi",
+   "zone": "Navi Mumbai",
+   "distance": 4.05
+  },
+  {
+   "name": "Jogeshwari (West)",
+   "zone": "Western Suburbs",
+   "distance": 4.08
+  },
+  {
+   "name": "Mahim",
+   "zone": "Central Mumbai",
+   "distance": 4.16
+  },
+  {
+   "name": "Malad (West)",
+   "zone": "Western Suburbs",
+   "distance": 4.16
+  }
+ ],
+ "Vartak Nagar": [
+  {
+   "name": "Majiwada",
+   "zone": "Thane",
+   "distance": 2.52
+  },
+  {
+   "name": "Airoli",
+   "zone": "Navi Mumbai",
+   "distance": 3.41
+  },
+  {
+   "name": "Oshiwara",
+   "zone": "Western Suburbs",
+   "distance": 3.57
+  },
+  {
+   "name": "Mulund (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 3.76
+  },
+  {
+   "name": "Vikhroli (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 3.87
+  },
+  {
+   "name": "Vashi",
+   "zone": "Navi Mumbai",
+   "distance": 3.94
+  },
+  {
+   "name": "Bhayander",
+   "zone": "Western Suburbs",
+   "distance": 4.14
+  },
+  {
+   "name": "Seawoods",
+   "zone": "Navi Mumbai",
+   "distance": 4.28
+  }
+ ],
+ "Wagle Estate": [
+  {
+   "name": "Naupada",
+   "zone": "Thane",
+   "distance": 1.98
+  },
+  {
+   "name": "Powai",
+   "zone": "Western Suburbs",
+   "distance": 3.48
+  },
+  {
+   "name": "Jogeshwari (West)",
+   "zone": "Western Suburbs",
+   "distance": 3.53
+  },
+  {
+   "name": "Chandivali",
+   "zone": "Western Suburbs",
+   "distance": 3.77
+  },
+  {
+   "name": "Borivali (East)",
+   "zone": "Western Suburbs",
+   "distance": 3.77
+  },
+  {
+   "name": "Vidyavihar",
+   "zone": "Eastern Suburbs",
+   "distance": 3.8
+  },
+  {
+   "name": "Malad (West)",
+   "zone": "Western Suburbs",
+   "distance": 3.84
+  },
+  {
+   "name": "Mulund (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 3.91
+  }
+ ],
+ "Manpada": [
+  {
+   "name": "Ulhasnagar",
+   "zone": "Thane",
+   "distance": 0.56
+  },
+  {
+   "name": "Murbad",
+   "zone": "Thane",
+   "distance": 0.86
+  },
+  {
+   "name": "Ambernath",
+   "zone": "Thane",
+   "distance": 0.87
+  },
+  {
+   "name": "Badlapur",
+   "zone": "Thane",
+   "distance": 0.88
+  },
+  {
+   "name": "Dronagiri",
+   "zone": "Navi Mumbai",
+   "distance": 0.88
+  },
+  {
+   "name": "Sanpada",
+   "zone": "Navi Mumbai",
+   "distance": 0.88
+  },
+  {
+   "name": "Roadpali",
+   "zone": "Navi Mumbai",
+   "distance": 0.88
+  },
+  {
+   "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.88
+  }
+ ],
+ "Ghodbunder Road": [
+  {
+   "name": "Dombivli (West)",
+   "zone": "Thane",
+   "distance": 1.14
+  },
+  {
+   "name": "Kanjurmarg",
+   "zone": "Eastern Suburbs",
+   "distance": 1.23
+  },
+  {
+   "name": "Ulwe",
+   "zone": "Navi Mumbai",
+   "distance": 1.34
+  },
+  {
+   "name": "Balkum",
+   "zone": "Thane",
+   "distance": 1.38
+  },
+  {
+   "name": "Kopri",
+   "zone": "Thane",
+   "distance": 1.4
+  },
+  {
+   "name": "Bhandup (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.45
+  },
+  {
+   "name": "Vikhroli (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.47
+  },
+  {
+   "name": "Bhandup (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.51
+  }
+ ],
+ "Majiwada": [
+  {
+   "name": "Vikhroli (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.75
+  },
+  {
+   "name": "Mulund (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 2.28
+  },
+  {
+   "name": "Dongri",
+   "zone": "South Mumbai",
+   "distance": 2.31
+  },
+  {
+   "name": "Vashi",
+   "zone": "Navi Mumbai",
+   "distance": 2.33
+  },
+  {
+   "name": "Goregaon (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.41
+  },
+  {
+   "name": "Vartak Nagar",
+   "zone": "Thane",
+   "distance": 2.52
+  },
+  {
+   "name": "Jogeshwari (West)",
+   "zone": "Western Suburbs",
+   "distance": 2.53
+  },
+  {
+   "name": "Oshiwara",
+   "zone": "Western Suburbs",
+   "distance": 2.66
+  }
+ ],
+ "Balkum": [
+  {
+   "name": "Ulwe",
+   "zone": "Navi Mumbai",
+   "distance": 0.74
+  },
+  {
+   "name": "Dombivli (West)",
+   "zone": "Thane",
+   "distance": 0.94
+  },
+  {
+   "name": "Manpada",
+   "zone": "Thane",
+   "distance": 1.14
+  },
+  {
+   "name": "Dahisar (West)",
+   "zone": "Western Suburbs",
+   "distance": 1.23
+  },
+  {
+   "name": "Ulhasnagar",
+   "zone": "Thane",
+   "distance": 1.29
+  },
+  {
+   "name": "Ghodbunder Road",
+   "zone": "Thane",
+   "distance": 1.38
+  },
+  {
+   "name": "Reay Road",
+   "zone": "South Mumbai",
+   "distance": 1.43
+  },
+  {
+   "name": "Sewri",
+   "zone": "Central Mumbai",
+   "distance": 1.45
+  }
+ ],
+ "Pokhran Road": [
+  {
+   "name": "Kopri",
+   "zone": "Thane",
+   "distance": 0.75
+  },
+  {
+   "name": "Murbad",
+   "zone": "Thane",
+   "distance": 1.12
+  },
+  {
+   "name": "Ambernath",
+   "zone": "Thane",
+   "distance": 1.13
+  },
+  {
+   "name": "Manpada",
+   "zone": "Thane",
+   "distance": 1.13
+  },
+  {
+   "name": "Badlapur",
+   "zone": "Thane",
+   "distance": 1.13
+  },
+  {
+   "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 1.13
+  },
+  {
+   "name": "Juinagar",
+   "zone": "Navi Mumbai",
+   "distance": 1.13
+  },
+  {
+   "name": "Sanpada",
+   "zone": "Navi Mumbai",
+   "distance": 1.13
+  }
+ ],
+ "Dombivli (East)": [
+  {
+   "name": "Ghatkopar (East)",
+   "zone": "Central Mumbai",
+   "distance": 2.36
+  },
+  {
+   "name": "Chembur",
+   "zone": "Central Mumbai",
+   "distance": 2.54
+  },
+  {
+   "name": "Bhayander",
+   "zone": "Western Suburbs",
+   "distance": 2.67
+  },
+  {
+   "name": "Kalyan (East)",
+   "zone": "Thane",
+   "distance": 2.89
+  },
+  {
+   "name": "Mira Road",
+   "zone": "Western Suburbs",
+   "distance": 3.01
+  },
+  {
+   "name": "New Panvel",
+   "zone": "Navi Mumbai",
+   "distance": 3.18
+  },
+  {
+   "name": "Jogeshwari (East)",
+   "zone": "Western Suburbs",
+   "distance": 3.21
+  },
+  {
+   "name": "Bhandup (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 3.29
+  }
+ ],
+ "Dombivli (West)": [
+  {
+   "name": "Ulwe",
+   "zone": "Navi Mumbai",
+   "distance": 0.72
+  },
+  {
+   "name": "Balkum",
+   "zone": "Thane",
+   "distance": 0.94
+  },
+  {
+   "name": "Ghodbunder Road",
+   "zone": "Thane",
+   "distance": 1.14
+  },
+  {
+   "name": "Vikhroli (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.19
+  },
+  {
+   "name": "Manpada",
+   "zone": "Thane",
+   "distance": 1.21
+  },
+  {
+   "name": "Dahisar (West)",
+   "zone": "Western Suburbs",
+   "distance": 1.29
+  },
+  {
+   "name": "Ulhasnagar",
+   "zone": "Thane",
+   "distance": 1.29
+  },
+  {
+   "name": "Bhandup (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.4
+  }
+ ],
+ "Kalyan (East)": [
+  {
+   "name": "Bhiwandi",
+   "zone": "Thane",
+   "distance": 1.03
+  },
+  {
+   "name": "New Panvel",
+   "zone": "Navi Mumbai",
+   "distance": 1.17
+  },
+  {
+   "name": "Bhandup (West)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.27
+  },
+  {
+   "name": "Jogeshwari (East)",
+   "zone": "Western Suburbs",
+   "distance": 1.29
+  },
+  {
+   "name": "Kharghar",
+   "zone": "Navi Mumbai",
+   "distance": 1.34
+  },
+  {
+   "name": "Vikhroli (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.42
+  },
+  {
+   "name": "Mira Road",
+   "zone": "Western Suburbs",
+   "distance": 1.82
+  },
+  {
+   "name": "Ulhasnagar",
+   "zone": "Thane",
+   "distance": 1.88
+  }
+ ],
+ "Kalyan (West)": [
+  {
+   "name": "Juinagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.2
+  },
+  {
+   "name": "Roadpali",
+   "zone": "Navi Mumbai",
+   "distance": 0.2
+  },
+  {
+   "name": "Kalamboli",
+   "zone": "Navi Mumbai",
+   "distance": 0.2
+  },
+  {
+   "name": "Dronagiri",
+   "zone": "Navi Mumbai",
+   "distance": 0.2
+  },
+  {
+   "name": "Kamothe",
+   "zone": "Navi Mumbai",
+   "distance": 0.2
+  },
+  {
+   "name": "Sanpada",
+   "zone": "Navi Mumbai",
+   "distance": 0.2
+  },
+  {
+   "name": "Pushpak Nagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.2
+  },
+  {
+   "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.2
+  }
+ ],
+ "Ulhasnagar": [
+  {
+   "name": "Manpada",
+   "zone": "Thane",
+   "distance": 0.56
+  },
+  {
+   "name": "Ambernath",
+   "zone": "Thane",
+   "distance": 0.77
+  },
+  {
+   "name": "Murbad",
+   "zone": "Thane",
+   "distance": 0.77
+  },
+  {
+   "name": "Badlapur",
+   "zone": "Thane",
+   "distance": 0.77
+  },
+  {
+   "name": "Juinagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.81
+  },
+  {
+   "name": "Sanpada",
+   "zone": "Navi Mumbai",
+   "distance": 0.81
+  },
+  {
+   "name": "Roadpali",
+   "zone": "Navi Mumbai",
+   "distance": 0.81
+  },
+  {
+   "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.81
+  }
+ ],
+ "Bhiwandi": [
+  {
+   "name": "Kalyan (East)",
+   "zone": "Thane",
+   "distance": 1.03
+  },
+  {
+   "name": "Ambernath",
+   "zone": "Thane",
+   "distance": 1.19
+  },
+  {
+   "name": "New Panvel",
+   "zone": "Navi Mumbai",
+   "distance": 1.21
+  },
+  {
+   "name": "Vikhroli (East)",
+   "zone": "Eastern Suburbs",
+   "distance": 1.27
+  },
+  {
+   "name": "Murbad",
+   "zone": "Thane",
+   "distance": 1.33
+  },
+  {
+   "name": "Kopri",
+   "zone": "Thane",
+   "distance": 1.34
+  },
+  {
+   "name": "Badlapur",
+   "zone": "Thane",
+   "distance": 1.38
+  },
+  {
+   "name": "Ulhasnagar",
+   "zone": "Thane",
+   "distance": 1.4
+  }
+ ],
+ "Murbad": [
+  {
+   "name": "Ambernath",
+   "zone": "Thane",
+   "distance": 0.15
+  },
+  {
+   "name": "Badlapur",
+   "zone": "Thane",
+   "distance": 0.18
+  },
+  {
+   "name": "Belapur",
+   "zone": "Navi Mumbai",
+   "distance": 0.2
+  },
+  {
+   "name": "Dronagiri",
+   "zone": "Navi Mumbai",
+   "distance": 0.2
+  },
+  {
+   "name": "Roadpali",
+   "zone": "Navi Mumbai",
+   "distance": 0.2
+  },
+  {
+   "name": "Sanpada",
+   "zone": "Navi Mumbai",
+   "distance": 0.2
+  },
+  {
+   "name": "Juinagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.2
+  },
+  {
+   "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.2
+  }
+ ],
+ "Ambernath": [
+  {
+   "name": "Murbad",
+   "zone": "Thane",
+   "distance": 0.15
+  },
+  {
+   "name": "Badlapur",
+   "zone": "Thane",
+   "distance": 0.28
+  },
+  {
+   "name": "Belapur",
+   "zone": "Navi Mumbai",
+   "distance": 0.33
+  },
+  {
+   "name": "Dronagiri",
+   "zone": "Navi Mumbai",
+   "distance": 0.33
+  },
+  {
+   "name": "Roadpali",
+   "zone": "Navi Mumbai",
+   "distance": 0.33
+  },
+  {
+   "name": "Sanpada",
+   "zone": "Navi Mumbai",
+   "distance": 0.33
+  },
+  {
+   "name": "Juinagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.33
+  },
+  {
+   "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.33
+  }
+ ],
+ "Badlapur": [
+  {
+   "name": "Murbad",
+   "zone": "Thane",
+   "distance": 0.18
+  },
+  {
+   "name": "Taloja",
+   "zone": "Navi Mumbai",
+   "distance": 0.22
+  },
+  {
+   "name": "Belapur",
+   "zone": "Navi Mumbai",
+   "distance": 0.23
+  },
+  {
+   "name": "Dronagiri",
+   "zone": "Navi Mumbai",
+   "distance": 0.23
+  },
+  {
+   "name": "Roadpali",
+   "zone": "Navi Mumbai",
+   "distance": 0.23
+  },
+  {
+   "name": "Sanpada",
+   "zone": "Navi Mumbai",
+   "distance": 0.23
+  },
+  {
+   "name": "Juinagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.23
+  },
+  {
+   "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.23
+  }
+ ]
+}

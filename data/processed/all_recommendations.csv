@@ -1,0 +1,138 @@
+Locality,Cluster,Footfall_Score,Top_1_Business,Top_1_Score,Top_2_Business,Top_2_Score,Top_3_Business,Top_3_Score
+Colaba,Corporate Hub,13.7,Bar,72.1,Pharmacy,61.9,Store,60.6
+Cuffe Parade,Corporate Hub,18.9,Store,77.8,School,57.0,Restaurant,56.9
+Navy Nagar,Corporate Hub,8.6,Pharmacy,71.6,Bar,60.3,Night Club,59.5
+Churchgate,Corporate Hub,55.2,Pharmacy,62.3,School,55.6,Lodging,54.6
+Fort,Corporate Hub,46.8,Pharmacy,63.0,Lodging,47.9,Store,41.2
+Ballard Estate,Corporate Hub,26.9,Store,70.5,Pharmacy,66.5,School,63.0
+Mandvi,Mixed-Use Locality,18.9,School,72.1,Cafe,52.5,Store,45.4
+Masjid Bunder,Mixed-Use Locality,13.4,Restaurant,64.2,School,60.8,Bar,50.1
+Crawford Market,Corporate Hub,24.2,Pharmacy,59.2,Beauty Salon,57.7,School,52.7
+Marine Lines,Corporate Hub,24.5,Pharmacy,67.8,Store,58.4,Bar,56.8
+Charni Road,Corporate Hub,18.6,Beauty Salon,65.4,Restaurant,64.0,Store,61.4
+Grant Road,Commercial Market,33.0,Restaurant,65.5,Store,55.6,Beauty Salon,50.1
+Girgaon,Corporate Hub,30.9,Lodging,61.6,Restaurant,59.9,Store,55.0
+Malabar Hill,Corporate Hub,10.7,Bar,66.4,Pharmacy,65.3,Beauty Salon,60.2
+Pedder Road,Corporate Hub,17.2,Night Club,65.5,Lodging,65.0,Pharmacy,59.3
+Breach Candy,Corporate Hub,16.2,Pharmacy,70.6,Night Club,70.1,Lodging,60.3
+Tardeo,Corporate Hub,22.2,Store,69.7,Pharmacy,50.7,Restaurant,46.3
+Bhendi Bazaar,Mixed-Use Locality,15.0,Night Club,60.7,Store,55.3,School,53.2
+Nagpada,Mixed-Use Locality,15.6,School,59.7,Cafe,58.7,Store,53.7
+Dongri,Mixed-Use Locality,11.3,Night Club,64.2,Cafe,52.0,Pharmacy,43.5
+Mazgaon,Mixed-Use Locality,7.0,Pharmacy,67.5,Beauty Salon,63.6,School,63.6
+Reay Road,Mixed-Use Locality,1.2,Pharmacy,62.7,Cafe,47.9,Store,47.9
+Byculla,Mixed-Use Locality,15.8,Beauty Salon,67.6,Store,61.8,Pharmacy,59.9
+Jacob Circle,Mixed-Use Locality,10.9,Pharmacy,67.5,Bar,60.6,Restaurant,52.5
+Worli,Corporate Hub,15.4,Store,69.4,Pharmacy,64.6,Beauty Salon,60.5
+Dadar (East),Commercial Market,33.7,Store,44.3,Cafe,36.1,Beauty Salon,34.0
+Dadar (West),Commercial Market,34.3,Restaurant,53.0,Store,47.8,Lodging,43.7
+Mahim,Corporate Hub,21.0,School,43.0,Beauty Salon,39.9,Lodging,36.0
+Matunga,Commercial Market,33.5,Store,53.6,Lodging,35.2,Pharmacy,26.1
+Parel,Mixed-Use Locality,12.4,Store,43.0,Restaurant,42.7,School,39.9
+Lower Parel,Corporate Hub,32.9,Beauty Salon,47.7,Store,46.1,School,44.3
+Lalbaug,Mixed-Use Locality,15.4,Beauty Salon,43.7,Pharmacy,42.8,Restaurant,35.6
+Sewri,Mixed-Use Locality,1.6,Cafe,49.8,Pharmacy,46.6,School,38.8
+Cotton Green,Mixed-Use Locality,2.2,Pharmacy,61.0,Store,40.2,Lodging,38.7
+Wadala,Commercial Market,20.3,Pharmacy,36.7,Store,30.8,Cafe,29.9
+Sion,Commercial Market,18.9,Cafe,37.3,Restaurant,28.4,Store,27.6
+Dharavi,Commercial Market,28.3,Cafe,34.4,Pharmacy,33.0,Night Club,29.8
+Chunabhatti,Mixed-Use Locality,12.6,Gym,45.9,Store,45.6,Pharmacy,44.7
+Antop Hill,Commercial Market,17.2,Store,44.2,Night Club,41.4,Bar,35.0
+Chembur,Mixed-Use Locality,14.3,Gym,38.8,Pharmacy,38.4,Store,29.3
+Govandi,Mixed-Use Locality,12.2,Bar,35.0,Restaurant,33.8,Store,33.7
+Mankhurd,Mixed-Use Locality,10.7,Beauty Salon,43.5,Pharmacy,40.8,School,35.0
+Trombay,Mixed-Use Locality,16.9,Beauty Salon,45.5,Pharmacy,40.3,Restaurant,34.6
+Kurla (West),Mixed-Use Locality,10.2,Night Club,47.1,Pharmacy,39.9,Store,39.2
+Kurla (East),Mixed-Use Locality,13.5,Beauty Salon,39.4,Cafe,33.9,Store,33.7
+Ghatkopar (West),Mixed-Use Locality,17.8,Beauty Salon,43.5,Lodging,33.5,School,33.5
+Ghatkopar (East),Mixed-Use Locality,12.2,Lodging,37.7,Store,37.6,Pharmacy,37.4
+Bandra (West),Corporate Hub,26.9,Pharmacy,67.8,Store,65.3,Gym,60.4
+Bandra (East),Corporate Hub,25.0,Restaurant,63.1,Store,58.7,Beauty Salon,57.7
+Santacruz (West),Mixed-Use Locality,12.8,Store,61.1,Pharmacy,58.9,Gym,56.6
+Santacruz (East),Mixed-Use Locality,13.7,School,71.5,Gym,67.5,Store,58.2
+Vile Parle (West),Corporate Hub,16.0,Store,69.9,Cafe,64.1,Night Club,54.3
+Vile Parle (East),Corporate Hub,24.1,Beauty Salon,62.8,Lodging,52.8,Gym,46.1
+Khar (West),Corporate Hub,18.2,Restaurant,59.1,Store,57.3,Beauty Salon,56.8
+Juhu,Corporate Hub,11.9,Bar,72.6,Pharmacy,68.4,Restaurant,51.3
+Andheri (West),Corporate Hub,17.5,Restaurant,64.1,School,61.8,Cafe,44.8
+Andheri (East),Mixed-Use Locality,18.3,Beauty Salon,66.4,Store,65.4,School,56.4
+Jogeshwari (West),Mixed-Use Locality,13.6,Gym,61.2,Restaurant,60.1,School,58.0
+Jogeshwari (East),Mixed-Use Locality,5.8,Night Club,61.8,Store,48.2,Bar,45.9
+Goregaon (West),Mixed-Use Locality,13.3,Store,67.0,Night Club,64.3,Beauty Salon,61.4
+Goregaon (East),Mixed-Use Locality,3.2,Pharmacy,68.7,Restaurant,57.1,School,51.1
+Malad (West),Mixed-Use Locality,19.7,Night Club,53.9,Restaurant,48.4,Beauty Salon,43.2
+Malad (East),Mixed-Use Locality,7.1,Pharmacy,69.4,Cafe,57.9,Beauty Salon,48.1
+Kandivali (West),Mixed-Use Locality,17.0,Store,61.7,Beauty Salon,57.1,Gym,55.8
+Kandivali (East),Mixed-Use Locality,10.7,Pharmacy,51.6,Night Club,49.2,Beauty Salon,47.1
+Borivali (West),Mixed-Use Locality,14.1,Restaurant,75.7,Night Club,68.2,Store,59.1
+Borivali (East),Mixed-Use Locality,13.6,Beauty Salon,67.7,Store,59.1,Restaurant,58.7
+Dahisar (West),Mixed-Use Locality,2.8,Restaurant,50.4,Night Club,48.8,Store,47.4
+Dahisar (East),Mixed-Use Locality,23.4,Store,58.9,Lodging,52.9,Pharmacy,48.7
+Mira Road,Mixed-Use Locality,9.5,Cafe,35.6,Restaurant,35.4,Bar,32.1
+Bhayander,Mixed-Use Locality,7.9,Pharmacy,50.8,Restaurant,47.3,Beauty Salon,42.7
+Versova,Mixed-Use Locality,0.0,Pharmacy,73.9,Cafe,56.8,Restaurant,52.6
+Lokhandwala,Corporate Hub,62.3,Beauty Salon,66.4,Lodging,51.5,Restaurant,48.8
+Oshiwara,Corporate Hub,31.4,Store,66.1,Beauty Salon,54.0,Pharmacy,52.9
+Powai,Mixed-Use Locality,17.1,Pharmacy,69.2,Night Club,62.6,Beauty Salon,58.9
+Chandivali,Mixed-Use Locality,13.8,Pharmacy,65.9,School,57.0,Night Club,55.4
+Sakinaka,Mixed-Use Locality,12.2,Beauty Salon,67.5,Store,52.3,Pharmacy,52.0
+Vikhroli (West),Mixed-Use Locality,11.7,Store,51.5,Beauty Salon,40.6,Pharmacy,37.7
+Vikhroli (East),Mixed-Use Locality,4.4,Store,44.7,Bar,41.9,Restaurant,37.9
+Kanjurmarg,Mixed-Use Locality,4.4,Store,42.6,Gym,38.6,Pharmacy,33.3
+Bhandup (West),Mixed-Use Locality,6.2,Bar,43.9,Gym,39.0,School,35.3
+Bhandup (East),Mixed-Use Locality,3.5,Gym,30.2,School,29.0,Beauty Salon,29.0
+Nahur,Mixed-Use Locality,10.5,Pharmacy,43.1,Cafe,34.5,Beauty Salon,30.5
+Mulund (West),Mixed-Use Locality,25.9,Restaurant,36.7,Store,36.4,Pharmacy,35.4
+Mulund (East),Mixed-Use Locality,22.0,Store,45.5,Beauty Salon,30.3,Restaurant,29.7
+Nahur West,Mixed-Use Locality,0.0,Bar,31.9,Restaurant,27.8,Store,27.1
+Tagore Nagar,Mixed-Use Locality,0.0,Bar,31.9,Restaurant,27.8,Store,27.1
+Asalpha,Mixed-Use Locality,17.2,Pharmacy,38.0,Restaurant,35.7,Lodging,31.1
+Vidyavihar,Mixed-Use Locality,20.8,Store,44.1,Cafe,40.2,Pharmacy,34.0
+Garodia Nagar,Mixed-Use Locality,0.0,Bar,31.9,Restaurant,27.8,Store,27.1
+Pant Nagar,Mixed-Use Locality,0.0,Bar,31.9,Restaurant,27.8,Store,27.1
+Tilaknagar,Mixed-Use Locality,0.0,Store,39.4,Lodging,38.1,Night Club,37.1
+Chembur Colony,Mixed-Use Locality,0.0,Bar,31.9,Restaurant,27.8,Store,27.1
+Deonar,Mixed-Use Locality,15.1,Night Club,40.6,School,39.6,Pharmacy,39.4
+Shivaji Nagar (E),Mixed-Use Locality,11.0,Night Club,41.7,Gym,34.7,Beauty Salon,34.2
+Vashi Naka,Mixed-Use Locality,0.0,Bar,31.9,Restaurant,27.8,Store,27.1
+Kurla North,Mixed-Use Locality,0.0,Bar,31.9,Restaurant,27.8,Store,27.1
+Vashi,Mixed-Use Locality,15.4,Store,32.9,Pharmacy,32.1,Bar,23.8
+Belapur,Mixed-Use Locality,0.0,Store,25.2,Gym,21.5,Pharmacy,21.1
+Kharghar,Mixed-Use Locality,9.3,Pharmacy,32.8,Cafe,30.5,Gym,26.5
+Panvel,Mixed-Use Locality,0.0,Gym,17.7,Pharmacy,16.9,Store,15.8
+Nerul,Commercial Market,17.6,Night Club,28.0,Store,27.9,Beauty Salon,22.9
+Airoli,Mixed-Use Locality,7.3,Store,26.3,Beauty Salon,22.9,Lodging,21.5
+Ghansoli,Mixed-Use Locality,4.9,Store,25.6,Pharmacy,25.3,Gym,24.2
+Kopar Khairane,Mixed-Use Locality,10.1,Beauty Salon,27.4,Store,24.7,Cafe,22.3
+Sanpada,Mixed-Use Locality,0.0,Gym,17.8,Store,17.3,Pharmacy,17.1
+Turbhe,Mixed-Use Locality,0.0,Gym,17.8,Store,17.3,Pharmacy,17.1
+Juinagar,Mixed-Use Locality,0.0,Gym,17.8,Store,17.3,Pharmacy,17.1
+Seawoods,Mixed-Use Locality,14.3,Beauty Salon,27.1,Store,24.9,Pharmacy,23.5
+Ulwe,Mixed-Use Locality,2.2,Beauty Salon,23.7,Cafe,22.1,Store,18.0
+Dronagiri,Mixed-Use Locality,0.0,Gym,17.8,Store,17.3,Pharmacy,17.1
+Kamothe,Mixed-Use Locality,0.0,Gym,17.8,Store,17.3,Pharmacy,17.1
+Roadpali,Mixed-Use Locality,0.0,Gym,17.8,Store,17.3,Pharmacy,17.1
+New Panvel,Mixed-Use Locality,8.0,Bar,25.3,Pharmacy,24.2,Gym,23.0
+Taloja,Mixed-Use Locality,0.1,Store,19.1,Bar,16.7,Pharmacy,14.8
+Kalamboli,Mixed-Use Locality,0.0,Gym,17.8,Store,17.3,Pharmacy,17.1
+Pushpak Nagar,Mixed-Use Locality,0.0,Gym,17.8,Store,17.3,Pharmacy,17.1
+Thane (West),Mixed-Use Locality,0.0,Store,32.7,Lodging,27.6,School,26.3
+Thane (East),Mixed-Use Locality,4.9,Cafe,28.9,Beauty Salon,23.2,Store,17.0
+Kopri,Mixed-Use Locality,1.2,Lodging,22.7,Beauty Salon,20.9,Restaurant,20.7
+Naupada,Mixed-Use Locality,24.4,Pharmacy,27.7,Night Club,26.8,Store,23.8
+Vartak Nagar,Mixed-Use Locality,25.5,Beauty Salon,30.8,Store,28.3,Cafe,27.6
+Wagle Estate,Mixed-Use Locality,22.0,Pharmacy,26.0,Cafe,23.4,Store,23.1
+Manpada,Mixed-Use Locality,1.5,Store,23.6,Beauty Salon,21.7,Lodging,19.0
+Ghodbunder Road,Mixed-Use Locality,6.9,Pharmacy,22.7,Cafe,20.9,Gym,20.6
+Majiwada,Mixed-Use Locality,18.7,Pharmacy,28.3,School,27.0,Cafe,24.3
+Balkum,Mixed-Use Locality,4.5,Beauty Salon,30.8,Pharmacy,25.8,Store,20.6
+Pokhran Road,Mixed-Use Locality,0.0,Pharmacy,20.7,Beauty Salon,20.1,Lodging,17.7
+Dombivli (East),Mixed-Use Locality,5.9,Beauty Salon,28.4,Pharmacy,26.0,School,19.6
+Dombivli (West),Mixed-Use Locality,2.8,Beauty Salon,24.2,Gym,22.2,Bar,15.2
+Kalyan (East),Mixed-Use Locality,4.1,Bar,23.5,Pharmacy,23.0,Beauty Salon,22.4
+Kalyan (West),Mixed-Use Locality,0.0,Gym,17.7,Pharmacy,16.9,Store,15.8
+Ulhasnagar,Mixed-Use Locality,1.5,Cafe,26.8,Restaurant,23.3,Lodging,18.8
+Bhiwandi,Mixed-Use Locality,1.7,Restaurant,26.3,Cafe,23.9,Bar,23.1
+Murbad,Mixed-Use Locality,0.0,Pharmacy,20.3,Store,17.4,Lodging,15.5
+Ambernath,Mixed-Use Locality,0.0,Restaurant,21.0,Pharmacy,19.9,Lodging,19.0
+Badlapur,Mixed-Use Locality,0.7,Cafe,24.2,Bar,16.5,Restaurant,14.6

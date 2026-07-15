@@ -1,0 +1,100 @@
+{
+  "restaurant": {
+    "mean_abs_shap": {
+      "reckoner_rate": 5.477876808484519,
+      "est_rent_sqft": 5.207513607616342,
+      "hospitals": 2.3836597100593795,
+      "railway_stations": 2.184339678275587,
+      "metro_stations": 2.1760012130184934,
+      "morning_footfall": 2.140876406312772,
+      "offices": 1.6028029523434886,
+      "tourist_spots": 1.5052553985313053,
+      "overall_footfall": 1.4881770660903983,
+      "schools": 1.4422738645541897
+    }
+  },
+  "cafe": {
+    "mean_abs_shap": {
+      "est_rent_sqft": 3.2413523171757164,
+      "reckoner_rate": 3.1925796214084854,
+      "tourist_spots": 2.5708285992638404,
+      "colleges": 1.2198812290028616,
+      "offices": 1.0646878745706003,
+      "overall_footfall": 1.0303202949371784,
+      "schools": 0.9715419814123446,
+      "office_hr_footfall": 0.9406523060778729,
+      "afternoon_footfall": 0.9010109864428306,
+      "evening_footfall": 0.8342683489857285
+    }
+  },
+  "gym": {
+    "mean_abs_shap": {
+      "reckoner_rate": 2.075306187028147,
+      "est_rent_sqft": 2.002383689537974,
+      "tourist_spots": 1.8416322785184227,
+      "hospitals": 1.5061063691951322,
+      "afternoon_footfall": 1.1160851955490383,
+      "weekend_footfall": 1.1041112438393548,
+      "colleges": 1.095876807357723,
+      "overall_footfall": 0.8564878774864906,
+      "office_hr_footfall": 0.7995537520266338,
+      "metro_stations": 0.7951519141725902
+    }
+  },
+  "pharmacy": {
+    "mean_abs_shap": {
+      "reckoner_rate": 5.626126250027443,
+      "est_rent_sqft": 5.601627250147768,
+      "hospitals": 2.8596184651709624,
+      "metro_stations": 1.666733989698996,
+      "tourist_spots": 1.5017519959326533,
+      "bus_stops": 0.84415857588182,
+      "morning_footfall": 0.8133773956113316,
+      "office_hr_footfall": 0.723132954440568,
+      "afternoon_footfall": 0.7157795944532522,
+      "overall_footfall": 0.6664709793063979
+    }
+  },
+  "store": {
+    "mean_abs_shap": {
+      "reckoner_rate": 5.223397391612536,
+      "est_rent_sqft": 4.86401436143256,
+      "offices": 2.4643637749370266,
+      "tourist_spots": 1.5074418594317092,
+      "bus_stops": 1.0977098671257846,
+      "metro_stations": 1.0883763053855877,
+      "morning_footfall": 0.7691232044204172,
+      "malls": 0.7134017326321049,
+      "overall_footfall": 0.6958361905739919,
+      "evening_footfall": 0.6390341475057557
+    }
+  },
+  "school": {
+    "mean_abs_shap": {
+      "est_rent_sqft": 4.062870686346224,
+      "reckoner_rate": 3.5526970455557016,
+      "tourist_spots": 2.316640304042429,
+      "office_hr_footfall": 2.2405294392685966,
+      "metro_stations": 1.5890495542719438,
+      "railway_stations": 1.1663123703760867,
+      "hospitals": 1.1363756272437633,
+      "weekend_footfall": 1.078361377746926,
+      "schools": 0.9378413777739848,
+      "offices": 0.8739466636415497
+    }
+  },
+  "night_club": {
+    "mean_abs_shap": {
+      "reckoner_rate": 6.163779167791786,
+      "est_rent_sqft": 5.0974384552387,
+      "schools": 2.1685184623020852,
+      "overall_footfall": 2.0772290757788605,
+      "morning_footfall": 1.8453529860285993,
+      "office_hr_footfall": 1.8432472315591264,
+      "offices": 0.8909341627339712,
+      "colleges": 0.8336101392123504,
+      "bus_stops": 0.8249266798198156,
+      "tourist_spots": 0.7360894907018071
+    }
+  }
+}

@@ -1,0 +1,138 @@
+locality,reckoner_rate,est_rent_sqft,rent_tier
+Colaba,65000,325.0,luxury
+Cuffe Parade,68000,340.0,luxury
+Navy Nagar,58000,290.0,luxury
+Churchgate,70000,350.0,luxury
+Fort,62000,310.0,luxury
+Ballard Estate,55000,275.0,premium
+Mandvi,40000,200.0,premium
+Masjid Bunder,38000,190.0,premium
+Crawford Market,45000,225.0,premium
+Marine Lines,60000,300.0,luxury
+Charni Road,52000,260.0,premium
+Grant Road,48000,240.0,premium
+Girgaon,50000,250.0,premium
+Malabar Hill,75000,375.0,luxury
+Pedder Road,72000,360.0,luxury
+Breach Candy,74000,370.0,luxury
+Tardeo,55000,275.0,premium
+Bhendi Bazaar,35000,175.0,premium
+Nagpada,32000,160.0,premium
+Dongri,30000,150.0,moderate
+Mazgaon,38000,190.0,premium
+Reay Road,30000,150.0,moderate
+Byculla,42000,210.0,premium
+Jacob Circle,45000,225.0,premium
+Worli,65000,325.0,luxury
+Dadar (East),45000,225.0,premium
+Dadar (West),48000,240.0,premium
+Mahim,42000,210.0,premium
+Matunga,46000,230.0,premium
+Parel,40000,200.0,premium
+Lower Parel,55000,275.0,premium
+Lalbaug,38000,190.0,premium
+Sewri,32000,160.0,premium
+Cotton Green,30000,150.0,moderate
+Wadala,35000,175.0,premium
+Sion,34000,170.0,premium
+Dharavi,20000,100.0,moderate
+Chunabhatti,28000,140.0,moderate
+Antop Hill,26000,130.0,moderate
+Chembur,32000,160.0,premium
+Govandi,22000,110.0,moderate
+Mankhurd,18000,90.0,moderate
+Trombay,18000,90.0,moderate
+Kurla (West),28000,140.0,moderate
+Kurla (East),26000,130.0,moderate
+Ghatkopar (West),30000,150.0,moderate
+Ghatkopar (East),32000,160.0,premium
+Bandra (West),60000,300.0,luxury
+Bandra (East),45000,225.0,premium
+Santacruz (West),48000,240.0,premium
+Santacruz (East),40000,200.0,premium
+Vile Parle (West),50000,250.0,premium
+Vile Parle (East),42000,210.0,premium
+Khar (West),55000,275.0,premium
+Juhu,65000,325.0,luxury
+Andheri (West),45000,225.0,premium
+Andheri (East),38000,190.0,premium
+Jogeshwari (West),32000,160.0,premium
+Jogeshwari (East),30000,150.0,moderate
+Goregaon (West),36000,180.0,premium
+Goregaon (East),35000,175.0,premium
+Malad (West),34000,170.0,premium
+Malad (East),32000,160.0,premium
+Kandivali (West),30000,150.0,moderate
+Kandivali (East),28000,140.0,moderate
+Borivali (West),35000,175.0,premium
+Borivali (East),32000,160.0,premium
+Dahisar (West),26000,130.0,moderate
+Dahisar (East),25000,125.0,moderate
+Mira Road,18000,90.0,moderate
+Bhayander,16000,80.0,moderate
+Versova,45000,225.0,premium
+Lokhandwala,50000,250.0,premium
+Oshiwara,42000,210.0,premium
+Powai,45000,225.0,premium
+Chandivali,38000,190.0,premium
+Sakinaka,30000,150.0,moderate
+Vikhroli (West),28000,140.0,moderate
+Vikhroli (East),26000,130.0,moderate
+Kanjurmarg,28000,140.0,moderate
+Bhandup (West),24000,120.0,moderate
+Bhandup (East),22000,110.0,moderate
+Nahur,24000,120.0,moderate
+Mulund (West),30000,150.0,moderate
+Mulund (East),28000,140.0,moderate
+Nahur West,24000,120.0,moderate
+Tagore Nagar,24000,120.0,moderate
+Asalpha,24000,120.0,moderate
+Vidyavihar,30000,150.0,moderate
+Garodia Nagar,24000,120.0,moderate
+Pant Nagar,24000,120.0,moderate
+Tilaknagar,28000,140.0,moderate
+Chembur Colony,24000,120.0,moderate
+Deonar,26000,130.0,moderate
+Shivaji Nagar (E),24000,120.0,moderate
+Vashi Naka,24000,120.0,moderate
+Kurla North,24000,120.0,moderate
+Vashi,25000,125.0,moderate
+Belapur,22000,110.0,moderate
+Kharghar,18000,90.0,moderate
+Panvel,12000,60.0,budget
+Nerul,20000,100.0,moderate
+Airoli,18000,90.0,moderate
+Ghansoli,18000,90.0,moderate
+Kopar Khairane,18000,90.0,moderate
+Sanpada,18000,90.0,moderate
+Turbhe,18000,90.0,moderate
+Juinagar,18000,90.0,moderate
+Seawoods,22000,110.0,moderate
+Ulwe,18000,90.0,moderate
+Dronagiri,18000,90.0,moderate
+Kamothe,18000,90.0,moderate
+Roadpali,18000,90.0,moderate
+New Panvel,18000,90.0,moderate
+Taloja,18000,90.0,moderate
+Kalamboli,18000,90.0,moderate
+Pushpak Nagar,18000,90.0,moderate
+Thane (West),25000,125.0,moderate
+Thane (East),20000,100.0,moderate
+Kopri,20000,100.0,moderate
+Naupada,26000,130.0,moderate
+Vartak Nagar,20000,100.0,moderate
+Wagle Estate,22000,110.0,moderate
+Manpada,20000,100.0,moderate
+Ghodbunder Road,22000,110.0,moderate
+Majiwada,24000,120.0,moderate
+Balkum,20000,100.0,moderate
+Pokhran Road,20000,100.0,moderate
+Dombivli (East),14000,70.0,budget
+Dombivli (West),20000,100.0,moderate
+Kalyan (East),20000,100.0,moderate
+Kalyan (West),15000,75.0,budget
+Ulhasnagar,20000,100.0,moderate
+Bhiwandi,20000,100.0,moderate
+Murbad,20000,100.0,moderate
+Ambernath,20000,100.0,moderate
+Badlapur,20000,100.0,moderate

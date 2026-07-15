@@ -1,0 +1,23 @@
+# Core
+pandas
+numpy
+scikit-learn
+
+# Visualization
+plotly
+matplotlib
+seaborn
+
+# App
+streamlit
+joblib
+
+# Data fetching
+requests
+
+# Explainability (optional — enhances SHAP tab in dashboard)
+shap
+
+# Testing
+pytest
+fpdf2
