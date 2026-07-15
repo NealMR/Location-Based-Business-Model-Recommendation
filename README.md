@@ -1,5 +1,7 @@
 # Locality — Mumbai Business Location Intelligence
 
+### 🚀 [Live Demo — Try it now!](https://locality-intelligence-mumbai.streamlit.app/)
+
 Where should a business open in Mumbai — and why. An end-to-end data science
 project that scores the viability of 10 business types (restaurants, gyms,
 pharmacies, cafés, and more) across **137 Mumbai localities**, combining
