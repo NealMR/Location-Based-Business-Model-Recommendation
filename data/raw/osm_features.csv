@@ -1,151 +1,36 @@
 name,ward,lat,lng,zone,railway_stations,metro_stations,bus_stops,colleges,schools,offices,malls,hospitals,parking_lots,tourist_spots,existing_cafes,existing_restaurants,existing_gyms
 Colaba,A,18.9067,72.8147,South Mumbai,2,6,6,8,12,14,4,6,0,22,0,0,2
-Cuffe Parade,A,18.9138,72.8194,South Mumbai,2,6,10,2,6,22,6,6,2,168,2,8,2
-Navy Nagar,A,18.9,72.8136,South Mumbai,0,0,4,6,6,10,4,4,2,16,0,0,0
-Churchgate,A,18.9322,72.8264,South Mumbai,8,12,42,24,20,94,8,14,6,286,16,22,2
-Fort,B,18.934,72.8354,South Mumbai,10,10,40,24,18,68,6,20,8,292,18,52,0
-Ballard Estate,B,18.9387,72.8406,South Mumbai,6,8,18,14,6,26,6,14,2,240,2,16,0
-Mandvi,B,18.949,72.8376,South Mumbai,4,0,22,2,10,14,10,20,2,158,0,10,0
-Masjid Bunder,B,18.9512,72.8381,South Mumbai,2,0,20,2,6,6,8,20,0,138,2,8,0
+Cuffe Parade,A,18.9138,72.8194,South Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
+Navy Nagar,A,18.9,72.8136,South Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
+Churchgate,A,18.9322,72.8264,South Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
+Fort,B,18.934,72.8354,South Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
+Ballard Estate,B,18.9387,72.8406,South Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
+Mandvi,B,18.949,72.8376,South Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
+Masjid Bunder,B,18.9512,72.8381,South Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
 Crawford Market,B,18.9469,72.8332,South Mumbai,8,8,42,10,8,14,10,28,4,190,0,8,0
 Marine Lines,C,18.9447,72.8231,South Mumbai,8,8,8,14,8,8,10,20,2,216,0,6,2
-Charni Road,C,18.9511,72.819,South Mumbai,6,6,8,4,10,8,10,40,2,130,2,8,2
-Grant Road,C,18.964,72.8179,South Mumbai,8,8,28,22,52,4,10,60,0,104,0,10,2
-Girgaon,C,18.9582,72.8178,South Mumbai,8,8,16,14,42,12,10,72,2,116,4,30,2
-Malabar Hill,D,18.963,72.8026,South Mumbai,0,0,14,2,18,4,4,38,2,64,0,2,2
-Pedder Road,D,18.9714,72.8089,South Mumbai,0,0,2,18,24,6,4,46,2,74,0,4,2
-Breach Candy,D,18.9697,72.8067,South Mumbai,0,0,2,14,26,4,4,42,2,74,2,4,2
-Tardeo,D,18.9745,72.8136,South Mumbai,4,6,2,18,28,8,6,34,2,76,0,12,4
+Charni Road,C,18.9511,72.819,South Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
+Grant Road,C,18.964,72.8179,South Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
+Girgaon,C,18.9582,72.8178,South Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
+Malabar Hill,D,18.963,72.8026,South Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pedder Road,D,18.9714,72.8089,South Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
+Breach Candy,D,18.9697,72.8067,South Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
+Tardeo,D,18.9745,72.8136,South Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
 Bhendi Bazaar,E,18.9527,72.8352,South Mumbai,2,0,18,2,8,10,8,26,2,138,2,6,0
-Nagpada,E,18.9578,72.8305,South Mumbai,2,0,24,6,12,6,8,40,0,126,0,26,0
+Nagpada,E,18.9578,72.8305,South Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
 Dongri,E,18.9553,72.8399,South Mumbai,4,0,14,0,4,6,8,20,2,92,2,6,0
-Mazgaon,F/N,18.9607,72.8474,South Mumbai,4,0,12,0,2,0,6,2,0,62,0,0,0
-Reay Road,F/N,18.9683,72.8514,South Mumbai,2,0,0,0,0,0,0,2,0,22,0,0,0
-Byculla,F/S,18.9716,72.8374,South Mumbai,6,0,16,4,22,4,6,28,0,96,0,0,0
+Mazgaon,F/N,18.9607,72.8474,South Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
+Reay Road,F/N,18.9683,72.8514,South Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
+Byculla,F/S,18.9716,72.8374,South Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
 Jacob Circle,F/S,18.9757,72.8399,South Mumbai,4,0,10,4,14,6,2,24,0,76,0,0,0
-Worli,G/S,19.0074,72.8175,South Mumbai,2,6,14,6,14,4,10,14,2,48,0,0,0
-Dadar (East),G/N,19.0176,72.8472,Central Mumbai,8,0,50,36,42,10,12,56,0,68,2,6,2
-Dadar (West),G/N,19.019,72.8421,Central Mumbai,6,6,40,32,42,12,12,72,0,74,2,12,2
-Mahim,G/N,19.0365,72.8395,Central Mumbai,4,6,22,12,26,4,10,38,0,64,2,12,2
-Matunga,G/S,19.0234,72.8596,Central Mumbai,8,0,2,34,44,18,10,34,0,34,2,2,0
-Parel,G/S,18.9944,72.8416,Central Mumbai,8,0,0,2,8,2,8,32,0,84,0,0,0
-Lower Parel,G/S,18.9934,72.8285,Central Mumbai,10,6,18,2,20,54,10,18,0,104,0,8,0
-Lalbaug,G/S,19.0017,72.8391,Central Mumbai,8,0,10,0,20,4,8,28,0,82,0,0,0
-Sewri,F/N,19.0001,72.8593,Central Mumbai,2,0,4,0,2,0,0,8,0,18,0,0,0
+Worli,G/S,19.0074,72.8175,South Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dadar (East),G/N,19.0176,72.8472,Central Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dadar (West),G/N,19.019,72.8421,Central Mumbai,6,6,46,32,42,12,12,72,0,74,2,12,2
+Mahim,G/N,19.0365,72.8395,Central Mumbai,4,6,26,12,26,4,10,38,0,64,2,12,2
+Matunga,G/S,19.0234,72.8596,Central Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
+Parel,G/S,18.9944,72.8416,Central Mumbai,8,0,0,2,8,2,8,30,0,84,0,0,0
+Lower Parel,G/S,18.9934,72.8285,Central Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lalbaug,G/S,19.0017,72.8391,Central Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sewri,F/N,19.0001,72.8593,Central Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
 Cotton Green,F/N,18.9845,72.8562,Central Mumbai,0,0,0,2,0,2,0,0,0,34,0,0,0
-Wadala,F/S,19.0178,72.8608,Central Mumbai,8,0,6,28,22,4,6,22,0,34,0,0,0
-Sion,H,19.0404,72.8619,Central Mumbai,4,0,20,18,20,8,8,44,0,44,4,8,0
-Dharavi,H,19.037,72.853,Central Mumbai,4,0,0,28,42,6,10,42,4,62,2,4,0
-Chunabhatti,H,19.0448,72.871,Central Mumbai,10,2,8,16,2,14,0,20,2,46,0,0,0
-Antop Hill,H,19.027,72.8663,Central Mumbai,4,0,4,26,12,10,6,18,0,14,2,0,0
-Chembur,M/E,19.0623,72.9004,Central Mumbai,4,0,18,6,24,8,2,72,2,70,6,14,2
-Govandi,M/E,19.0602,72.9157,Central Mumbai,2,0,8,4,24,6,2,34,0,54,2,4,0
-Mankhurd,M/E,19.0518,72.9277,Central Mumbai,4,14,4,4,10,2,2,10,0,40,0,4,0
-Trombay,M/E,19.0416,72.9346,Central Mumbai,6,32,2,10,12,2,2,2,2,32,0,4,0
-Kurla (West),L,19.0698,72.8798,Central Mumbai,4,0,6,2,8,4,6,32,0,64,0,2,0
-Kurla (East),L,19.0716,72.8884,Central Mumbai,4,0,10,8,10,2,8,4,0,82,0,0,2
-Ghatkopar (West),N,19.0858,72.9063,Central Mumbai,6,16,30,6,6,4,12,122,2,52,2,10,2
-Ghatkopar (East),N,19.0862,72.9128,Central Mumbai,4,14,12,4,4,6,6,96,2,30,2,8,2
-Bandra (West),H,19.0596,72.8295,Western Suburbs,0,0,22,16,30,40,0,54,12,130,28,50,12
-Bandra (East),H,19.0607,72.8386,Western Suburbs,6,0,38,20,20,30,2,60,4,126,0,22,8
-Santacruz (West),K/W,19.0826,72.8351,Western Suburbs,2,0,20,4,20,8,2,60,0,84,4,0,2
-Santacruz (East),K/W,19.082,72.8448,Western Suburbs,4,6,24,10,10,8,2,42,0,88,4,2,0
-Vile Parle (West),K/W,19.099,72.8363,Western Suburbs,2,0,16,18,8,6,6,30,2,112,6,2,0
-Vile Parle (East),K/W,19.1004,72.8481,Western Suburbs,8,26,38,12,30,6,2,54,0,86,8,12,0
-Khar (West),H,19.0721,72.8329,Western Suburbs,2,0,20,10,16,22,2,38,0,118,6,12,2
-Juhu,K/W,19.1075,72.8263,Western Suburbs,0,0,22,14,12,2,4,10,4,70,22,22,2
-Andheri (West),K/W,19.1197,72.8465,Western Suburbs,4,12,36,16,14,12,2,78,2,54,0,6,0
-Andheri (East),K/E,19.1136,72.8697,Western Suburbs,6,14,6,4,8,28,0,32,0,96,0,8,0
-Jogeshwari (West),K/W,19.1374,72.8468,Western Suburbs,4,4,22,4,4,12,10,48,0,22,0,4,0
-Jogeshwari (East),K/E,19.137,72.8596,Western Suburbs,2,6,6,8,2,4,0,44,0,10,0,0,2
-Goregaon (West),P/N,19.1538,72.8491,Western Suburbs,4,6,6,4,4,14,8,12,0,20,0,0,0
-Goregaon (East),P/S,19.1597,72.8706,Western Suburbs,0,0,0,4,2,0,2,0,0,14,0,2,0
-Malad (West),P/N,19.1876,72.8489,Western Suburbs,2,0,2,2,24,2,20,102,0,14,4,0,2
-Malad (East),P/S,19.1949,72.8689,Western Suburbs,2,6,0,0,2,0,8,10,0,4,0,0,0
-Kandivali (West),R/N,19.2073,72.8393,Western Suburbs,4,28,10,8,4,10,6,42,0,18,0,12,2
-Kandivali (East),R/S,19.2047,72.8649,Western Suburbs,4,8,4,0,4,0,12,24,0,2,4,4,0
-Borivali (West),R/N,19.2307,72.8567,Western Suburbs,4,6,20,0,2,12,12,112,0,36,0,2,4
-Borivali (East),R/S,19.2281,72.8687,Western Suburbs,4,8,0,0,4,0,16,28,0,20,0,0,4
-Dahisar (West),R/N,19.2523,72.8438,Western Suburbs,4,8,6,0,0,0,0,4,2,4,0,0,2
-Dahisar (East),R/S,19.253,72.8683,Western Suburbs,12,64,14,0,4,10,4,20,0,10,0,2,0
-Mira Road,R/C,19.2812,72.8682,Western Suburbs,0,0,2,0,12,12,4,40,2,28,0,6,0
-Bhayander,R/C,19.3003,72.851,Western Suburbs,6,6,0,0,0,12,2,50,6,24,0,0,2
-Versova,K/W,19.1315,72.8193,Western Suburbs,0,0,0,0,0,0,0,0,0,0,0,0,0
-Lokhandwala,K/W,19.139,72.8286,Western Suburbs,4,130,28,10,20,60,12,56,8,50,18,34,12
-Oshiwara,K/W,19.1464,72.829,Western Suburbs,4,8,14,8,24,42,14,36,2,38,18,12,8
-Powai,L,19.1176,72.906,Western Suburbs,0,0,26,6,6,4,18,10,4,76,24,40,4
-Chandivali,L,19.1062,72.9073,Western Suburbs,0,0,0,4,4,4,16,6,0,42,0,0,0
-Sakinaka,L,19.0967,72.8905,Western Suburbs,4,8,10,0,12,0,6,24,0,88,0,4,0
-Vikhroli (West),L,19.1063,72.9245,Eastern Suburbs,2,0,18,0,10,12,8,6,2,26,0,0,0
-Vikhroli (East),L,19.1091,72.9352,Eastern Suburbs,2,0,4,4,6,0,2,24,0,6,0,0,0
-Kanjurmarg,L,19.121,72.9415,Eastern Suburbs,0,0,6,4,6,2,2,6,0,4,0,0,0
-Bhandup (West),N,19.1453,72.9416,Eastern Suburbs,2,0,6,6,6,0,4,34,0,10,2,0,0
-Bhandup (East),N,19.1474,72.9488,Eastern Suburbs,2,0,4,2,0,0,4,4,0,6,0,0,0
-Nahur,N,19.1325,72.9343,Eastern Suburbs,2,0,0,4,4,8,8,10,0,38,0,6,0
-Mulund (West),T,19.1735,72.9484,Eastern Suburbs,6,2,36,4,38,18,12,96,2,48,2,8,6
-Mulund (East),T,19.1756,72.9633,Eastern Suburbs,4,0,14,8,24,18,12,54,2,34,0,6,2
-Nahur West,N,19.142,72.9289,Eastern Suburbs,0,0,0,0,0,0,0,0,0,0,0,0,0
-Tagore Nagar,M/E,19.0784,72.9207,Eastern Suburbs,0,0,0,0,0,0,0,0,0,0,0,0,0
-Asalpha,L,19.0869,72.8984,Eastern Suburbs,6,8,14,8,2,6,12,94,0,88,0,0,0
-Vidyavihar,L,19.0817,72.8966,Eastern Suburbs,2,0,6,10,2,28,12,48,0,84,0,8,0
-Garodia Nagar,N,19.0937,72.9095,Eastern Suburbs,0,0,0,0,0,0,0,0,0,0,0,0,0
-Pant Nagar,N,19.0898,72.9047,Eastern Suburbs,0,0,0,0,0,0,0,0,0,0,0,0,0
-Tilaknagar,M/E,19.0596,72.9098,Eastern Suburbs,0,0,0,0,0,0,0,0,0,0,0,0,0
-Chembur Colony,M/E,19.0537,72.8942,Eastern Suburbs,0,0,0,0,0,0,0,0,0,0,0,0,0
-Deonar,M/E,19.0457,72.9186,Eastern Suburbs,2,14,4,16,12,6,2,16,4,46,6,8,2
-Shivaji Nagar (E),M/E,19.0355,72.9281,Eastern Suburbs,0,0,0,16,12,6,2,8,10,32,0,4,2
-Vashi Naka,M/E,19.0643,72.9248,Eastern Suburbs,0,0,0,0,0,0,0,0,0,0,0,0,0
-Kurla North,L,19.0762,72.8843,Eastern Suburbs,0,0,0,0,0,0,0,0,0,0,0,0,0
-Vashi,NMC-A,19.0771,73.0072,Navi Mumbai,0,0,8,10,12,6,12,30,4,36,0,0,0
-Belapur,NMC-B,19.0229,73.0346,Navi Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
-Kharghar,NMC-C,19.0474,73.0661,Navi Mumbai,2,6,0,6,6,2,6,38,0,14,0,10,2
-Panvel,NMC-D,18.9894,73.1175,Navi Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
-Nerul,NMC-E,19.0398,73.0175,Navi Mumbai,2,0,26,24,22,2,4,34,4,74,0,2,4
-Airoli,NMC-F,19.1557,72.999,Navi Mumbai,2,0,42,0,8,16,0,34,6,16,0,0,2
-Ghansoli,NMC-G,19.1178,73.0025,Navi Mumbai,2,0,24,6,4,6,0,2,0,8,0,0,0
-Kopar Khairane,NMC-H,19.1045,73.0065,Navi Mumbai,2,0,30,8,20,8,0,26,2,10,2,10,0
-Sanpada,NMC-I,19.0606,73.0098,Navi Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
-Turbhe,NMC-J,19.0866,73.0174,Navi Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
-Juinagar,NMC-K,19.0271,73.0187,Navi Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
-Seawoods,NMC-L,19.0181,73.0153,Navi Mumbai,2,0,44,8,16,4,8,18,2,58,0,4,2
-Ulwe,NMC-M,18.9734,73.0247,Navi Mumbai,2,0,6,2,2,2,0,0,2,6,0,0,0
-Dronagiri,NMC-N,18.9376,72.9831,Navi Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
-Kamothe,NMC-O,19.0126,73.0889,Navi Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
-Roadpali,NMC-P,19.0289,73.0997,Navi Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
-New Panvel,NMC-Q,18.996,73.1092,Navi Mumbai,0,0,4,4,8,8,4,46,0,14,0,0,0
-Taloja,NMC-R,19.0658,73.1238,Navi Mumbai,0,0,0,0,0,0,0,0,0,2,0,0,0
-Kalamboli,NMC-S,19.0346,73.0804,Navi Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
-Pushpak Nagar,NMC-T,19.02,73.1018,Navi Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0
-Thane (West),TMC-A,19.2183,72.9781,Thane,0,0,0,0,0,0,0,0,0,0,0,0,0
-Thane (East),TMC-B,19.2143,72.996,Thane,0,0,2,0,0,0,8,4,0,8,0,0,0
-Kopri,TMC-C,19.2071,72.999,Thane,0,0,6,0,0,0,2,8,0,2,0,2,2
-Naupada,TMC-D,19.1998,72.9818,Thane,0,0,42,6,18,6,26,54,2,48,0,0,0
-Vartak Nagar,TMC-E,19.2293,72.969,Thane,4,8,28,2,18,38,12,24,8,20,12,14,10
-Wagle Estate,TMC-F,19.1987,72.9627,Thane,0,0,30,0,6,14,26,52,0,50,0,10,6
-Manpada,TMC-G,19.1908,73.0182,Thane,2,0,4,0,4,0,0,4,0,0,0,0,0
-Ghodbunder Road,TMC-H,19.255,72.968,Thane,0,4,8,6,4,2,4,12,2,18,0,2,0
-Majiwada,TMC-I,19.2352,72.9793,Thane,4,6,16,4,10,24,10,18,4,20,0,4,2
-Balkum,TMC-J,19.2452,72.9893,Thane,2,4,2,2,8,0,0,0,2,16,0,0,0
-Pokhran Road,TMC-K,19.21,73.0065,Thane,0,0,14,0,0,0,0,4,0,0,2,0,2
-Dombivli (East),KDMC-A,19.2157,73.0852,Thane,4,0,8,4,12,2,0,96,4,12,2,2,0
-Dombivli (West),KDMC-B,19.2118,73.0785,Thane,2,0,8,4,4,0,0,16,2,10,0,0,0
-Kalyan (East),KDMC-C,19.2437,73.1308,Thane,2,0,2,2,0,6,2,54,0,10,0,2,0
-Kalyan (West),KDMC-D,19.2355,73.1249,Thane,0,0,0,0,0,0,0,0,0,0,0,0,0
-Ulhasnagar,UMC-A,19.2183,73.1544,Thane,2,0,0,2,0,2,0,6,0,0,0,0,0
-Bhiwandi,BCC-A,19.2967,73.0585,Thane,0,0,0,2,0,4,0,38,0,4,0,0,0
-Murbad,TMC-L,19.2574,73.3912,Thane,0,0,0,0,0,0,0,4,0,0,0,0,0
-Ambernath,AMC-A,19.1979,73.1874,Thane,0,0,0,0,0,0,0,8,0,0,0,0,0
-Badlapur,TMC-M,19.155,73.2547,Thane,0,0,0,0,0,2,0,2,0,4,0,0,0
-Nariman Point,A,18.9252,72.8238,South Mumbai,4,10,10,22,8,72,6,20,14,266,2,10,6
-Apollo Bunder,A,18.922,72.8337,South Mumbai,2,6,18,14,8,40,6,18,4,270,22,48,6
-Elphinstone Road,G/S,18.9979,72.8329,Central Mumbai,6,0,26,2,26,22,8,24,0,88,0,4,2
-Prabhadevi,G/S,19.0053,72.823,Central Mumbai,4,10,0,8,20,32,12,16,4,60,2,4,4
-DN Nagar,K/W,19.1225,72.8397,Western Suburbs,6,12,6,14,14,10,10,56,4,42,0,0,0
-Yari Road,K/W,19.1277,72.8213,Western Suburbs,4,146,42,14,16,12,12,54,0,48,16,36,8
-4 Bungalows,K/W,19.132,72.8361,Western Suburbs,6,144,12,16,6,24,12,34,0,56,4,16,0
-Ghatkopar North,N,19.093,72.9096,Eastern Suburbs,6,16,20,4,0,4,6,88,2,30,0,0,0
-Rajawadi,N,19.0823,72.9054,Eastern Suburbs,6,14,16,6,8,10,12,124,2,50,10,12,2
-Owe,NMC-T,19.0012,73.1052,Navi Mumbai,0,0,0,0,2,0,2,16,4,14,0,0,0
-Kapurbawdi,TMC-A,19.2251,72.9721,Thane,6,10,20,2,22,36,32,26,4,26,12,20,6
-Vasant Vihar,TMC-E,19.2315,72.9648,Thane,0,4,16,2,16,30,6,14,4,20,0,0,8
-Teen Hath Naka,TMC-A,19.214,72.97,Thane,0,2,12,2,22,24,34,18,4,40,0,0,0
+Wadala,F/S,19.0178,72.8608,Central Mumbai,0,0,0,0,0,0,0,0,0,0,0,0,0

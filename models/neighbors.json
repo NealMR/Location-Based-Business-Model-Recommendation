@@ -908,12 +908,12 @@
    "distance": 0.88
   },
   {
-   "name": "Nahur West",
+   "name": "Garodia Nagar",
    "zone": "Eastern Suburbs",
    "distance": 0.91
   },
   {
-   "name": "Garodia Nagar",
+   "name": "Nahur West",
    "zone": "Eastern Suburbs",
    "distance": 0.91
   },
@@ -1407,22 +1407,22 @@
    "distance": 0.79
   },
   {
-   "name": "Tagore Nagar",
-   "zone": "Eastern Suburbs",
-   "distance": 0.79
-  },
-  {
-   "name": "Garodia Nagar",
-   "zone": "Eastern Suburbs",
-   "distance": 0.79
-  },
-  {
    "name": "Nahur West",
    "zone": "Eastern Suburbs",
    "distance": 0.79
   },
   {
    "name": "Chembur Colony",
+   "zone": "Eastern Suburbs",
+   "distance": 0.79
+  },
+  {
+   "name": "Tagore Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.79
+  },
+  {
+   "name": "Garodia Nagar",
    "zone": "Eastern Suburbs",
    "distance": 0.79
   }
@@ -3344,17 +3344,17 @@
    "distance": 1.01
   },
   {
-   "name": "Garodia Nagar",
-   "zone": "Eastern Suburbs",
-   "distance": 1.03
-  },
-  {
    "name": "Nahur West",
    "zone": "Eastern Suburbs",
    "distance": 1.03
   },
   {
    "name": "Tagore Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 1.03
+  },
+  {
+   "name": "Garodia Nagar",
    "zone": "Eastern Suburbs",
    "distance": 1.03
   }
@@ -3571,6 +3571,16 @@
  ],
  "Nahur West": [
   {
+   "name": "Chembur Colony",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Kurla North",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
    "name": "Pant Nagar",
    "zone": "Eastern Suburbs",
    "distance": 0.0
@@ -3581,22 +3591,12 @@
    "distance": 0.0
   },
   {
-   "name": "Garodia Nagar",
-   "zone": "Eastern Suburbs",
-   "distance": 0.0
-  },
-  {
-   "name": "Chembur Colony",
-   "zone": "Eastern Suburbs",
-   "distance": 0.0
-  },
-  {
    "name": "Vashi Naka",
    "zone": "Eastern Suburbs",
    "distance": 0.0
   },
   {
-   "name": "Kurla North",
+   "name": "Garodia Nagar",
    "zone": "Eastern Suburbs",
    "distance": 0.0
   },
@@ -3613,17 +3613,17 @@
  ],
  "Tagore Nagar": [
   {
-   "name": "Pant Nagar",
-   "zone": "Eastern Suburbs",
-   "distance": 0.0
-  },
-  {
-   "name": "Garodia Nagar",
-   "zone": "Eastern Suburbs",
-   "distance": 0.0
-  },
-  {
    "name": "Chembur Colony",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Kurla North",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Pant Nagar",
    "zone": "Eastern Suburbs",
    "distance": 0.0
   },
@@ -3638,7 +3638,7 @@
    "distance": 0.0
   },
   {
-   "name": "Kurla North",
+   "name": "Garodia Nagar",
    "zone": "Eastern Suburbs",
    "distance": 0.0
   },
@@ -3739,6 +3739,16 @@
  ],
  "Garodia Nagar": [
   {
+   "name": "Chembur Colony",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Kurla North",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
    "name": "Pant Nagar",
    "zone": "Eastern Suburbs",
    "distance": 0.0
@@ -3749,22 +3759,12 @@
    "distance": 0.0
   },
   {
-   "name": "Chembur Colony",
-   "zone": "Eastern Suburbs",
-   "distance": 0.0
-  },
-  {
    "name": "Nahur West",
    "zone": "Eastern Suburbs",
    "distance": 0.0
   },
   {
    "name": "Vashi Naka",
-   "zone": "Eastern Suburbs",
-   "distance": 0.0
-  },
-  {
-   "name": "Kurla North",
    "zone": "Eastern Suburbs",
    "distance": 0.0
   },
@@ -3781,17 +3781,17 @@
  ],
  "Pant Nagar": [
   {
-   "name": "Tagore Nagar",
-   "zone": "Eastern Suburbs",
-   "distance": 0.0
-  },
-  {
-   "name": "Garodia Nagar",
-   "zone": "Eastern Suburbs",
-   "distance": 0.0
-  },
-  {
    "name": "Chembur Colony",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Kurla North",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Tagore Nagar",
    "zone": "Eastern Suburbs",
    "distance": 0.0
   },
@@ -3806,7 +3806,7 @@
    "distance": 0.0
   },
   {
-   "name": "Kurla North",
+   "name": "Garodia Nagar",
    "zone": "Eastern Suburbs",
    "distance": 0.0
   },
@@ -3833,6 +3833,11 @@
    "distance": 0.27
   },
   {
+   "name": "Nahur West",
+   "zone": "Eastern Suburbs",
+   "distance": 0.27
+  },
+  {
    "name": "Kurla North",
    "zone": "Eastern Suburbs",
    "distance": 0.27
@@ -3848,22 +3853,22 @@
    "distance": 0.27
   },
   {
-   "name": "Chembur Colony",
-   "zone": "Eastern Suburbs",
-   "distance": 0.27
-  },
-  {
-   "name": "Nahur West",
-   "zone": "Eastern Suburbs",
-   "distance": 0.27
-  },
-  {
    "name": "Garodia Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.27
+  },
+  {
+   "name": "Chembur Colony",
    "zone": "Eastern Suburbs",
    "distance": 0.27
   }
  ],
  "Chembur Colony": [
+  {
+   "name": "Kurla North",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
   {
    "name": "Pant Nagar",
    "zone": "Eastern Suburbs",
@@ -3871,11 +3876,6 @@
   },
   {
    "name": "Tagore Nagar",
-   "zone": "Eastern Suburbs",
-   "distance": 0.0
-  },
-  {
-   "name": "Garodia Nagar",
    "zone": "Eastern Suburbs",
    "distance": 0.0
   },
@@ -3890,7 +3890,7 @@
    "distance": 0.0
   },
   {
-   "name": "Kurla North",
+   "name": "Garodia Nagar",
    "zone": "Eastern Suburbs",
    "distance": 0.0
   },
@@ -3991,6 +3991,16 @@
  ],
  "Vashi Naka": [
   {
+   "name": "Chembur Colony",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Kurla North",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
    "name": "Pant Nagar",
    "zone": "Eastern Suburbs",
    "distance": 0.0
@@ -4001,22 +4011,12 @@
    "distance": 0.0
   },
   {
-   "name": "Garodia Nagar",
-   "zone": "Eastern Suburbs",
-   "distance": 0.0
-  },
-  {
-   "name": "Chembur Colony",
-   "zone": "Eastern Suburbs",
-   "distance": 0.0
-  },
-  {
    "name": "Nahur West",
    "zone": "Eastern Suburbs",
    "distance": 0.0
   },
   {
-   "name": "Kurla North",
+   "name": "Garodia Nagar",
    "zone": "Eastern Suburbs",
    "distance": 0.0
   },
@@ -4033,6 +4033,11 @@
  ],
  "Kurla North": [
   {
+   "name": "Chembur Colony",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
    "name": "Pant Nagar",
    "zone": "Eastern Suburbs",
    "distance": 0.0
@@ -4043,22 +4048,17 @@
    "distance": 0.0
   },
   {
-   "name": "Garodia Nagar",
-   "zone": "Eastern Suburbs",
-   "distance": 0.0
-  },
-  {
-   "name": "Chembur Colony",
-   "zone": "Eastern Suburbs",
-   "distance": 0.0
-  },
-  {
    "name": "Nahur West",
    "zone": "Eastern Suburbs",
    "distance": 0.0
   },
   {
    "name": "Vashi Naka",
+   "zone": "Eastern Suburbs",
+   "distance": 0.0
+  },
+  {
+   "name": "Garodia Nagar",
    "zone": "Eastern Suburbs",
    "distance": 0.0
   },
@@ -4117,11 +4117,6 @@
  ],
  "Belapur": [
   {
-   "name": "Kurla North",
-   "zone": "Eastern Suburbs",
-   "distance": 0.14
-  },
-  {
    "name": "Vashi Naka",
    "zone": "Eastern Suburbs",
    "distance": 0.14
@@ -4132,22 +4127,27 @@
    "distance": 0.14
   },
   {
-   "name": "Tagore Nagar",
-   "zone": "Eastern Suburbs",
-   "distance": 0.14
-  },
-  {
    "name": "Chembur Colony",
    "zone": "Eastern Suburbs",
    "distance": 0.14
   },
   {
-   "name": "Garodia Nagar",
+   "name": "Kurla North",
    "zone": "Eastern Suburbs",
    "distance": 0.14
   },
   {
    "name": "Nahur West",
+   "zone": "Eastern Suburbs",
+   "distance": 0.14
+  },
+  {
+   "name": "Tagore Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.14
+  },
+  {
+   "name": "Garodia Nagar",
    "zone": "Eastern Suburbs",
    "distance": 0.14
   },
@@ -4206,7 +4206,12 @@
    "distance": 0.2
   },
   {
-   "name": "Juinagar",
+   "name": "Kalamboli",
+   "zone": "Navi Mumbai",
+   "distance": 0.41
+  },
+  {
+   "name": "Roadpali",
    "zone": "Navi Mumbai",
    "distance": 0.41
   },
@@ -4231,12 +4236,7 @@
    "distance": 0.41
   },
   {
-   "name": "Roadpali",
-   "zone": "Navi Mumbai",
-   "distance": 0.41
-  },
-  {
-   "name": "Kalamboli",
+   "name": "Juinagar",
    "zone": "Navi Mumbai",
    "distance": 0.41
   }
@@ -4411,16 +4411,6 @@
  ],
  "Sanpada": [
   {
-   "name": "Kamothe",
-   "zone": "Navi Mumbai",
-   "distance": 0.0
-  },
-  {
-   "name": "Juinagar",
-   "zone": "Navi Mumbai",
-   "distance": 0.0
-  },
-  {
    "name": "Kalamboli",
    "zone": "Navi Mumbai",
    "distance": 0.0
@@ -4436,12 +4426,22 @@
    "distance": 0.0
   },
   {
-   "name": "Dronagiri",
+   "name": "Kamothe",
    "zone": "Navi Mumbai",
    "distance": 0.0
   },
   {
    "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Dronagiri",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Juinagar",
    "zone": "Navi Mumbai",
    "distance": 0.0
   },
@@ -4453,16 +4453,6 @@
  ],
  "Turbhe": [
   {
-   "name": "Kamothe",
-   "zone": "Navi Mumbai",
-   "distance": 0.0
-  },
-  {
-   "name": "Juinagar",
-   "zone": "Navi Mumbai",
-   "distance": 0.0
-  },
-  {
    "name": "Kalamboli",
    "zone": "Navi Mumbai",
    "distance": 0.0
@@ -4473,17 +4463,27 @@
    "distance": 0.0
   },
   {
-   "name": "Sanpada",
-   "zone": "Navi Mumbai",
-   "distance": 0.0
-  },
-  {
    "name": "Roadpali",
    "zone": "Navi Mumbai",
    "distance": 0.0
   },
   {
+   "name": "Kamothe",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Sanpada",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
    "name": "Dronagiri",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Juinagar",
    "zone": "Navi Mumbai",
    "distance": 0.0
   },
@@ -4495,11 +4495,6 @@
  ],
  "Juinagar": [
   {
-   "name": "Kamothe",
-   "zone": "Navi Mumbai",
-   "distance": 0.0
-  },
-  {
    "name": "Kalamboli",
    "zone": "Navi Mumbai",
    "distance": 0.0
@@ -4510,22 +4505,27 @@
    "distance": 0.0
   },
   {
-   "name": "Sanpada",
-   "zone": "Navi Mumbai",
-   "distance": 0.0
-  },
-  {
    "name": "Roadpali",
    "zone": "Navi Mumbai",
    "distance": 0.0
   },
   {
-   "name": "Dronagiri",
+   "name": "Kamothe",
    "zone": "Navi Mumbai",
    "distance": 0.0
   },
   {
    "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Sanpada",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Dronagiri",
    "zone": "Navi Mumbai",
    "distance": 0.0
   },
@@ -4621,16 +4621,6 @@
  ],
  "Dronagiri": [
   {
-   "name": "Kamothe",
-   "zone": "Navi Mumbai",
-   "distance": 0.0
-  },
-  {
-   "name": "Juinagar",
-   "zone": "Navi Mumbai",
-   "distance": 0.0
-  },
-  {
    "name": "Kalamboli",
    "zone": "Navi Mumbai",
    "distance": 0.0
@@ -4641,17 +4631,27 @@
    "distance": 0.0
   },
   {
-   "name": "Sanpada",
-   "zone": "Navi Mumbai",
-   "distance": 0.0
-  },
-  {
    "name": "Roadpali",
    "zone": "Navi Mumbai",
    "distance": 0.0
   },
   {
+   "name": "Kamothe",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
    "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Sanpada",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Juinagar",
    "zone": "Navi Mumbai",
    "distance": 0.0
   },
@@ -4663,11 +4663,6 @@
  ],
  "Kamothe": [
   {
-   "name": "Juinagar",
-   "zone": "Navi Mumbai",
-   "distance": 0.0
-  },
-  {
    "name": "Kalamboli",
    "zone": "Navi Mumbai",
    "distance": 0.0
@@ -4678,12 +4673,17 @@
    "distance": 0.0
   },
   {
-   "name": "Sanpada",
+   "name": "Roadpali",
    "zone": "Navi Mumbai",
    "distance": 0.0
   },
   {
-   "name": "Roadpali",
+   "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Sanpada",
    "zone": "Navi Mumbai",
    "distance": 0.0
   },
@@ -4693,7 +4693,7 @@
    "distance": 0.0
   },
   {
-   "name": "Turbhe",
+   "name": "Juinagar",
    "zone": "Navi Mumbai",
    "distance": 0.0
   },
@@ -4705,22 +4705,22 @@
  ],
  "Roadpali": [
   {
-   "name": "Kamothe",
-   "zone": "Navi Mumbai",
-   "distance": 0.0
-  },
-  {
-   "name": "Juinagar",
-   "zone": "Navi Mumbai",
-   "distance": 0.0
-  },
-  {
    "name": "Kalamboli",
    "zone": "Navi Mumbai",
    "distance": 0.0
   },
   {
    "name": "Pushpak Nagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Kamothe",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Turbhe",
    "zone": "Navi Mumbai",
    "distance": 0.0
   },
@@ -4735,7 +4735,7 @@
    "distance": 0.0
   },
   {
-   "name": "Turbhe",
+   "name": "Juinagar",
    "zone": "Navi Mumbai",
    "distance": 0.0
   },
@@ -4789,7 +4789,7 @@
  ],
  "Taloja": [
   {
-   "name": "Juinagar",
+   "name": "Pushpak Nagar",
    "zone": "Navi Mumbai",
    "distance": 0.04
   },
@@ -4824,29 +4824,14 @@
    "distance": 0.04
   },
   {
-   "name": "Pushpak Nagar",
+   "name": "Juinagar",
    "zone": "Navi Mumbai",
    "distance": 0.04
   }
  ],
  "Kalamboli": [
   {
-   "name": "Kamothe",
-   "zone": "Navi Mumbai",
-   "distance": 0.0
-  },
-  {
-   "name": "Juinagar",
-   "zone": "Navi Mumbai",
-   "distance": 0.0
-  },
-  {
    "name": "Pushpak Nagar",
-   "zone": "Navi Mumbai",
-   "distance": 0.0
-  },
-  {
-   "name": "Sanpada",
    "zone": "Navi Mumbai",
    "distance": 0.0
   },
@@ -4856,12 +4841,27 @@
    "distance": 0.0
   },
   {
-   "name": "Dronagiri",
+   "name": "Kamothe",
    "zone": "Navi Mumbai",
    "distance": 0.0
   },
   {
    "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Sanpada",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Dronagiri",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Juinagar",
    "zone": "Navi Mumbai",
    "distance": 0.0
   },
@@ -4873,22 +4873,7 @@
  ],
  "Pushpak Nagar": [
   {
-   "name": "Kamothe",
-   "zone": "Navi Mumbai",
-   "distance": 0.0
-  },
-  {
-   "name": "Juinagar",
-   "zone": "Navi Mumbai",
-   "distance": 0.0
-  },
-  {
    "name": "Kalamboli",
-   "zone": "Navi Mumbai",
-   "distance": 0.0
-  },
-  {
-   "name": "Sanpada",
    "zone": "Navi Mumbai",
    "distance": 0.0
   },
@@ -4898,12 +4883,27 @@
    "distance": 0.0
   },
   {
-   "name": "Dronagiri",
+   "name": "Kamothe",
    "zone": "Navi Mumbai",
    "distance": 0.0
   },
   {
    "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Sanpada",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Dronagiri",
+   "zone": "Navi Mumbai",
+   "distance": 0.0
+  },
+  {
+   "name": "Juinagar",
    "zone": "Navi Mumbai",
    "distance": 0.0
   },
@@ -4915,11 +4915,6 @@
  ],
  "Thane (West)": [
   {
-   "name": "Pant Nagar",
-   "zone": "Eastern Suburbs",
-   "distance": 0.07
-  },
-  {
    "name": "Kurla North",
    "zone": "Eastern Suburbs",
    "distance": 0.07
@@ -4930,22 +4925,27 @@
    "distance": 0.07
   },
   {
-   "name": "Nahur West",
-   "zone": "Eastern Suburbs",
-   "distance": 0.07
-  },
-  {
    "name": "Vashi Naka",
    "zone": "Eastern Suburbs",
    "distance": 0.07
   },
   {
-   "name": "Garodia Nagar",
+   "name": "Pant Nagar",
    "zone": "Eastern Suburbs",
    "distance": 0.07
   },
   {
    "name": "Tagore Nagar",
+   "zone": "Eastern Suburbs",
+   "distance": 0.07
+  },
+  {
+   "name": "Nahur West",
+   "zone": "Eastern Suburbs",
+   "distance": 0.07
+  },
+  {
+   "name": "Garodia Nagar",
    "zone": "Eastern Suburbs",
    "distance": 0.07
   },
@@ -5024,17 +5024,17 @@
    "distance": 0.69
   },
   {
-   "name": "Sanpada",
-   "zone": "Navi Mumbai",
-   "distance": 0.69
-  },
-  {
    "name": "Juinagar",
    "zone": "Navi Mumbai",
    "distance": 0.69
   },
   {
    "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.69
+  },
+  {
+   "name": "Sanpada",
    "zone": "Navi Mumbai",
    "distance": 0.69
   }
@@ -5192,17 +5192,17 @@
    "distance": 0.88
   },
   {
-   "name": "Sanpada",
-   "zone": "Navi Mumbai",
-   "distance": 0.88
-  },
-  {
    "name": "Roadpali",
    "zone": "Navi Mumbai",
    "distance": 0.88
   },
   {
    "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.88
+  },
+  {
+   "name": "Sanpada",
    "zone": "Navi Mumbai",
    "distance": 0.88
   }
@@ -5360,12 +5360,12 @@
    "distance": 1.13
   },
   {
-   "name": "Turbhe",
+   "name": "Juinagar",
    "zone": "Navi Mumbai",
    "distance": 1.13
   },
   {
-   "name": "Juinagar",
+   "name": "Turbhe",
    "zone": "Navi Mumbai",
    "distance": 1.13
   },
@@ -5503,7 +5503,7 @@
  ],
  "Kalyan (West)": [
   {
-   "name": "Juinagar",
+   "name": "Pushpak Nagar",
    "zone": "Navi Mumbai",
    "distance": 0.2
   },
@@ -5528,17 +5528,17 @@
    "distance": 0.2
   },
   {
+   "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.2
+  },
+  {
    "name": "Sanpada",
    "zone": "Navi Mumbai",
    "distance": 0.2
   },
   {
-   "name": "Pushpak Nagar",
-   "zone": "Navi Mumbai",
-   "distance": 0.2
-  },
-  {
-   "name": "Turbhe",
+   "name": "Juinagar",
    "zone": "Navi Mumbai",
    "distance": 0.2
   }
@@ -5550,12 +5550,12 @@
    "distance": 0.56
   },
   {
-   "name": "Ambernath",
+   "name": "Murbad",
    "zone": "Thane",
    "distance": 0.77
   },
   {
-   "name": "Murbad",
+   "name": "Ambernath",
    "zone": "Thane",
    "distance": 0.77
   },
@@ -5565,22 +5565,22 @@
    "distance": 0.77
   },
   {
-   "name": "Juinagar",
-   "zone": "Navi Mumbai",
-   "distance": 0.81
-  },
-  {
-   "name": "Sanpada",
-   "zone": "Navi Mumbai",
-   "distance": 0.81
-  },
-  {
    "name": "Roadpali",
    "zone": "Navi Mumbai",
    "distance": 0.81
   },
   {
+   "name": "Juinagar",
+   "zone": "Navi Mumbai",
+   "distance": 0.81
+  },
+  {
    "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.81
+  },
+  {
+   "name": "Sanpada",
    "zone": "Navi Mumbai",
    "distance": 0.81
   }
@@ -5649,22 +5649,22 @@
    "distance": 0.2
   },
   {
-   "name": "Roadpali",
-   "zone": "Navi Mumbai",
-   "distance": 0.2
-  },
-  {
-   "name": "Sanpada",
-   "zone": "Navi Mumbai",
-   "distance": 0.2
-  },
-  {
    "name": "Juinagar",
    "zone": "Navi Mumbai",
    "distance": 0.2
   },
   {
+   "name": "Roadpali",
+   "zone": "Navi Mumbai",
+   "distance": 0.2
+  },
+  {
    "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.2
+  },
+  {
+   "name": "Sanpada",
    "zone": "Navi Mumbai",
    "distance": 0.2
   }
@@ -5691,22 +5691,22 @@
    "distance": 0.33
   },
   {
-   "name": "Roadpali",
-   "zone": "Navi Mumbai",
-   "distance": 0.33
-  },
-  {
-   "name": "Sanpada",
-   "zone": "Navi Mumbai",
-   "distance": 0.33
-  },
-  {
    "name": "Juinagar",
    "zone": "Navi Mumbai",
    "distance": 0.33
   },
   {
+   "name": "Roadpali",
+   "zone": "Navi Mumbai",
+   "distance": 0.33
+  },
+  {
    "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.33
+  },
+  {
+   "name": "Sanpada",
    "zone": "Navi Mumbai",
    "distance": 0.33
   }
@@ -5733,22 +5733,22 @@
    "distance": 0.23
   },
   {
-   "name": "Roadpali",
-   "zone": "Navi Mumbai",
-   "distance": 0.23
-  },
-  {
-   "name": "Sanpada",
-   "zone": "Navi Mumbai",
-   "distance": 0.23
-  },
-  {
    "name": "Juinagar",
    "zone": "Navi Mumbai",
    "distance": 0.23
   },
   {
+   "name": "Roadpali",
+   "zone": "Navi Mumbai",
+   "distance": 0.23
+  },
+  {
    "name": "Turbhe",
+   "zone": "Navi Mumbai",
+   "distance": 0.23
+  },
+  {
+   "name": "Sanpada",
    "zone": "Navi Mumbai",
    "distance": 0.23
   }

@@ -11,18 +11,18 @@ restaurant,Ridge,22.56,-1.33,7.76,0.762,,,,,
 ,Ridge,,,,,3.0,22.87,-1.726,['Central Mumbai'],22.0
 ,Ridge,,,,,4.0,15.51,-0.643,"['Eastern Suburbs', 'Thane']",40.0
 ,Ridge,,,,,5.0,12.41,-2.528,['Navi Mumbai'],20.0
-restaurant,RandomForest,21.87,-1.363,6.73,1.0,,,,,
-,RandomForest,,,,,1.0,29.86,-1.1,['Western Suburbs'],30.0
-,RandomForest,,,,,2.0,26.12,-0.077,['South Mumbai'],25.0
-,RandomForest,,,,,3.0,25.54,-2.424,['Central Mumbai'],22.0
-,RandomForest,,,,,4.0,15.45,-0.597,"['Eastern Suburbs', 'Thane']",40.0
-,RandomForest,,,,,5.0,12.39,-2.615,['Navi Mumbai'],20.0
-restaurant,GradientBoosting,21.31,-1.287,8.2,1.259,,,,,
-,GradientBoosting,,,,,1.0,27.93,-0.951,['Western Suburbs'],30.0
-,GradientBoosting,,,,,2.0,25.57,-0.147,['South Mumbai'],25.0
-,GradientBoosting,,,,,3.0,30.02,-3.577,['Central Mumbai'],22.0
-,GradientBoosting,,,,,4.0,13.34,-0.194,"['Eastern Suburbs', 'Thane']",40.0
-,GradientBoosting,,,,,5.0,9.69,-1.564,['Navi Mumbai'],20.0
+restaurant,RandomForest,21.88,-1.361,6.75,0.998,,,,,
+,RandomForest,,,,,1.0,29.86,-1.099,['Western Suburbs'],30.0
+,RandomForest,,,,,2.0,26.18,-0.082,['South Mumbai'],25.0
+,RandomForest,,,,,3.0,25.56,-2.422,['Central Mumbai'],22.0
+,RandomForest,,,,,4.0,15.42,-0.593,"['Eastern Suburbs', 'Thane']",40.0
+,RandomForest,,,,,5.0,12.37,-2.609,['Navi Mumbai'],20.0
+restaurant,GradientBoosting,21.33,-1.279,8.22,1.244,,,,,
+,GradientBoosting,,,,,1.0,28.11,-0.963,['Western Suburbs'],30.0
+,GradientBoosting,,,,,2.0,25.62,-0.151,['South Mumbai'],25.0
+,GradientBoosting,,,,,3.0,29.92,-3.544,['Central Mumbai'],22.0
+,GradientBoosting,,,,,4.0,13.34,-0.197,"['Eastern Suburbs', 'Thane']",40.0
+,GradientBoosting,,,,,5.0,9.66,-1.54,['Navi Mumbai'],20.0
 cafe,MeanBaseline,20.33,-0.784,5.08,0.883,,,,,
 ,MeanBaseline,,,,,1.0,22.26,-0.098,['Western Suburbs'],30.0
 ,MeanBaseline,,,,,2.0,29.43,-0.803,['South Mumbai'],25.0
@@ -35,18 +35,18 @@ cafe,Ridge,20.91,-0.625,6.57,0.336,,,,,
 ,Ridge,,,,,3.0,21.02,-1.098,['Central Mumbai'],22.0
 ,Ridge,,,,,4.0,14.17,-0.053,"['Eastern Suburbs', 'Thane']",40.0
 ,Ridge,,,,,5.0,12.92,-0.741,['Navi Mumbai'],20.0
-cafe,RandomForest,19.87,-0.473,5.43,0.223,,,,,
+cafe,RandomForest,19.87,-0.472,5.43,0.222,,,,,
 ,RandomForest,,,,,1.0,25.04,-0.143,['Western Suburbs'],30.0
-,RandomForest,,,,,2.0,27.12,-0.564,['South Mumbai'],25.0
-,RandomForest,,,,,3.0,18.75,-0.575,['Central Mumbai'],22.0
-,RandomForest,,,,,4.0,15.47,-0.305,"['Eastern Suburbs', 'Thane']",40.0
-,RandomForest,,,,,5.0,12.98,-0.778,['Navi Mumbai'],20.0
-cafe,GradientBoosting,21.42,-0.823,4.94,0.404,,,,,
-,GradientBoosting,,,,,1.0,24.72,-0.267,['Western Suburbs'],30.0
-,GradientBoosting,,,,,2.0,28.57,-0.653,['South Mumbai'],25.0
-,GradientBoosting,,,,,3.0,21.54,-1.122,['Central Mumbai'],22.0
-,GradientBoosting,,,,,4.0,17.53,-0.65,"['Eastern Suburbs', 'Thane']",40.0
-,GradientBoosting,,,,,5.0,14.74,-1.423,['Navi Mumbai'],20.0
+,RandomForest,,,,,2.0,27.13,-0.564,['South Mumbai'],25.0
+,RandomForest,,,,,3.0,18.74,-0.572,['Central Mumbai'],22.0
+,RandomForest,,,,,4.0,15.49,-0.305,"['Eastern Suburbs', 'Thane']",40.0
+,RandomForest,,,,,5.0,12.96,-0.774,['Navi Mumbai'],20.0
+cafe,GradientBoosting,21.41,-0.819,4.96,0.396,,,,,
+,GradientBoosting,,,,,1.0,24.8,-0.273,['Western Suburbs'],30.0
+,GradientBoosting,,,,,2.0,28.56,-0.653,['South Mumbai'],25.0
+,GradientBoosting,,,,,3.0,21.5,-1.118,['Central Mumbai'],22.0
+,GradientBoosting,,,,,4.0,17.53,-0.651,"['Eastern Suburbs', 'Thane']",40.0
+,GradientBoosting,,,,,5.0,14.67,-1.402,['Navi Mumbai'],20.0
 gym,MeanBaseline,17.47,-0.352,6.4,0.333,,,,,
 ,MeanBaseline,,,,,1.0,29.62,-0.27,['Western Suburbs'],30.0
 ,MeanBaseline,,,,,2.0,16.85,-0.078,['South Mumbai'],25.0
@@ -59,18 +59,18 @@ gym,Ridge,19.32,-0.532,6.38,0.288,,,,,
 ,Ridge,,,,,3.0,17.14,-0.962,['Central Mumbai'],22.0
 ,Ridge,,,,,4.0,14.73,-0.148,"['Eastern Suburbs', 'Thane']",40.0
 ,Ridge,,,,,5.0,12.21,-0.73,['Navi Mumbai'],20.0
-gym,RandomForest,18.83,-0.52,6.55,0.366,,,,,
-,RandomForest,,,,,1.0,31.15,-0.365,['Western Suburbs'],30.0
-,RandomForest,,,,,2.0,18.49,-0.17,['South Mumbai'],25.0
-,RandomForest,,,,,3.0,17.59,-1.125,['Central Mumbai'],22.0
-,RandomForest,,,,,4.0,14.76,-0.195,"['Eastern Suburbs', 'Thane']",40.0
-,RandomForest,,,,,5.0,12.15,-0.746,['Navi Mumbai'],20.0
-gym,GradientBoosting,19.78,-0.743,7.27,0.419,,,,,
-,GradientBoosting,,,,,1.0,32.05,-0.48,['Western Suburbs'],30.0
-,GradientBoosting,,,,,2.0,22.57,-0.606,['South Mumbai'],25.0
-,GradientBoosting,,,,,3.0,17.93,-1.569,['Central Mumbai'],22.0
-,GradientBoosting,,,,,4.0,15.95,-0.623,"['Eastern Suburbs', 'Thane']",40.0
-,GradientBoosting,,,,,5.0,10.41,-0.439,['Navi Mumbai'],20.0
+gym,RandomForest,18.82,-0.52,6.54,0.367,,,,,
+,RandomForest,,,,,1.0,31.12,-0.363,['Western Suburbs'],30.0
+,RandomForest,,,,,2.0,18.51,-0.17,['South Mumbai'],25.0
+,RandomForest,,,,,3.0,17.57,-1.124,['Central Mumbai'],22.0
+,RandomForest,,,,,4.0,14.75,-0.193,"['Eastern Suburbs', 'Thane']",40.0
+,RandomForest,,,,,5.0,12.15,-0.751,['Navi Mumbai'],20.0
+gym,GradientBoosting,19.79,-0.746,7.26,0.42,,,,,
+,GradientBoosting,,,,,1.0,32.06,-0.482,['Western Suburbs'],30.0
+,GradientBoosting,,,,,2.0,22.55,-0.602,['South Mumbai'],25.0
+,GradientBoosting,,,,,3.0,17.91,-1.575,['Central Mumbai'],22.0
+,GradientBoosting,,,,,4.0,15.98,-0.628,"['Eastern Suburbs', 'Thane']",40.0
+,GradientBoosting,,,,,5.0,10.43,-0.443,['Navi Mumbai'],20.0
 pharmacy,MeanBaseline,22.03,-1.503,5.1,1.083,,,,,
 ,MeanBaseline,,,,,1.0,27.52,-0.45,['Western Suburbs'],30.0
 ,MeanBaseline,,,,,2.0,28.69,-1.621,['South Mumbai'],25.0
@@ -83,18 +83,18 @@ pharmacy,Ridge,18.42,-0.656,5.85,0.531,,,,,
 ,Ridge,,,,,3.0,21.57,-1.554,['Central Mumbai'],22.0
 ,Ridge,,,,,4.0,16.39,-0.965,"['Eastern Suburbs', 'Thane']",40.0
 ,Ridge,,,,,5.0,9.34,-0.315,['Navi Mumbai'],20.0
-pharmacy,RandomForest,17.94,-0.442,6.96,0.518,,,,,
-,RandomForest,,,,,1.0,27.19,-0.251,['Western Suburbs'],30.0
-,RandomForest,,,,,2.0,20.63,-0.389,['South Mumbai'],25.0
-,RandomForest,,,,,3.0,21.71,-1.403,['Central Mumbai'],22.0
-,RandomForest,,,,,4.0,12.55,-0.334,"['Eastern Suburbs', 'Thane']",40.0
-,RandomForest,,,,,5.0,7.64,0.166,['Navi Mumbai'],20.0
-pharmacy,GradientBoosting,19.09,-0.829,7.27,0.718,,,,,
-,GradientBoosting,,,,,1.0,28.56,-0.354,['Western Suburbs'],30.0
-,GradientBoosting,,,,,2.0,19.59,-0.433,['South Mumbai'],25.0
-,GradientBoosting,,,,,3.0,24.78,-2.198,['Central Mumbai'],22.0
-,GradientBoosting,,,,,4.0,14.37,-0.894,"['Eastern Suburbs', 'Thane']",40.0
-,GradientBoosting,,,,,5.0,8.16,-0.264,['Navi Mumbai'],20.0
+pharmacy,RandomForest,17.94,-0.44,6.97,0.516,,,,,
+,RandomForest,,,,,1.0,27.23,-0.253,['Western Suburbs'],30.0
+,RandomForest,,,,,2.0,20.59,-0.384,['South Mumbai'],25.0
+,RandomForest,,,,,3.0,21.69,-1.396,['Central Mumbai'],22.0
+,RandomForest,,,,,4.0,12.54,-0.334,"['Eastern Suburbs', 'Thane']",40.0
+,RandomForest,,,,,5.0,7.63,0.167,['Navi Mumbai'],20.0
+pharmacy,GradientBoosting,19.1,-0.834,7.28,0.719,,,,,
+,GradientBoosting,,,,,1.0,28.56,-0.356,['Western Suburbs'],30.0
+,GradientBoosting,,,,,2.0,19.68,-0.452,['South Mumbai'],25.0
+,GradientBoosting,,,,,3.0,24.78,-2.203,['Central Mumbai'],22.0
+,GradientBoosting,,,,,4.0,14.37,-0.901,"['Eastern Suburbs', 'Thane']",40.0
+,GradientBoosting,,,,,5.0,8.13,-0.26,['Navi Mumbai'],20.0
 beauty_salon,MeanBaseline,22.53,-2.225,5.26,2.399,,,,,
 ,MeanBaseline,,,,,1.0,28.49,-1.033,['Western Suburbs'],30.0
 ,MeanBaseline,,,,,2.0,27.49,-0.837,['South Mumbai'],25.0
@@ -107,18 +107,18 @@ beauty_salon,Ridge,18.6,-0.822,6.12,0.396,,,,,
 ,Ridge,,,,,3.0,20.99,-1.49,['Central Mumbai'],22.0
 ,Ridge,,,,,4.0,14.63,-1.051,"['Eastern Suburbs', 'Thane']",40.0
 ,Ridge,,,,,5.0,8.65,-0.638,['Navi Mumbai'],20.0
-beauty_salon,RandomForest,19.66,-1.006,7.62,0.689,,,,,
-,RandomForest,,,,,1.0,29.87,-1.021,['Western Suburbs'],30.0
-,RandomForest,,,,,2.0,23.85,-0.4,['South Mumbai'],25.0
-,RandomForest,,,,,3.0,22.6,-2.312,['Central Mumbai'],22.0
-,RandomForest,,,,,4.0,13.17,-0.799,"['Eastern Suburbs', 'Thane']",40.0
-,RandomForest,,,,,5.0,8.8,-0.498,['Navi Mumbai'],20.0
-beauty_salon,GradientBoosting,20.54,-1.277,8.57,0.734,,,,,
-,GradientBoosting,,,,,1.0,33.76,-1.605,['Western Suburbs'],30.0
-,GradientBoosting,,,,,2.0,25.06,-0.672,['South Mumbai'],25.0
-,GradientBoosting,,,,,3.0,21.01,-2.579,['Central Mumbai'],22.0
-,GradientBoosting,,,,,4.0,13.15,-0.772,"['Eastern Suburbs', 'Thane']",40.0
-,GradientBoosting,,,,,5.0,9.71,-0.755,['Navi Mumbai'],20.0
+beauty_salon,RandomForest,19.66,-1.007,7.62,0.689,,,,,
+,RandomForest,,,,,1.0,29.86,-1.02,['Western Suburbs'],30.0
+,RandomForest,,,,,2.0,23.85,-0.401,['South Mumbai'],25.0
+,RandomForest,,,,,3.0,22.6,-2.313,['Central Mumbai'],22.0
+,RandomForest,,,,,4.0,13.18,-0.799,"['Eastern Suburbs', 'Thane']",40.0
+,RandomForest,,,,,5.0,8.81,-0.5,['Navi Mumbai'],20.0
+beauty_salon,GradientBoosting,20.4,-1.264,8.32,0.739,,,,,
+,GradientBoosting,,,,,1.0,32.94,-1.504,['Western Suburbs'],30.0
+,GradientBoosting,,,,,2.0,25.04,-0.67,['South Mumbai'],25.0
+,GradientBoosting,,,,,3.0,21.15,-2.615,['Central Mumbai'],22.0
+,GradientBoosting,,,,,4.0,13.16,-0.775,"['Eastern Suburbs', 'Thane']",40.0
+,GradientBoosting,,,,,5.0,9.72,-0.757,['Navi Mumbai'],20.0
 store,MeanBaseline,20.81,-1.089,5.47,1.0,,,,,
 ,MeanBaseline,,,,,1.0,26.62,-0.406,['Western Suburbs'],30.0
 ,MeanBaseline,,,,,2.0,27.8,-0.737,['South Mumbai'],25.0
@@ -131,18 +131,18 @@ store,Ridge,19.11,-0.542,7.28,0.384,,,,,
 ,Ridge,,,,,3.0,17.84,-1.198,['Central Mumbai'],22.0
 ,Ridge,,,,,4.0,12.45,0.003,"['Eastern Suburbs', 'Thane']",40.0
 ,Ridge,,,,,5.0,10.33,-0.473,['Navi Mumbai'],20.0
-store,RandomForest,18.47,-0.584,6.24,0.789,,,,,
-,RandomForest,,,,,1.0,24.79,-0.19,['Western Suburbs'],30.0
-,RandomForest,,,,,2.0,23.26,-0.262,['South Mumbai'],25.0
-,RandomForest,,,,,3.0,22.2,-2.152,['Central Mumbai'],22.0
-,RandomForest,,,,,4.0,13.05,-0.277,"['Eastern Suburbs', 'Thane']",40.0
-,RandomForest,,,,,5.0,9.05,-0.039,['Navi Mumbai'],20.0
-store,GradientBoosting,20.44,-1.134,6.59,1.295,,,,,
-,GradientBoosting,,,,,1.0,26.4,-0.461,['Western Suburbs'],30.0
-,GradientBoosting,,,,,2.0,24.15,-0.486,['South Mumbai'],25.0
-,GradientBoosting,,,,,3.0,26.65,-3.722,['Central Mumbai'],22.0
-,GradientBoosting,,,,,4.0,13.74,-0.449,"['Eastern Suburbs', 'Thane']",40.0
-,GradientBoosting,,,,,5.0,11.26,-0.551,['Navi Mumbai'],20.0
+store,RandomForest,18.47,-0.583,6.24,0.787,,,,,
+,RandomForest,,,,,1.0,24.81,-0.19,['Western Suburbs'],30.0
+,RandomForest,,,,,2.0,23.27,-0.262,['South Mumbai'],25.0
+,RandomForest,,,,,3.0,22.17,-2.149,['Central Mumbai'],22.0
+,RandomForest,,,,,4.0,13.04,-0.273,"['Eastern Suburbs', 'Thane']",40.0
+,RandomForest,,,,,5.0,9.06,-0.042,['Navi Mumbai'],20.0
+store,GradientBoosting,20.48,-1.139,6.61,1.308,,,,,
+,GradientBoosting,,,,,1.0,26.4,-0.459,['Western Suburbs'],30.0
+,GradientBoosting,,,,,2.0,24.16,-0.483,['South Mumbai'],25.0
+,GradientBoosting,,,,,3.0,26.8,-3.754,['Central Mumbai'],22.0
+,GradientBoosting,,,,,4.0,13.75,-0.45,"['Eastern Suburbs', 'Thane']",40.0
+,GradientBoosting,,,,,5.0,11.27,-0.551,['Navi Mumbai'],20.0
 school,MeanBaseline,21.7,-1.701,5.81,2.796,,,,,
 ,MeanBaseline,,,,,1.0,27.46,-0.277,['Western Suburbs'],30.0
 ,MeanBaseline,,,,,2.0,28.69,-0.298,['South Mumbai'],25.0
@@ -155,17 +155,17 @@ school,Ridge,20.84,-1.084,6.81,1.631,,,,,
 ,Ridge,,,,,3.0,15.1,-0.283,['Central Mumbai'],22.0
 ,Ridge,,,,,4.0,13.71,-0.222,"['Eastern Suburbs', 'Thane']",40.0
 ,Ridge,,,,,5.0,17.35,-4.343,['Navi Mumbai'],20.0
-school,RandomForest,20.43,-0.775,6.86,0.73,,,,,
-,RandomForest,,,,,1.0,27.84,-0.278,['Western Suburbs'],30.0
-,RandomForest,,,,,2.0,29.18,-0.151,['South Mumbai'],25.0
-,RandomForest,,,,,3.0,18.33,-1.083,['Central Mumbai'],22.0
-,RandomForest,,,,,4.0,14.04,-0.285,"['Eastern Suburbs', 'Thane']",40.0
-,RandomForest,,,,,5.0,12.76,-2.076,['Navi Mumbai'],20.0
-school,GradientBoosting,20.83,-1.392,5.56,1.538,,,,,
-,GradientBoosting,,,,,1.0,25.37,-0.218,['Western Suburbs'],30.0
-,GradientBoosting,,,,,2.0,27.34,-0.09,['South Mumbai'],25.0
-,GradientBoosting,,,,,3.0,22.95,-2.172,['Central Mumbai'],22.0
-,GradientBoosting,,,,,4.0,14.57,-0.408,"['Eastern Suburbs', 'Thane']",40.0
+school,RandomForest,20.44,-0.777,6.85,0.733,,,,,
+,RandomForest,,,,,1.0,27.8,-0.276,['Western Suburbs'],30.0
+,RandomForest,,,,,2.0,29.19,-0.151,['South Mumbai'],25.0
+,RandomForest,,,,,3.0,18.34,-1.087,['Central Mumbai'],22.0
+,RandomForest,,,,,4.0,14.06,-0.288,"['Eastern Suburbs', 'Thane']",40.0
+,RandomForest,,,,,5.0,12.79,-2.084,['Navi Mumbai'],20.0
+school,GradientBoosting,20.86,-1.393,5.56,1.534,,,,,
+,GradientBoosting,,,,,1.0,25.45,-0.22,['Western Suburbs'],30.0
+,GradientBoosting,,,,,2.0,27.35,-0.09,['South Mumbai'],25.0
+,GradientBoosting,,,,,3.0,22.94,-2.162,['Central Mumbai'],22.0
+,GradientBoosting,,,,,4.0,14.65,-0.424,"['Eastern Suburbs', 'Thane']",40.0
 ,GradientBoosting,,,,,5.0,13.91,-4.07,['Navi Mumbai'],20.0
 lodging,MeanBaseline,21.2,-0.984,5.0,1.277,,,,,
 ,MeanBaseline,,,,,1.0,26.15,-0.438,['Western Suburbs'],30.0
@@ -179,18 +179,18 @@ lodging,Ridge,18.98,-0.346,6.72,0.358,,,,,
 ,Ridge,,,,,3.0,17.19,-0.772,['Central Mumbai'],22.0
 ,Ridge,,,,,4.0,12.51,0.08,"['Eastern Suburbs', 'Thane']",40.0
 ,Ridge,,,,,5.0,11.48,-0.624,['Navi Mumbai'],20.0
-lodging,RandomForest,19.62,-0.359,7.82,0.227,,,,,
-,RandomForest,,,,,1.0,27.46,-0.524,['Western Suburbs'],30.0
+lodging,RandomForest,19.61,-0.358,7.83,0.225,,,,,
+,RandomForest,,,,,1.0,27.49,-0.527,['Western Suburbs'],30.0
 ,RandomForest,,,,,2.0,30.44,-0.2,['South Mumbai'],25.0
-,RandomForest,,,,,3.0,15.88,-0.404,['Central Mumbai'],22.0
-,RandomForest,,,,,4.0,13.09,-0.017,"['Eastern Suburbs', 'Thane']",40.0
-,RandomForest,,,,,5.0,11.22,-0.651,['Navi Mumbai'],20.0
-lodging,GradientBoosting,19.98,-0.487,9.57,0.253,,,,,
-,GradientBoosting,,,,,1.0,29.66,-0.885,['Western Suburbs'],30.0
-,GradientBoosting,,,,,2.0,33.21,-0.573,['South Mumbai'],25.0
-,GradientBoosting,,,,,3.0,14.05,-0.217,['Central Mumbai'],22.0
-,GradientBoosting,,,,,4.0,13.78,-0.211,"['Eastern Suburbs', 'Thane']",40.0
-,GradientBoosting,,,,,5.0,9.22,-0.551,['Navi Mumbai'],20.0
+,RandomForest,,,,,3.0,15.87,-0.403,['Central Mumbai'],22.0
+,RandomForest,,,,,4.0,13.08,-0.016,"['Eastern Suburbs', 'Thane']",40.0
+,RandomForest,,,,,5.0,11.19,-0.642,['Navi Mumbai'],20.0
+lodging,GradientBoosting,20.0,-0.484,9.54,0.253,,,,,
+,GradientBoosting,,,,,1.0,29.59,-0.876,['Western Suburbs'],30.0
+,GradientBoosting,,,,,2.0,33.23,-0.573,['South Mumbai'],25.0
+,GradientBoosting,,,,,3.0,14.03,-0.203,['Central Mumbai'],22.0
+,GradientBoosting,,,,,4.0,13.85,-0.213,"['Eastern Suburbs', 'Thane']",40.0
+,GradientBoosting,,,,,5.0,9.29,-0.557,['Navi Mumbai'],20.0
 bar,MeanBaseline,20.46,-0.679,5.46,0.769,,,,,
 ,MeanBaseline,,,,,1.0,23.46,-0.051,['Western Suburbs'],30.0
 ,MeanBaseline,,,,,2.0,29.78,-0.746,['South Mumbai'],25.0
@@ -203,18 +203,18 @@ bar,Ridge,18.12,-0.199,5.3,0.21,,,,,
 ,Ridge,,,,,3.0,18.19,-0.374,['Central Mumbai'],22.0
 ,Ridge,,,,,4.0,13.8,0.065,"['Eastern Suburbs', 'Thane']",40.0
 ,Ridge,,,,,5.0,10.74,-0.502,['Navi Mumbai'],20.0
-bar,RandomForest,18.73,-0.295,5.65,0.235,,,,,
-,RandomForest,,,,,1.0,22.79,0.006,['Western Suburbs'],30.0
-,RandomForest,,,,,2.0,26.17,-0.282,['South Mumbai'],25.0
-,RandomForest,,,,,3.0,19.75,-0.534,['Central Mumbai'],22.0
+bar,RandomForest,18.73,-0.296,5.64,0.237,,,,,
+,RandomForest,,,,,1.0,22.79,0.007,['Western Suburbs'],30.0
+,RandomForest,,,,,2.0,26.15,-0.282,['South Mumbai'],25.0
+,RandomForest,,,,,3.0,19.78,-0.535,['Central Mumbai'],22.0
 ,RandomForest,,,,,4.0,14.51,-0.081,"['Eastern Suburbs', 'Thane']",40.0
-,RandomForest,,,,,5.0,10.42,-0.583,['Navi Mumbai'],20.0
-bar,GradientBoosting,20.83,-0.823,5.06,0.575,,,,,
-,GradientBoosting,,,,,1.0,22.94,-0.03,['Western Suburbs'],30.0
+,RandomForest,,,,,5.0,10.44,-0.588,['Navi Mumbai'],20.0
+bar,GradientBoosting,20.8,-0.812,5.05,0.565,,,,,
+,GradientBoosting,,,,,1.0,22.95,-0.031,['Western Suburbs'],30.0
 ,GradientBoosting,,,,,2.0,27.54,-0.396,['South Mumbai'],25.0
-,GradientBoosting,,,,,3.0,23.11,-1.266,['Central Mumbai'],22.0
-,GradientBoosting,,,,,4.0,17.75,-0.797,"['Eastern Suburbs', 'Thane']",40.0
-,GradientBoosting,,,,,5.0,12.83,-1.625,['Navi Mumbai'],20.0
+,GradientBoosting,,,,,3.0,22.95,-1.224,['Central Mumbai'],22.0
+,GradientBoosting,,,,,4.0,17.76,-0.796,"['Eastern Suburbs', 'Thane']",40.0
+,GradientBoosting,,,,,5.0,12.81,-1.613,['Navi Mumbai'],20.0
 night_club,MeanBaseline,26.15,-1.01,7.7,1.436,,,,,
 ,MeanBaseline,,,,,1.0,32.58,-0.224,['Western Suburbs'],30.0
 ,MeanBaseline,,,,,2.0,37.65,-0.36,['South Mumbai'],25.0
@@ -227,15 +227,15 @@ night_club,Ridge,24.91,-0.633,7.67,0.427,,,,,
 ,Ridge,,,,,3.0,20.6,-0.706,['Central Mumbai'],22.0
 ,Ridge,,,,,4.0,21.3,-0.556,"['Eastern Suburbs', 'Thane']",40.0
 ,Ridge,,,,,5.0,14.92,-1.392,['Navi Mumbai'],20.0
-night_club,RandomForest,24.15,-0.359,10.3,0.212,,,,,
-,RandomForest,,,,,1.0,32.79,-0.228,['Western Suburbs'],30.0
-,RandomForest,,,,,2.0,38.31,-0.222,['South Mumbai'],25.0
-,RandomForest,,,,,3.0,20.83,-0.771,['Central Mumbai'],22.0
-,RandomForest,,,,,4.0,19.67,-0.354,"['Eastern Suburbs', 'Thane']",40.0
-,RandomForest,,,,,5.0,9.17,-0.22,['Navi Mumbai'],20.0
-night_club,GradientBoosting,24.37,-0.614,10.71,0.253,,,,,
-,GradientBoosting,,,,,1.0,33.07,-0.36,['Western Suburbs'],30.0
-,GradientBoosting,,,,,2.0,38.82,-0.261,['South Mumbai'],25.0
-,GradientBoosting,,,,,3.0,19.82,-0.799,['Central Mumbai'],22.0
-,GradientBoosting,,,,,4.0,21.98,-0.883,"['Eastern Suburbs', 'Thane']",40.0
-,GradientBoosting,,,,,5.0,8.17,-0.766,['Navi Mumbai'],20.0
+night_club,RandomForest,24.16,-0.358,10.31,0.211,,,,,
+,RandomForest,,,,,1.0,32.8,-0.228,['Western Suburbs'],30.0
+,RandomForest,,,,,2.0,38.33,-0.223,['South Mumbai'],25.0
+,RandomForest,,,,,3.0,20.8,-0.768,['Central Mumbai'],22.0
+,RandomForest,,,,,4.0,19.68,-0.354,"['Eastern Suburbs', 'Thane']",40.0
+,RandomForest,,,,,5.0,9.17,-0.216,['Navi Mumbai'],20.0
+night_club,GradientBoosting,24.29,-0.603,10.74,0.246,,,,,
+,GradientBoosting,,,,,1.0,33.0,-0.359,['Western Suburbs'],30.0
+,GradientBoosting,,,,,2.0,38.77,-0.259,['South Mumbai'],25.0
+,GradientBoosting,,,,,3.0,19.79,-0.796,['Central Mumbai'],22.0
+,GradientBoosting,,,,,4.0,21.92,-0.865,"['Eastern Suburbs', 'Thane']",40.0
+,GradientBoosting,,,,,5.0,7.99,-0.736,['Navi Mumbai'],20.0

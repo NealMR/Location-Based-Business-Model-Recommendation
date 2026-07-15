@@ -1,8 +1,8 @@
 {
   "restaurant": {
     "best_model": "GradientBoosting",
-    "cv_mae": 21.31,
-    "cv_mae_std": 8.2,
+    "cv_mae": 21.33,
+    "cv_mae_std": 8.22,
     "baseline_mae": 24.06,
     "beats_baseline": true
   },
@@ -15,15 +15,15 @@
   },
   "gym": {
     "best_model": "RandomForest",
-    "cv_mae": 18.83,
-    "cv_mae_std": 6.55,
+    "cv_mae": 18.82,
+    "cv_mae_std": 6.54,
     "baseline_mae": 17.47,
     "beats_baseline": false
   },
   "pharmacy": {
     "best_model": "RandomForest",
     "cv_mae": 17.94,
-    "cv_mae_std": 6.96,
+    "cv_mae_std": 6.97,
     "baseline_mae": 22.03,
     "beats_baseline": true
   },
@@ -43,8 +43,8 @@
   },
   "school": {
     "best_model": "RandomForest",
-    "cv_mae": 20.43,
-    "cv_mae_std": 6.86,
+    "cv_mae": 20.44,
+    "cv_mae_std": 6.85,
     "baseline_mae": 21.7,
     "beats_baseline": true
   },
@@ -64,8 +64,8 @@
   },
   "night_club": {
     "best_model": "RandomForest",
-    "cv_mae": 24.15,
-    "cv_mae_std": 10.3,
+    "cv_mae": 24.16,
+    "cv_mae_std": 10.31,
     "baseline_mae": 26.15,
     "beats_baseline": true
   }
