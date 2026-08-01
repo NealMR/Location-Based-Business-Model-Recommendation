@@ -1,4 +1,4 @@
-﻿"""
+"""
 06_footfall.py
 --------------
 Calculates various footfall scores (overall, morning, afternoon, evening, office_hr, weekend)
@@ -99,7 +99,7 @@ def main():
     # Save final dataset
     df.to_csv(output_path, index=False)
     print("-" * 50)
-     - ready for Step 7")
+    print("Step 6 complete - ready for Step 7")
     print(f"Dataset generated with {len(df)} localities and {len(df.columns)} features.")
     print(f"Data saved to: {output_path}")
 

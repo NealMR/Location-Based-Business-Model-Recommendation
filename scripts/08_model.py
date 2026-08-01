@@ -1,4 +1,4 @@
-﻿"""
+"""
 08_model.py
 -----------
 Trains Random Forest Regressors to predict business viability (success %).
@@ -128,7 +128,7 @@ def main():
         print("\nNotice: 'seaborn' not installed. Skipping heatmap.")
 
     print("-" * 50)
-     - ready for Step 9")
+    print("Step 8 complete - ready for Step 9")
 
 if __name__ == "__main__":
     main()

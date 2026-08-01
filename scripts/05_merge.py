@@ -1,4 +1,4 @@
-﻿"""
+"""
 05_merge.py
 -----------
 Merges localities, OSM features, ground truth, and rent data.
@@ -118,7 +118,7 @@ def main():
     df_merged.to_csv(output_path, index=False)
     
     print("-" * 50)
-     - ready for Step 6")
+    print("Step 5 complete - ready for Step 6")
     print(f"Data saved to: {output_path}")
 
 if __name__ == "__main__":

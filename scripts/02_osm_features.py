@@ -4,19 +4,19 @@ import time
 import requests
 
 FEATURES = {
-    'railway_stations': (1000, ['["railway"="station"]', '["railway"="halt"]']),
-    'metro_stations': (1000, ['["station"="subway"]', '["railway"="subway"]']),
-    'bus_stops': (500, ['["highway"="bus_stop"]', '["public_transport"="platform"]']),
+    'railway_stations': (1500, ['["railway"="station"]', '["railway"="halt"]']),
+    'metro_stations': (1500, ['["station"="subway"]', '["railway"="subway"]']),
+    'bus_stops': (1500, ['["highway"="bus_stop"]', '["public_transport"="platform"]']),
     'colleges': (1500, ['["amenity"="college"]', '["amenity"="university"]']),
-    'schools': (1000, ['["amenity"="school"]']),
-    'offices': (1000, ['["office"]']),
-    'malls': (2000, ['["shop"="mall"]', '["shop"="department_store"]']),
-    'hospitals': (1000, ['["amenity"="hospital"]', '["amenity"="clinic"]']),
-    'parking_lots': (500, ['["amenity"="parking"]']),
-    'tourist_spots': (2000, ['["tourism"]', '["historic"]']),
-    'existing_cafes': (500, ['["amenity"="cafe"]']),
-    'existing_restaurants': (500, ['["amenity"="restaurant"]']),
-    'existing_gyms': (1000, ['["leisure"="fitness_centre"]'])
+    'schools': (1500, ['["amenity"="school"]']),
+    'offices': (1500, ['["office"]']),
+    'malls': (1500, ['["shop"="mall"]', '["shop"="department_store"]']),
+    'hospitals': (1500, ['["amenity"="hospital"]', '["amenity"="clinic"]']),
+    'parking_lots': (1500, ['["amenity"="parking"]']),
+    'tourist_spots': (1500, ['["tourism"]', '["historic"]']),
+    'existing_cafes': (1500, ['["amenity"="cafe"]']),
+    'existing_restaurants': (1500, ['["amenity"="restaurant"]']),
+    'existing_gyms': (1500, ['["leisure"="fitness_centre"]'])
 }
 
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"

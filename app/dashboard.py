@@ -244,13 +244,18 @@ with c1:
     
     with st.expander("How is Footfall calculated?"):
         st.markdown("""
-        **Footfall** is mathematically modeled from the density of nearby infrastructure (via OpenStreetMap):
-        * **Morning:** Weighted by Railway Stations & Bus Stops.
-        * **Office Hours:** Driven by Corporate Offices & Colleges.
-        * **Evening:** Scaled by Malls, Restaurants & Bars.
-        * **Weekend:** Dominated by Malls, Theatres & Tourist Spots.
-        
-        The scores are aggregated and normalized (0-100) relative to all Mumbai localities.
+        **Footfall** is mathematically modeled using Min-Max Normalized features extracted from OpenStreetMap. 
+        Each feature count (e.g. number of offices) is scaled to a `0-100` index before being weighted.
+
+        **Overall Footfall Formula:**
+        """)
+        st.latex(r"Footfall = 0.30(Transit) + 0.25(Office) + 0.20(Education) + 0.15(Mall) + 0.10(Tourist)")
+        st.markdown("""
+        **Time-Based Formulas:**
+        * **Morning:** `0.40(Office) + 0.30(Transit) + 0.20(College) + 0.10(Bus)`
+        * **Office Hours:** `0.50(Office) + 0.30(Transit) + 0.20(Bus)`
+        * **Evening:** `0.40(Mall) + 0.30(Tourist) + 0.20(Office) + 0.10(Transit)`
+        * **Weekend:** `0.50(Mall) + 0.30(Tourist) + 0.20(College)`
         """)
 
 with c2:

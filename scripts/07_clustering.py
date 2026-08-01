@@ -1,4 +1,4 @@
-﻿"""
+"""
 07_clustering.py
 ----------------
 Clusters localities based on footfall, infrastructure, and rent using KMeans.
@@ -140,7 +140,7 @@ def main():
         print(f"Map saved to: {map_path}")
 
     print("-" * 50)
-     - ready for Step 8")
+    print("Step 7 complete - ready for Step 8")
 
 if __name__ == "__main__":
     main()
