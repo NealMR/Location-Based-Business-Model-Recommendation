@@ -1,0 +1,25 @@
+[project]
+name = "locality-intelligence"
+version = "2.0.0"
+description = "Location-based business viability scoring for Mumbai localities"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=3.0,<4",
+    "numpy>=2.4,<3",
+    "scikit-learn>=1.8,<2",
+    "plotly>=6.8,<7",
+    "matplotlib>=3.10,<4",
+    "seaborn>=0.13,<1",
+    "streamlit>=1.56,<2",
+    "joblib>=1.5,<2",
+    "requests>=2.32,<3",
+    "fpdf2>=2.8,<3",
+]
+
+[project.optional-dependencies]
+explain = ["shap>=0.52,<1"]
+maps = ["folium>=0.20,<1"]
+dev = ["pytest>=9,<10"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
