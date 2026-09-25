@@ -12,6 +12,7 @@ This project was built to determine the viability of various commercial business
     *   **Agent 1 (Phi-3):** Synthesizes raw scraped DOM data into structured competitor profiles.
     *   **Agent 2 (Qwen 2.5):** Analyzes the synthesized data to identify local market gaps.
     *   **Agent 3 (Llama 3.1):** Acts as the "Chief Strategist" to output a comprehensive, evidence-based business strategy report.
+*   **Model Agnostic (Bring Your Own Model):** The system is completely flexible. Users can run it 100% locally and privately using open-source models via Ollama, or they can plug in their own API keys to use cloud models (OpenAI, Gemini, Groq) for the strategy generation.
 *   **Interactive Dashboard:** A fully featured Streamlit web application to visualize demographic insights and stream the AI-generated business recommendations live.
 
 ## 📁 Repository Structure
@@ -30,15 +31,16 @@ pip install -r requirements.txt
 playwright install chromium
 ```
 
-**2. Ensure Local LLMs are running**
-If you plan to use the local AI strategy features, ensure [Ollama](https://ollama.com/) is installed and running, and pull the required models:
-```bash
-ollama run phi3
-ollama run qwen2.5:3b
-ollama run llama3.1
-```
+**3. Choose Your AI Backend**
+*   **Option A (100% Local):** Ensure [Ollama](https://ollama.com/) is installed and running, then pull the required models:
+    ```bash
+    ollama run phi3
+    ollama run qwen2.5:3b
+    ollama run llama3.1
+    ```
+*   **Option B (Cloud API Keys):** If you prefer to use OpenAI, Groq, or Gemini instead of running models locally, you can securely enter your API keys directly into the Streamlit UI.
 
-**3. Run the interactive dashboard**
+**4. Run the interactive dashboard**
 ```bash
 streamlit run app/dashboard.py
 ```
