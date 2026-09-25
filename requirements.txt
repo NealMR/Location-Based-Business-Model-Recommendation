@@ -1,7 +1,14 @@
 pandas
 numpy
-scikit-learn
-plotly
+scikit-learn==1.7.1
+plotly<6.0.0
 streamlit
 joblib
 requests
+geopy
+folium
+streamlit-folium
+playwright
+ollama
+openai
+google-generativeai
