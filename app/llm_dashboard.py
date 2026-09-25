@@ -7,6 +7,10 @@ import os
 import time
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'scripts'))
+
+# Ensure Playwright browser is installed in cloud environments
+os.system("playwright install chromium")
+
 from maps_scraper import scrape_google_data
 from llm_processor import generate_business_strategy_stream
 
