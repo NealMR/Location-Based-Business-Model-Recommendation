@@ -24,7 +24,6 @@ st.markdown("""
     /* Hide Default Streamlit Clutter */
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
-    header {visibility: hidden;}
     
     /* Clean Global Typography */
     body, .stApp {
