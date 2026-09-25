@@ -232,12 +232,12 @@ with col_right:
             
             # PDF / Print Button
             st.markdown(
-                \"\"\"
+                """
                 <br>
                 <a href="javascript:window.print()" style="background-color:#238636; color:white; padding:10px 20px; border-radius:5px; text-decoration:none; font-weight:bold; font-size:14px; display:inline-block; text-align:center;">
-                   🖨️ Print / Save as PDF
+                   Print / Save as PDF
                 </a>
-                \"\"\", 
+                """, 
                 unsafe_allow_html=True
             )
             
