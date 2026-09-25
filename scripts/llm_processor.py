@@ -210,6 +210,31 @@ Reviews: {review_data}
             yield chunk['message']['content']
 
 
+def chat_with_report(report_text, user_message, chat_history, model_name, api_keys):
+    api_keys = api_keys or {}
+    
+    # Build context
+    sys_prompt = "You are a strategic AI assistant helping the user analyze this specific market intelligence report. Use the report below as your primary context to answer questions. If the user asks something outside the scope of the report, use your general business knowledge.\n\nREPORT CONTEXT:\n" + report_text
+    
+    prompt = f"{sys_prompt}\n\n"
+    for msg in chat_history:
+        prompt += f"{msg['role'].upper()}: {msg['content']}\n\n"
+    prompt += f"USER: {user_message}\n\nASSISTANT: "
+    
+    if model_name.startswith("gemini"):
+        yield from stream_gemini(prompt, api_keys.get('gemini'), model_name)
+    elif model_name.startswith("groq-"):
+        groq_model = model_name.replace("groq-", "")
+        yield from stream_openai_compatible(prompt, api_keys.get('groq'), groq_model, base_url="https://api.groq.com/openai/v1")
+    elif model_name.startswith("gpt-"):
+        yield from stream_openai_compatible(prompt, api_keys.get('openai'), model_name)
+    else:
+        response = ollama.chat(model=model_name, messages=[{'role': 'user', 'content': prompt}], stream=True)
+        for chunk in response:
+            if 'message' in chunk and 'content' in chunk['message']:
+                yield chunk['message']['content']
+
+
 def run_multi_agent_pipeline(location_name, infrastructure_data, competitor_data, review_data, property_details=""):
     """
     Orchestrates all 3 models based on their intelligence strengths.

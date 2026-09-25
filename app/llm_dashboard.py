@@ -13,7 +13,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'scripts'))
 os.system("playwright install chromium")
 
 from maps_scraper import scrape_google_data
-from llm_processor import generate_business_strategy_stream
+from llm_processor import generate_business_strategy_stream, chat_with_report
 
 st.set_page_config(page_title="AI Market Strategist", layout="wide", initial_sidebar_state="expanded")
 
@@ -188,57 +188,94 @@ with col_right:
         update_log("> Spawning headless Playwright browser...<br>> Querying infrastructure and competitor data...", 20)
         
         try:
-            scraped_data = scrape_google_data(st.session_state.location_name)
-            infra_str = f"Schools: {scraped_data['infrastructure'].get('schools', 0)}, Colleges: {scraped_data['infrastructure'].get('colleges', 0)}"
-            comp_str = "\n".join(scraped_data.get('competitors', []))
-            rev_str = "\n".join(scraped_data.get('reviews', []))
+            if "generated_report" not in st.session_state:
+                scraped_data = scrape_google_data(st.session_state.location_name)
+                infra_str = f"Schools: {scraped_data['infrastructure'].get('schools', 0)}, Colleges: {scraped_data['infrastructure'].get('colleges', 0)}"
+                comp_str = "\n".join(scraped_data.get('competitors', []))
+                rev_str = "\n".join(scraped_data.get('reviews', []))
+                
+                # Store visualization data
+                st.session_state.infra_data = scraped_data.get('infrastructure', {})
+                st.session_state.comp_count = len(scraped_data.get('competitors', []))
+                st.session_state.rev_count = len(scraped_data.get('reviews', []))
+                
+                update_log(f"> Scraping complete.<br>> Chunking unstructured DOM data for KV-Cache...<br>> Waking {selected_model}...", 60)
+                time.sleep(1)
+                
+                update_log("> Neural synthesis initiated.<br>> Streaming report...", 90)
+                
+                report_container = st.container(border=True)
+                report_text_box = report_container.empty()
+                full_report = ""
+                
+                for chunk in generate_business_strategy_stream(st.session_state.location_name, infra_str, comp_str, rev_str, model_name=selected_model, api_keys=api_keys):
+                    # Clean up <thought> tags if they exist
+                    chunk = chunk.replace("<thought>", "> **🧠 Agent Thinking...**\n> ").replace("</thought>", "\n\n")
+                    full_report += chunk
+                    report_text_box.markdown(full_report + "▌")
+                    
+                report_text_box.markdown(full_report)
+                update_log("> Analysis generated successfully.<br>> Process terminated.", 100)
+                st.session_state.generated_report = full_report
+            else:
+                progress_bar.progress(100)
+                log_box.empty()
             
-            # Render Data Visualization
+            # Render Data Visualization (Always)
             st.markdown("#### 📊 Extracted Market Data")
             col_chart1, col_chart2 = st.columns(2)
             
-            # Chart 1: Infrastructure
-            infra_data = scraped_data.get('infrastructure', {})
-            if infra_data:
-                fig1 = go.Figure(data=[go.Bar(x=list(infra_data.keys()), y=list(infra_data.values()), marker_color='#58A6FF')])
+            if st.session_state.get('infra_data'):
+                fig1 = go.Figure(data=[go.Bar(x=list(st.session_state.infra_data.keys()), y=list(st.session_state.infra_data.values()), marker_color='#58A6FF')])
                 fig1.update_layout(title="Local Infrastructure Density", paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)', height=250, margin=dict(l=0, r=0, t=30, b=0))
                 col_chart1.plotly_chart(fig1, use_container_width=True)
                 
-            # Chart 2: Competitors
-            comp_count = len(scraped_data.get('competitors', []))
-            rev_count = len(scraped_data.get('reviews', []))
-            fig2 = go.Figure(data=[go.Bar(x=['Competitors', 'Reviews'], y=[comp_count, rev_count], marker_color='#3FB950')])
-            fig2.update_layout(title="Market Saturation (Scraped)", paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)', height=250, margin=dict(l=0, r=0, t=30, b=0))
-            col_chart2.plotly_chart(fig2, use_container_width=True)
+            if st.session_state.get('comp_count') is not None:
+                fig2 = go.Figure(data=[go.Bar(x=['Competitors', 'Reviews'], y=[st.session_state.comp_count, st.session_state.rev_count], marker_color='#3FB950')])
+                fig2.update_layout(title="Market Saturation (Scraped)", paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)', height=250, margin=dict(l=0, r=0, t=30, b=0))
+                col_chart2.plotly_chart(fig2, use_container_width=True)
             
-            update_log(f"> Scraping complete.<br>> Chunking unstructured DOM data for KV-Cache...<br>> Waking {selected_model}...", 60)
-            time.sleep(1)
-            
-            update_log("> Neural synthesis initiated.<br>> Streaming report...", 90)
-            
-            # Render the report inside a native Streamlit container
-            report_container = st.container(border=True)
-            report_text_box = report_container.empty()
-            full_report = ""
-            
-            for chunk in generate_business_strategy_stream(st.session_state.location_name, infra_str, comp_str, rev_str, model_name=selected_model, api_keys=api_keys):
-                # Clean up <thought> tags if they exist
-                chunk = chunk.replace("<thought>", "> **🧠 Agent Thinking...**\n> ").replace("</thought>", "\n\n")
-                full_report += chunk
-                report_text_box.markdown(full_report + "▌")
+            if "generated_report" in st.session_state:
+                # Re-render report text if it was cached
+                st.markdown("### Strategic Intelligence Report")
+                with st.container(border=True):
+                    st.markdown(st.session_state.generated_report)
                 
-            report_text_box.markdown(full_report)
-            update_log("> Analysis generated successfully.<br>> Process terminated.", 100)
-            
-            # Download Button
-            st.download_button(
-                label="📥 Download Strategy Blueprint (.md)",
-                data=full_report,
-                file_name=f"{st.session_state.location_name[:20].replace(' ', '_')}_Strategy.md",
-                mime="text/markdown",
-                type="primary"
-            )
-            
+                # Download Button
+                st.download_button(
+                    label="📥 Download Strategy Blueprint (.md)",
+                    data=st.session_state.generated_report,
+                    file_name=f"{st.session_state.location_name[:20].replace(' ', '_')}_Strategy.md",
+                    mime="text/markdown",
+                    type="primary"
+                )
+                
+                st.markdown("---")
+                st.markdown("### 💬 Discuss this Report with AI")
+                
+                if "chat_history" not in st.session_state:
+                    st.session_state.chat_history = []
+                
+                for msg in st.session_state.chat_history:
+                    with st.chat_message(msg["role"]):
+                        st.markdown(msg["content"])
+                
+                if prompt := st.chat_input("Ask a follow-up question..."):
+                    st.session_state.chat_history.append({"role": "user", "content": prompt})
+                    with st.chat_message("user"):
+                        st.markdown(prompt)
+                    
+                    with st.chat_message("assistant"):
+                        response_container = st.empty()
+                        full_response = ""
+                        for chunk in chat_with_report(st.session_state.generated_report, prompt, st.session_state.chat_history[:-1], model_name=selected_model, api_keys=api_keys):
+                            full_response += chunk
+                            response_container.markdown(full_response + "▌")
+                        response_container.markdown(full_response)
+                        
+                    st.session_state.chat_history.append({"role": "assistant", "content": full_response})
+                    st.rerun()
+
         except Exception as e:
             update_log(f"> [ERROR] Execution Failed.<br>> Details: {e}", 100)
     else:
