@@ -230,15 +230,13 @@ with col_right:
             report_text_box.markdown(full_report)
             update_log("> Analysis generated successfully.<br>> Process terminated.", 100)
             
-            # PDF / Print Button
-            st.markdown(
-                """
-                <br>
-                <a href="javascript:window.print()" style="background-color:#238636; color:white; padding:10px 20px; border-radius:5px; text-decoration:none; font-weight:bold; font-size:14px; display:inline-block; text-align:center;">
-                   Print / Save as PDF
-                </a>
-                """, 
-                unsafe_allow_html=True
+            # Download Button
+            st.download_button(
+                label="📥 Download Strategy Blueprint (.md)",
+                data=full_report,
+                file_name=f"{st.session_state.location_name[:20].replace(' ', '_')}_Strategy.md",
+                mime="text/markdown",
+                type="primary"
             )
             
         except Exception as e:
