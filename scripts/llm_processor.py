@@ -1,14 +1,29 @@
-import ollama
-import google.generativeai as genai
-from openai import OpenAI
 import os
 
+try:
+    import ollama
+except ImportError:
+    ollama = None
+
+try:
+    import google.generativeai as genai
+except ImportError:
+    genai = None
+
+try:
+    from openai import OpenAI
+except ImportError:
+    OpenAI = None
+
 def stream_gemini(prompt, api_key, model_name="gemini-1.5-flash"):
+    if genai is None:
+        yield "\n\n**API Error:** Google Generative AI SDK is not installed or failed to import."
+        return
     try:
         genai.configure(api_key=api_key)
         model = genai.GenerativeModel(model_name)
         response = model.generate_content(prompt, stream=True)
-        yield "> **?? Neural Synthesis Log (Gemini API)**  \n> Processing request in cloud  \n"
+        yield "> **[Neural Synthesis Log: Gemini API]**  \n> Processing request in cloud  \n"
         for chunk in response:
             if chunk.text:
                 yield chunk.text
@@ -16,6 +31,9 @@ def stream_gemini(prompt, api_key, model_name="gemini-1.5-flash"):
         yield f"\n\n**API Error:** {str(e)}"
 
 def stream_openai_compatible(prompt, api_key, model_name, base_url=None):
+    if OpenAI is None:
+        yield "\n\n**API Error:** OpenAI SDK is not installed or failed to import."
+        return
     try:
         client = OpenAI(api_key=api_key, base_url=base_url)
         response = client.chat.completions.create(
@@ -201,6 +219,9 @@ Reviews: {review_data}
         yield from stream_openai_compatible(prompt, api_keys.get('openai'), model_name)
     else:
         # Fallback to local Ollama
+        if ollama is None:
+            yield "\n\n**API Error:** Ollama SDK is not installed or failed to import."
+            return
         response = ollama.chat(
             model=model_name, 
             messages=[{'role': 'user', 'content': prompt}], 
@@ -270,6 +291,9 @@ def chat_with_report(report_text, user_message, chat_history, model_name, api_ke
     elif model_name.startswith("gpt-"):
         yield from stream_openai_compatible(prompt, api_keys.get('openai'), model_name)
     else:
+        if ollama is None:
+            yield "\n\n**API Error:** Ollama SDK is not installed or failed to import."
+            return
         response = ollama.chat(model=model_name, messages=[{'role': 'user', 'content': prompt}], stream=True)
         for chunk in response:
             if 'message' in chunk and 'content' in chunk['message']:
