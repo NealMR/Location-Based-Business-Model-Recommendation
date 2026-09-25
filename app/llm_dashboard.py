@@ -92,7 +92,15 @@ with st.sidebar:
     
     model_choice = st.selectbox(
         "Select Intelligence Engine",
-        ["phi3 (Local)", "qwen2.5:3b (Local)", "llama3.1 (Local)", "groq-llama-3.1-8b-instant", "gemini-1.5-flash", "gpt-4o-mini"]
+        [
+            "phi3 (Local)", 
+            "qwen2.5:3b (Local)", 
+            "llama3.1 (Local)", 
+            "groq-openai/gpt-oss-120b", 
+            "groq-openai/gpt-oss-20b", 
+            "gemini-1.5-flash", 
+            "gpt-4o-mini"
+        ]
     )
     
     selected_model = model_choice.split(" ")[0]
