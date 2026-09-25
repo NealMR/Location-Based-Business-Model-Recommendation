@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Strategy Intelligence</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Leaflet for Map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Marked for Markdown Parsing -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- Chart.js for Visualizations -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Mermaid for Pictorial Reports -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        
+        /* Minimalist Uber-style overrides */
+        input:focus, select:focus, button:focus { outline: none; }
+        .leaflet-control-attribution { display: none; } /* Uber hides this for cleanliness, though technically against TOS, it looks much cleaner */
+        
+        /* Clean Markdown Styling */
+        .markdown-body { font-size: 0.95rem; line-height: 1.6; color: #374151; }
+        .markdown-body h1, .markdown-body h2 { color: #000000; font-weight: 700; letter-spacing: -0.025em; margin-top: 1.5em; margin-bottom: 0.75em; font-size: 1.25rem;}
+        .markdown-body h3 { color: #111827; font-weight: 600; margin-top: 1.25em; }
+        .markdown-body p { margin-bottom: 1em; }
+        .markdown-body ul { list-style-type: none; padding-left: 0; margin-bottom: 1.5em; }
+        .markdown-body li { margin-bottom: 0.75em; padding-left: 1.25em; position: relative; }
+        .markdown-body li::before { content: "•"; position: absolute; left: 0; color: #000; font-weight: bold; }
+        .markdown-body strong { color: #000000; font-weight: 600; }
+        
+        /* Minimalist Table */
+        .markdown-body table { width: 100%; border-collapse: collapse; margin-bottom: 2em; font-size: 0.875rem; }
+        .markdown-body th { border-bottom: 2px solid #000; padding: 12px 8px; text-align: left; color: #000; font-weight: 700; }
+        .markdown-body td { border-bottom: 1px solid #E5E7EB; padding: 12px 8px; color: #374151; vertical-align: top; }
+        
+        /* Minimalist Cursor */
+        .cursor::after { content: '▌'; animation: blink 1s step-start infinite; color: #000; margin-left: 4px; }
+        @keyframes blink { 50% { opacity: 0; } }
+        
+        /* Hide scrollbars for clean look */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #E5E7EB; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #D1D5DB; }
+
+        .shimmer-bar {
+            background: linear-gradient(90deg, #111 0%, #666 50%, #111 100%);
+            background-size: 200% 100%;
+            animation: shimmer 2s infinite linear;
+        }
+        @keyframes shimmer {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900 h-screen w-screen overflow-hidden flex flex-col md:flex-row">
+
+    <!-- Left Sidebar: Controls & Report (Uber Style) -->
+    <aside id="sidebar" class="w-full md:w-[450px] lg:w-[500px] h-full flex flex-col bg-white shadow-[4px_0_24px_rgba(0,0,0,0.04)] z-20 relative flex-shrink-0 transition-transform duration-300">
+        
+        <!-- Header -->
+        <div class="px-8 pt-8 pb-4 flex justify-between items-center shrink-0">
+            <h1 class="text-3xl font-extrabold tracking-tighter text-black">Intelligence</h1>
+            <div class="flex items-center space-x-3">
+                <button onclick="document.getElementById('settingsModal').classList.remove('hidden')" class="text-sm font-bold bg-gray-100 px-3 py-1.5 rounded-full hover:bg-gray-200 transition-colors">⚙️ API Keys</button>
+                <button id="newSearchBtn" onclick="resetSearch()" class="hidden text-sm font-bold bg-gray-100 px-3 py-1.5 rounded-full hover:bg-gray-200 transition-colors">← Edit</button>
+            </div>
+        </div>
+
+        <!-- Input Area (Collapses during analysis) -->
+        <div id="searchForm" class="px-8 pb-6 flex flex-col space-y-4 border-b border-gray-100 overflow-y-auto shrink-0">
+            <h2 class="text-2xl font-bold tracking-tight text-black mb-2">Market Strategy</h2>
+            
+            <div class="relative">
+                <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                    <span class="text-black font-bold">📍</span>
+                </div>
+                <input type="text" id="locationInput" placeholder="Enter target location" 
+                    class="w-full bg-gray-100 text-black rounded-lg py-3.5 pl-10 pr-12 focus:bg-gray-200 transition-colors font-medium border-none placeholder-gray-500">
+                <button onclick="searchLocation()" class="absolute inset-y-0 right-0 pr-4 flex items-center text-black font-bold hover:text-gray-600 transition-colors text-sm">Find</button>
+            </div>
+
+            <div class="flex space-x-2">
+                <div class="relative w-1/3">
+                    <select id="radiusSelect" class="w-full bg-gray-100 text-black rounded-lg py-3.5 px-4 focus:bg-gray-200 transition-colors font-medium border-none appearance-none cursor-pointer">
+                        <option value="1">1 km</option>
+                        <option value="3" selected>3 km</option>
+                        <option value="5">5 km</option>
+                        <option value="10">10 km</option>
+                    </select>
+                    <div class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none text-gray-500">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </div>
+                </div>
+
+                <div class="relative w-2/3">
+                    <select id="modelSelect" class="w-full bg-gray-100 text-black rounded-lg py-3.5 px-4 focus:bg-gray-200 transition-colors font-medium border-none appearance-none cursor-pointer text-sm">
+                        <optgroup label="Cloud APIs (Instant)">
+                            <option value="groq-openai/gpt-oss-120b">GPT OSS 120B (Groq)</option>
+                            <option value="groq-qwen/qwen3.8-27b">Qwen 3.8 27B (Groq)</option>
+                        </optgroup>
+                        <optgroup label="Local Hardware (Ollama)">
+                            <option value="multi-agent">Multi-Agent Swarm</option>
+                            <option value="qwen2.5:3b">Qwen 2.5 (3B Analysis)</option>
+                            <option value="phi3">Phi-3 (Fast Inference)</option>
+                        </optgroup>
+                    </select>
+                    <div class="absolute inset-y-0 right-0 pr-4 flex items-center pointer-events-none text-gray-500">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </div>
+                </div>
+            </div>
+            
+            <h2 class="text-lg font-bold tracking-tight text-black mb-2 mt-4">3. Property Details (Optional)</h2>
+            <div class="space-y-2 mb-2">
+                <input type="text" id="propSize" placeholder="Size (e.g. 500 sq ft or 2 Acres)" class="w-full bg-gray-100 text-black rounded-lg py-3 px-4 focus:bg-gray-200 transition-colors font-medium border-none placeholder-gray-500">
+                <div class="flex space-x-2">
+                    <div class="relative w-1/2">
+                        <select id="propType" class="w-full bg-gray-100 text-black rounded-lg py-3 px-4 focus:bg-gray-200 transition-colors font-medium border-none appearance-none cursor-pointer">
+                            <option value="">Any Type</option>
+                            <option value="Retail/Shop">Retail Shop</option>
+                            <option value="Office Space">Office Space</option>
+                            <option value="Open Land">Open Land</option>
+                            <option value="Warehouse">Warehouse/Industrial</option>
+                            <option value="Residential">Residential</option>
+                        </select>
+                        <div class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none text-gray-500">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </div>
+                    </div>
+                    <div class="relative w-1/2">
+                        <select id="propBudget" class="w-full bg-gray-100 text-black rounded-lg py-3 px-4 focus:bg-gray-200 transition-colors font-medium border-none appearance-none cursor-pointer">
+                            <option value="">Any Budget</option>
+                            <option value="Low (Bootstrapped)">Low Budget</option>
+                            <option value="Medium">Medium Budget</option>
+                            <option value="High (Well-funded)">High Budget</option>
+                        </select>
+                        <div class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none text-gray-500">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button id="analyzeBtn" onclick="startAnalysis()" class="w-full bg-black text-white font-semibold py-4 rounded-lg hover:bg-gray-800 transition-colors mt-2 text-lg">
+                Run analysis
+            </button>
+        </div>
+
+        <!-- Scrollable Content Area (Telemetry / Report) -->
+        <div id="outputArea" class="flex-1 overflow-y-auto relative w-full h-full bg-white flex flex-col">
+            
+            <!-- Default Empty State -->
+            <div id="emptyState" class="absolute inset-0 flex flex-col items-center justify-center p-8 text-center text-gray-400">
+                <p class="font-medium">Select a location on the map<br>to generate a strategy report.</p>
+            </div>
+
+            <!-- Claude-Style Reasoning Block -->
+            <div id="thinkingBlock" class="hidden flex-col border border-gray-200 rounded-xl m-8 mb-4 shadow-sm bg-white overflow-hidden shrink-0 transition-all duration-300">
+                <!-- Header (Click to toggle) -->
+                <div class="px-5 py-4 flex justify-between items-center bg-gray-50 border-b border-gray-100 cursor-pointer select-none hover:bg-gray-100 transition-colors" onclick="toggleThinking()">
+                    <div class="flex items-center space-x-3">
+                        <div id="thinkingSpinner" class="animate-spin h-4 w-4 border-2 border-gray-400 border-t-black rounded-full"></div>
+                        <svg id="thinkingCompleteIcon" class="hidden w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                        <span id="thinkingStatus" class="font-bold text-gray-800 text-sm tracking-tight">Analyzing Market Data...</span>
+                        <span id="etaBadge" class="hidden px-2 py-0.5 bg-gray-200 text-gray-600 text-[10px] uppercase font-bold tracking-wider rounded-md transition-colors">00:00</span>
+                    </div>
+                    <svg id="thinkingChevron" class="w-5 h-5 text-gray-400 transform transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </div>
+                
+                <!-- Animated Progress Bar -->
+                <div class="w-full bg-gray-100 h-1">
+                    <div id="progressBar" class="h-full bg-black transition-all duration-700 ease-out shimmer-bar" style="width: 0%"></div>
+                </div>
+
+                <!-- Reasoning Logs (Expandable) -->
+                <div id="reasoningLogs" class="p-5 text-xs text-gray-600 font-mono space-y-3 max-h-64 overflow-y-auto bg-white">
+                    <!-- Dynamic logs go here -->
+                </div>
+            </div>
+
+        </div>
+    </aside>
+
+    <!-- Right Area: Fullbleed Map & Report Overlay -->
+    <main class="flex-1 relative h-full bg-gray-100 w-full overflow-hidden">
+        
+        <!-- Toggle Sidebar Button (Floating) -->
+        <button onclick="toggleSidebar()" class="absolute top-4 left-4 z-50 bg-white text-black font-bold p-3 rounded-full shadow-lg hover:bg-gray-100 transition-colors group" title="Toggle Sidebar">
+            <svg class="w-5 h-5 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+        </button>
+
+        <div id="map" class="absolute inset-0 w-full h-full z-0"></div>
+        
+        <!-- API Settings Modal -->
+        <div id="settingsModal" class="hidden absolute inset-0 z-50 bg-black/50 backdrop-blur-sm flex justify-center items-center">
+            <div class="bg-white p-8 rounded-3xl w-full max-w-md shadow-2xl relative">
+                <button onclick="document.getElementById('settingsModal').classList.add('hidden')" class="absolute top-4 right-4 text-gray-400 hover:text-black">✖</button>
+                <h3 class="text-2xl font-bold mb-6 text-black tracking-tight">Cloud Provider Keys</h3>
+                <p class="text-sm text-gray-500 mb-6">Enter your API keys to bypass local hardware limits. Keys are stored safely in your browser.</p>
+                
+                <div class="space-y-4">
+                    <div>
+                        <label class="block text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">Groq API Key</label>
+                        <input type="password" id="groqKey" placeholder="gsk_..." class="w-full bg-gray-100 text-black rounded-lg py-3 px-4 focus:bg-gray-200 transition-colors font-mono text-sm border-none">
+                    </div>
+                </div>
+                
+                <button onclick="saveKeys()" class="w-full mt-8 bg-black text-white font-bold py-3.5 rounded-xl hover:bg-gray-800 transition-all shadow-lg">Save Keys</button>
+            </div>
+        </div>
+
+        <!-- Final Report Fullscreen Overlay -->
+        <div id="reportContainer" class="hidden absolute inset-0 z-10 bg-white overflow-y-auto p-12 lg:p-24 shadow-2xl flex-col transition-all duration-500">
+            <div class="max-w-4xl mx-auto w-full">
+                <div class="flex justify-between items-end mb-12">
+                    <h2 class="text-4xl lg:text-5xl font-extrabold tracking-tight text-black leading-none">Market Intelligence<br>Report</h2>
+                    <button onclick="copyReport()" class="text-sm font-bold bg-black text-white hover:bg-gray-800 py-3 px-6 rounded-full transition-colors shadow-lg">Copy Report</button>
+                </div>
+                
+                <!-- Dynamic Visualizations -->
+                <div id="visualDashboard" class="grid grid-cols-2 gap-6 mb-12 hidden">
+                    <div class="bg-gray-50 p-6 rounded-3xl flex flex-col items-center border border-gray-100 shadow-sm">
+                        <h3 class="text-sm font-bold text-gray-500 uppercase tracking-wider mb-4">Infrastructure Spread</h3>
+                        <div class="w-32 h-32"><canvas id="infraChart"></canvas></div>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-3xl flex flex-col items-center justify-center border border-gray-100 shadow-sm">
+                        <h3 class="text-sm font-bold text-gray-500 uppercase tracking-wider mb-2">Total Competitors Found</h3>
+                        <div id="compCount" class="text-7xl font-extrabold text-black tracking-tighter">0</div>
+                    </div>
+                </div>
+
+                <div id="reportContent" class="markdown-body text-lg"></div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Initialize Map
+        const map = L.map('map', { zoomControl: false }).setView([19.0760, 72.8777], 13);
+        L.tileLayer('http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}', {
+            maxZoom: 20
+        }).addTo(map);
+        
+        L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+        let marker = null;
+        let selectedLocation = "";
+        let chartInstance = null;
+        let fullMarkdown = "";
+        let lastLogElement = null;
+        let timerInterval = null;
+        let secondsElapsed = 0;
+        let estimatedTotal = 60; // Global to allow modification
+
+        const locationInput = document.getElementById('locationInput');
+        locationInput.addEventListener('keypress', (e) => { if (e.key === 'Enter') searchLocation(); });
+
+        async function searchLocation() {
+            const query = locationInput.value;
+            if (!query) return;
+            
+            locationInput.disabled = true;
+            
+            try {
+                const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}`);
+                const data = await response.json();
+                
+                if (data && data.length > 0) {
+                    const lat = parseFloat(data[0].lat);
+                    const lon = parseFloat(data[0].lon);
+                    
+                    map.flyTo([lat, lon], 15, { duration: 1.5 });
+                    
+                    if (marker) map.removeLayer(marker);
+                    
+                    const blackIcon = L.divIcon({
+                        className: 'custom-div-icon',
+                        html: `<div style="background-color: black; width: 16px; height: 16px; border-radius: 50%; border: 3px solid white; box-shadow: 0 2px 5px rgba(0,0,0,0.3);"></div>`,
+                        iconSize: [16, 16],
+                        iconAnchor: [8, 8]
+                    });
+                    
+                    marker = L.marker([lat, lon], {icon: blackIcon}).addTo(map);
+                    selectedLocation = query;
+                    
+                    resetView();
+                } else {
+                    alert(`Could not resolve coordinates for "${query}". Try clicking the map instead.`);
+                }
+            } catch (err) { console.error("Geocoding failed:", err); }
+            
+            locationInput.disabled = false;
+        }
+
+        map.on('click', function(e) {
+            if (marker) map.removeLayer(marker);
+            
+            const blackIcon = L.divIcon({
+                className: 'custom-div-icon',
+                html: `<div style="background-color: black; width: 16px; height: 16px; border-radius: 50%; border: 3px solid white; box-shadow: 0 2px 5px rgba(0,0,0,0.3);"></div>`,
+                iconSize: [16, 16],
+                iconAnchor: [8, 8]
+            });
+            
+            marker = L.marker(e.latlng, {icon: blackIcon}).addTo(map);
+            selectedLocation = `${e.latlng.lat}, ${e.latlng.lng}`;
+            locationInput.value = `Coordinates: ${e.latlng.lat.toFixed(4)}, ${e.latlng.lng.toFixed(4)}`;
+            
+            resetView();
+        });
+
+        // Claude-Style Reasoning Logger
+        function logReasoning(msg) {
+            const logs = document.getElementById('reasoningLogs');
+            
+            if (lastLogElement) {
+                lastLogElement.innerHTML = `<span class="text-green-500 mr-2 text-base leading-none">✓</span> <span class="text-gray-800">${lastLogElement.dataset.msg}</span>`;
+                lastLogElement.classList.remove('opacity-60', 'animate-pulse');
+            }
+
+            const newLog = document.createElement('div');
+            newLog.className = "flex items-start opacity-60 animate-pulse transition-all duration-300";
+            newLog.dataset.msg = msg;
+            newLog.innerHTML = `<span class="text-gray-400 mr-2 animate-spin text-base leading-none">⚬</span> <span>${msg}</span>`;
+            
+            logs.appendChild(newLog);
+            logs.scrollTop = logs.scrollHeight;
+            lastLogElement = newLog;
+        }
+
+        function finalizeReasoning() {
+            if (lastLogElement) {
+                lastLogElement.innerHTML = `<span class="text-green-500 mr-2 text-base leading-none">✓</span> <span class="text-gray-800">${lastLogElement.dataset.msg}</span>`;
+                lastLogElement.classList.remove('opacity-60', 'animate-pulse');
+            }
+            
+            clearInterval(timerInterval);
+            const badge = document.getElementById('etaBadge');
+            const m = Math.floor(secondsElapsed / 60).toString().padStart(2, '0');
+            const s = (secondsElapsed % 60).toString().padStart(2, '0');
+            badge.innerText = `Done in ${m}:${s}`;
+            badge.classList.remove('bg-gray-200', 'text-gray-600');
+            badge.classList.add('bg-green-100', 'text-green-700');
+            
+            document.getElementById('thinkingSpinner').classList.add('hidden');
+            document.getElementById('thinkingCompleteIcon').classList.remove('hidden');
+            
+            const statusText = document.getElementById('thinkingStatus');
+            statusText.innerText = "Reasoning Complete";
+            
+            document.getElementById('progressBar').classList.remove('shimmer-bar');
+            
+            document.getElementById('reasoningLogs').classList.add('hidden');
+            document.getElementById('thinkingChevron').classList.add('rotate-180');
+        }
+
+        function toggleThinking() {
+            const logs = document.getElementById('reasoningLogs');
+            const chevron = document.getElementById('thinkingChevron');
+            if (logs.classList.contains('hidden')) {
+                logs.classList.remove('hidden');
+                chevron.classList.remove('rotate-180');
+            } else {
+                logs.classList.add('hidden');
+                chevron.classList.add('rotate-180');
+            }
+        }
+
+        // Setup Mermaid and Marked
+        mermaid.initialize({ startOnLoad: false, theme: 'neutral' });
+        
+        marked.use({
+            renderer: {
+                code(token) {
+                    if (token.lang === 'mermaid') {
+                        return '<div class="mermaid">' + token.text + '</div>';
+                    }
+                    return '<pre><code>' + token.text + '</code></pre>';
+                }
+            }
+        });
+
+        function renderChart(infraData) {
+            document.getElementById('visualDashboard').classList.remove('hidden');
+            const ctx = document.getElementById('infraChart').getContext('2d');
+            
+            if (chartInstance) chartInstance.destroy();
+            
+            const labels = Object.keys(infraData).map(k => k.charAt(0).toUpperCase() + k.slice(1).replace('_', ' '));
+            const data = Object.values(infraData);
+            
+            const hasData = data.some(v => v > 0);
+            
+            chartInstance = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: hasData ? labels : ['No Data'],
+                    datasets: [{
+                        data: hasData ? data : [1],
+                        backgroundColor: hasData ? ['#000000', '#374151', '#6B7280', '#9CA3AF', '#D1D5DB'] : ['#F3F4F6'],
+                        borderWidth: 0
+                    }]
+                },
+                options: { 
+                    responsive: true, 
+                    cutout: '70%',
+                    plugins: { 
+                        legend: { display: false },
+                        tooltip: { enabled: hasData }
+                    } 
+                }
+            });
+        }
+
+        function copyReport() {
+            navigator.clipboard.writeText(fullMarkdown).then(() => alert("Report copied to clipboard!"));
+        }
+
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            if (sidebar.style.display === 'none') {
+                sidebar.style.display = 'flex';
+            } else {
+                sidebar.style.display = 'none';
+            }
+        }
+
+        function resetSearch() {
+            document.getElementById('searchForm').classList.remove('hidden');
+            document.getElementById('newSearchBtn').classList.add('hidden');
+            resetView();
+        }
+
+        function resetView() {
+            clearInterval(timerInterval);
+            
+            document.getElementById('emptyState').classList.remove('hidden');
+            document.getElementById('thinkingBlock').classList.add('hidden');
+            document.getElementById('reportContainer').classList.add('hidden');
+            document.getElementById('reportContainer').classList.remove('flex');
+            document.getElementById('map').classList.remove('hidden');
+            document.getElementById('visualDashboard').classList.add('hidden');
+            
+            const badge = document.getElementById('etaBadge');
+            badge.classList.add('hidden');
+            badge.classList.remove('bg-green-100', 'text-green-700');
+            badge.classList.add('bg-gray-200', 'text-gray-600');
+            badge.innerText = "00:00 / ~01:00";
+            
+            document.getElementById('reasoningLogs').innerHTML = '';
+            document.getElementById('reasoningLogs').classList.remove('hidden');
+            document.getElementById('thinkingChevron').classList.remove('rotate-180');
+            document.getElementById('thinkingSpinner').classList.remove('hidden');
+            document.getElementById('thinkingCompleteIcon').classList.add('hidden');
+            document.getElementById('thinkingStatus').innerText = "Analyzing Market Data...";
+            document.getElementById('progressBar').classList.add('shimmer-bar');
+            document.getElementById('progressBar').style.width = '0%';
+            
+            lastLogElement = null;
+        }
+
+        // Initialization & API Key Management
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedGroq = localStorage.getItem('groq_key');
+            if (savedGroq) document.getElementById('groqKey').value = savedGroq;
+        });
+
+        function saveKeys() {
+            localStorage.setItem('groq_key', document.getElementById('groqKey').value);
+            document.getElementById('settingsModal').classList.add('hidden');
+            alert("API Keys saved securely to your browser storage.");
+        }
+
+        async function startAnalysis() {
+            if (!selectedLocation) {
+                alert("Please enter a location or drop a pin on the map.");
+                return;
+            }
+
+            const modelName = document.getElementById('modelSelect').value;
+            
+            // Check API Keys if Cloud Model is selected
+            const apiKeys = {
+                groq: localStorage.getItem('groq_key') || ''
+            };
+            
+            if (modelName.startsWith('groq') && !apiKeys.groq) {
+                alert("Please click '⚙️ API Keys' in the top right to enter your Groq API Key first.");
+                document.getElementById('settingsModal').classList.remove('hidden');
+                return;
+            }
+
+            document.getElementById('searchForm').classList.add('hidden');
+            document.getElementById('newSearchBtn').classList.remove('hidden');
+
+            const searchRadius = document.getElementById('radiusSelect').value;
+            
+            const propSize = document.getElementById('propSize').value;
+            const propType = document.getElementById('propType').value;
+            const propBudget = document.getElementById('propBudget').value;
+            
+            // Set ETA based on model
+            const isCloud = modelName.startsWith('groq');
+            estimatedTotal = isCloud ? 25 : (modelName === 'multi-agent' ? 65 : 35);
+            secondsElapsed = 0;
+            
+            const badge = document.getElementById('etaBadge');
+            badge.classList.remove('hidden');
+            
+            function updateTimerDisplay() {
+                const mE = Math.floor(secondsElapsed / 60).toString().padStart(2, '0');
+                const sE = (secondsElapsed % 60).toString().padStart(2, '0');
+                const mT = Math.floor(estimatedTotal / 60).toString().padStart(2, '0');
+                const sT = (estimatedTotal % 60).toString().padStart(2, '0');
+                badge.innerText = `${mE}:${sE} / ~${mT}:${sT}`;
+            }
+            
+            updateTimerDisplay();
+            
+            timerInterval = setInterval(() => {
+                secondsElapsed++;
+                updateTimerDisplay();
+            }, 1000);
+            
+            fullMarkdown = "";
+
+            const btn = document.getElementById('analyzeBtn');
+            btn.disabled = true;
+            btn.innerText = "Analyzing...";
+            
+            document.getElementById('emptyState').classList.add('hidden');
+            document.getElementById('reportContainer').classList.add('hidden');
+            document.getElementById('thinkingBlock').classList.remove('hidden');
+            document.getElementById('thinkingBlock').classList.add('flex');
+            
+            document.getElementById('reportContent').innerHTML = '<span class="cursor"></span>';
+            
+            logReasoning(`Target locked: ${selectedLocation} | Radius: ${searchRadius}km`);
+            document.getElementById('progressBar').style.width = '10%';
+
+            // Dynamic progress tracker for Multi-Agent
+            let progress = 10;
+
+            try {
+                const response = await fetch('/api/analyze', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ 
+                        location: selectedLocation, 
+                        model: modelName,
+                        radius: searchRadius,
+                        propertySize: propSize,
+                        propertyType: propType,
+                        budget: propBudget,
+                        apiKeys: apiKeys
+                    })
+                });
+
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder("utf-8");
+
+                while (true) {
+                    const { done, value } = await reader.read();
+                    if (done) break;
+                    
+                    const chunkStr = decoder.decode(value);
+                    const events = chunkStr.split('\n\n');
+                    
+                    for (const event of events) {
+                        if (event.startsWith('data: ')) {
+                            let data;
+                            try { data = JSON.parse(event.replace('data: ', '')); }
+                            catch (e) { continue; } 
+                            
+                            if (data.status === 'scraping') {
+                                if (data.cache_hit) {
+                                    estimatedTotal = Math.max(10, estimatedTotal - 15);
+                                }
+                                logReasoning(data.message);
+                                progress += 10;
+                                document.getElementById('progressBar').style.width = `${progress}%`;
+                            } 
+                            else if (data.status === 'processing') {
+                                logReasoning(data.message);
+                                progress += 5;
+                                document.getElementById('progressBar').style.width = `${Math.min(progress, 85)}%`;
+                            }
+                            else if (data.status === 'thought_start') {
+                                // Create a dedicated container for real-time streaming thoughts
+                                const logs = document.getElementById('reasoningLogs');
+                                if (lastLogElement) {
+                                    lastLogElement.innerHTML = `<span class="text-green-500 mr-2 text-base leading-none">✓</span> <span class="text-gray-800">${lastLogElement.dataset.msg}</span>`;
+                                    lastLogElement.classList.remove('opacity-60', 'animate-pulse');
+                                }
+                                
+                                const newLog = document.createElement('div');
+                                newLog.className = "flex items-start mt-2";
+                                newLog.dataset.msg = data.message;
+                                newLog.innerHTML = `<span class="text-blue-500 mr-2 text-base leading-none animate-pulse">⚡</span> <span class="text-gray-500 italic"><span class="font-bold text-gray-700 not-italic">${data.message}:</span> <span id="activeThought"></span><span class="cursor inline-block"></span></span>`;
+                                
+                                logs.appendChild(newLog);
+                                logs.scrollTop = logs.scrollHeight;
+                                lastLogElement = newLog;
+                            }
+                            else if (data.status === 'thought_stream') {
+                                const active = document.getElementById('activeThought');
+                                if (active) {
+                                    active.innerText += data.chunk;
+                                    const logs = document.getElementById('reasoningLogs');
+                                    logs.scrollTop = logs.scrollHeight;
+                                }
+                            }
+                            else if (data.status === 'thought_end') {
+                                const active = document.getElementById('activeThought');
+                                if (active) {
+                                    active.removeAttribute('id');
+                                    const cursor = active.parentElement.querySelector('.cursor');
+                                    if(cursor) cursor.remove();
+                                }
+                                if (lastLogElement) {
+                                    lastLogElement.innerHTML = `<span class="text-green-500 mr-2 text-base leading-none">✓</span> <span class="text-gray-800">${lastLogElement.dataset.msg} (Complete)</span>`;
+                                    lastLogElement.classList.remove('opacity-60', 'animate-pulse');
+                                }
+                            }
+                            else if (data.status === 'visuals') {
+                                document.getElementById('compCount').innerText = data.competitors;
+                                renderChart(data.infrastructure);
+                            }
+                            else if (data.status === 'streaming') {
+                                document.getElementById('progressBar').style.width = '95%';
+                                
+                                if (document.getElementById('reportContainer').classList.contains('hidden')) {
+                                    document.getElementById('map').classList.add('hidden');
+                                    document.getElementById('reportContainer').classList.remove('hidden');
+                                    document.getElementById('reportContainer').classList.add('flex');
+                                    finalizeReasoning();
+                                }
+                                
+                                fullMarkdown += data.chunk;
+                                document.getElementById('reportContent').innerHTML = marked.parse(fullMarkdown) + '<span class="cursor"></span>';
+                            }
+                            else if (data.status === 'complete') {
+                                document.getElementById('progressBar').style.width = '100%';
+                                document.getElementById('reportContent').innerHTML = marked.parse(fullMarkdown);
+                                setTimeout(() => mermaid.init(undefined, document.querySelectorAll('.mermaid')), 100);
+                            }
+                            else if (data.status === 'error') {
+                                logReasoning(`[ERROR] ${data.message}`);
+                                document.getElementById('progressBar').classList.add('bg-red-500');
+                                document.getElementById('progressBar').classList.remove('bg-black');
+                                clearInterval(timerInterval);
+                                const badge = document.getElementById('etaBadge');
+                                badge.innerText = "FAILED";
+                                badge.classList.replace('bg-gray-200', 'bg-red-100');
+                                badge.classList.replace('text-gray-600', 'text-red-700');
+                                
+                                document.getElementById('thinkingSpinner').classList.add('hidden');
+                                document.getElementById('thinkingStatus').innerText = "Analysis Failed";
+                                document.getElementById('thinkingStatus').classList.add('text-red-600');
+                                
+                                alert("Analysis Failed: " + data.message);
+                            }
+                        }
+                    }
+                }
+            } catch (error) {
+                logReasoning(`[ERROR] ${error.message}`);
+                alert("Connection failed. Check server logs.");
+            }
+
+            btn.disabled = false;
+            btn.innerText = 'Run analysis';
+        }
+    </script>
+</body>
+</html>
