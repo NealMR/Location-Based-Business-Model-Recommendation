@@ -10,7 +10,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'scripts'))
 from maps_scraper import scrape_google_data
 from llm_processor import generate_business_strategy_stream
 
-st.set_page_config(page_title="AI Market Strategist", layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="AI Market Strategist", layout="wide", initial_sidebar_state="expanded")
 
 # ==========================================
 # PREMIUM SAAS STYLING
@@ -81,6 +81,32 @@ st.markdown("<p style='text-align: center; color: #8B949E; font-size: 15px;'>Mem
 st.markdown("<hr style='border-color: #21262D;'>", unsafe_allow_html=True)
 
 # ==========================================
+# SIDEBAR: MODEL & API KEY CONFIGURATION
+# ==========================================
+with st.sidebar:
+    st.markdown("### ⚙️ Engine Configuration")
+    
+    # Model Selection
+    model_choice = st.selectbox(
+        "Select Intelligence Engine",
+        ["phi3 (Local)", "qwen2.5:3b (Local)", "llama3.1 (Local)", "groq-llama-3.1-8b-instant", "gemini-1.5-flash", "gpt-4o-mini"]
+    )
+    
+    # Strip the "(Local)" suffix for actual variable
+    selected_model = model_choice.split(" ")[0]
+    
+    api_keys = {}
+    if selected_model.startswith("groq"):
+        api_keys['groq'] = st.text_input("Groq API Key", type="password")
+    elif selected_model.startswith("gemini"):
+        api_keys['gemini'] = st.text_input("Gemini API Key", type="password")
+    elif selected_model.startswith("gpt"):
+        api_keys['openai'] = st.text_input("OpenAI API Key", type="password")
+        
+    st.markdown("---")
+    st.markdown("💡 *Local models require [Ollama](https://ollama.com/) running.*")
+
+# ==========================================
 # PHASE 1: MAP SELECTION VIEW
 # ==========================================
 if st.session_state.view == 'map':
@@ -146,7 +172,7 @@ elif st.session_state.view == 'analysis':
             log_box.markdown(f"<div class='terminal-log'>{msg}</div>", unsafe_allow_html=True)
 
         # 1. Scrape
-        update_log("> Spawning headless Playwright browser...<br>> Bypassing bot protection...<br>> Querying infrastructure and competitor data...", 20)
+        update_log("> Spawning headless Playwright browser...<br>> Querying infrastructure and competitor data...", 20)
         
         try:
             scraped_data = scrape_google_data(st.session_state.location_name)
@@ -155,7 +181,7 @@ elif st.session_state.view == 'analysis':
             rev_str = "\n".join(scraped_data.get('reviews', []))
             
             # 2. Process
-            update_log("> Scraping complete.<br>> Chunking unstructured DOM data for KV-Cache...<br>> Waking Local LLM (Phi-3)...", 60)
+            update_log(f"> Scraping complete.<br>> Chunking unstructured DOM data for KV-Cache...<br>> Waking {selected_model}...", 60)
             time.sleep(1)
             
             # 3. Stream Output
@@ -165,7 +191,7 @@ elif st.session_state.view == 'analysis':
             full_report = ""
             
             # Stream the report into a beautifully styled CSS box
-            for chunk in generate_business_strategy_stream(infra_str, comp_str, rev_str, model_name='phi3'):
+            for chunk in generate_business_strategy_stream(st.session_state.location_name, infra_str, comp_str, rev_str, model_name=selected_model, api_keys=api_keys):
                 full_report += chunk
                 report_container.markdown(f"<div class='report-box'>{full_report}▌</div>", unsafe_allow_html=True)
                 
