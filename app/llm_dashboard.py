@@ -175,6 +175,17 @@ elif st.session_state.view == 'analysis':
             progress_bar.progress(progress)
             log_box.markdown(f"<div class='terminal-log'>{msg}</div>", unsafe_allow_html=True)
 
+        # 0. Validate API Keys
+        if selected_model.startswith('groq') and not api_keys.get('groq'):
+            update_log("> [ERROR] Missing Groq API Key! Please enter it in the sidebar and press Enter.", 0)
+            st.stop()
+        elif selected_model.startswith('gemini') and not api_keys.get('gemini'):
+            update_log("> [ERROR] Missing Gemini API Key! Please enter it in the sidebar and press Enter.", 0)
+            st.stop()
+        elif selected_model.startswith('gpt') and not api_keys.get('openai'):
+            update_log("> [ERROR] Missing OpenAI API Key! Please enter it in the sidebar and press Enter.", 0)
+            st.stop()
+
         # 1. Scrape
         update_log("> Spawning headless Playwright browser...<br>> Querying infrastructure and competitor data...", 20)
         
