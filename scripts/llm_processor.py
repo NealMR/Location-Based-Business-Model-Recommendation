@@ -210,11 +210,52 @@ Reviews: {review_data}
             yield chunk['message']['content']
 
 
+def headless_web_search(query):
+    import urllib.request, urllib.parse
+    from html.parser import HTMLParser
+    
+    url = f"https://html.duckduckgo.com/html/?q={urllib.parse.quote(query)}"
+    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'})
+    try:
+        html = urllib.request.urlopen(req, timeout=10).read().decode('utf-8')
+        class DDGParser(HTMLParser):
+            def __init__(self):
+                super().__init__()
+                self.results = []
+                self.in_snippet = False
+                self.current = ""
+            def handle_starttag(self, tag, attrs):
+                if tag == 'a' and ('class', 'result__snippet') in attrs:
+                    self.in_snippet = True
+            def handle_endtag(self, tag):
+                if tag == 'a' and self.in_snippet:
+                    self.in_snippet = False
+                    self.results.append(self.current.strip())
+                    self.current = ""
+            def handle_data(self, data):
+                if self.in_snippet:
+                    self.current += data + " "
+        parser = DDGParser()
+        parser.feed(html)
+        return "\n- ".join(parser.results[:5])
+    except Exception as e:
+        return f"Search failed: {str(e)}"
+
 def chat_with_report(report_text, user_message, chat_history, model_name, api_keys):
     api_keys = api_keys or {}
     
-    # Build context
     sys_prompt = "You are a strategic AI assistant helping the user analyze this specific market intelligence report. Use the report below as your primary context to answer questions. If the user asks something outside the scope of the report, use your general business knowledge.\n\nREPORT CONTEXT:\n" + report_text
+    
+    # Agentic web search trigger
+    trigger_words = ["search", "scrape", "look up", "find online", "google", "live", "current rent"]
+    if any(kw in user_message.lower() for kw in trigger_words):
+        yield "> **🤖 Agentic Action Triggered**  \n> Spawning web crawler to search live data for your query...  \n"
+        search_results = headless_web_search(user_message)
+        if search_results and "Search failed" not in search_results:
+            yield "> **Web Results Retrieved successfully.** Synthesizing with report context...  \n\n"
+            sys_prompt += f"\n\nLIVE WEB DATA RETRIEVED JUST NOW FOR THE USER'S QUERY:\n- {search_results}\n\nINSTRUCTION: Use this live data to formulate your answer if relevant."
+        else:
+            yield "> **Web Search Failed.** Proceeding with internal knowledge...  \n\n"
     
     prompt = f"{sys_prompt}\n\n"
     for msg in chat_history:
