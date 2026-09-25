@@ -210,7 +210,7 @@ with col_right:
                 
                 for chunk in generate_business_strategy_stream(st.session_state.location_name, infra_str, comp_str, rev_str, model_name=selected_model, api_keys=api_keys):
                     # Clean up <thought> tags if they exist
-                    chunk = chunk.replace("<thought>", "> **🧠 Agent Thinking...**\n> ").replace("</thought>", "\n\n")
+                    chunk = chunk.replace("<thought>", "> **Agent Thinking...**\n> ").replace("</thought>", "\n\n")
                     full_report += chunk
                     report_text_box.markdown(full_report + "▌")
                     
@@ -222,7 +222,7 @@ with col_right:
                 log_box.empty()
             
             # Render Data Visualization (Always)
-            st.markdown("#### 📊 Extracted Market Data")
+            st.markdown("#### Extracted Market Data")
             col_chart1, col_chart2 = st.columns(2)
             
             if st.session_state.get('infra_data'):
@@ -243,7 +243,7 @@ with col_right:
                 
                 # Download Button
                 st.download_button(
-                    label="📥 Download Strategy Blueprint (.md)",
+                    label="Download Strategy Blueprint (.md)",
                     data=st.session_state.generated_report,
                     file_name=f"{st.session_state.location_name[:20].replace(' ', '_')}_Strategy.md",
                     mime="text/markdown",
@@ -251,7 +251,7 @@ with col_right:
                 )
                 
                 st.markdown("---")
-                st.markdown("### 💬 Discuss this Report with AI")
+                st.markdown("### Discuss this Report with AI")
                 
                 if "chat_history" not in st.session_state:
                     st.session_state.chat_history = []

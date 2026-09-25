@@ -23,7 +23,7 @@ def stream_openai_compatible(prompt, api_key, model_name, base_url=None):
             messages=[{"role": "user", "content": prompt}],
             stream=True
         )
-        yield f"> **🧠 Neural Synthesis Log ({model_name})**  \n> Processing request in cloud...  \n"
+        yield f"> **Neural Synthesis Log ({model_name})**  \n> Processing request in cloud...  \n"
         for chunk in response:
             if chunk.choices[0].delta.content:
                 yield chunk.choices[0].delta.content
@@ -249,7 +249,7 @@ def chat_with_report(report_text, user_message, chat_history, model_name, api_ke
     # Agentic web search trigger
     trigger_words = ["search", "scrape", "look up", "find online", "google", "live", "current rent"]
     if any(kw in user_message.lower() for kw in trigger_words):
-        yield "> **🤖 Agentic Action Triggered**  \n> Spawning web crawler to search live data for your query...  \n"
+        yield "> **Agentic Action Triggered**  \n> Spawning web crawler to search live data for your query...  \n"
         search_results = headless_web_search(user_message)
         if search_results and "Search failed" not in search_results:
             yield "> **Web Results Retrieved successfully.** Synthesizing with report context...  \n\n"
