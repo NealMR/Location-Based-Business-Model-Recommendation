@@ -8,7 +8,7 @@ def stream_gemini(prompt, api_key, model_name="gemini-1.5-flash"):
         genai.configure(api_key=api_key)
         model = genai.GenerativeModel(model_name)
         response = model.generate_content(prompt, stream=True)
-        yield "THOUGHT_START:[Gemini API] Processing request in cloud\n"
+        yield "> **?? Neural Synthesis Log (Gemini API)**  \n> Processing request in cloud  \n"
         for chunk in response:
             if chunk.text:
                 yield chunk.text
@@ -23,7 +23,7 @@ def stream_openai_compatible(prompt, api_key, model_name, base_url=None):
             messages=[{"role": "user", "content": prompt}],
             stream=True
         )
-        yield f"THOUGHT_START:[{model_name} API] Processing request in cloud\n"
+        yield f"> **🧠 Neural Synthesis Log ({model_name})**  \n> Processing request in cloud...  \n"
         for chunk in response:
             if chunk.choices[0].delta.content:
                 yield chunk.choices[0].delta.content
@@ -223,7 +223,7 @@ def run_multi_agent_pipeline(location_name, infrastructure_data, competitor_data
     phi_prompt = f"You are a Data Synthesizer. Convert the messy raw scraped data into a clean, highly structured JSON array of competitor objects (with 'name', 'type', and 'context'). Output ONLY valid JSON, do not include markdown formatting or explanations. RAW TEXT: {competitor_data}"
     phi_res = ollama.chat(model='phi3', messages=[{'role': 'user', 'content': phi_prompt}], stream=True)
     
-    yield "THOUGHT_START:[Agent 1] Synthesizing raw DOM scraped data"
+    yield "> **?? Neural Synthesis Log (Agent 1)**  \n> Synthesizing raw DOM scraped data  \n"
     clean_competitors = ""
     for chunk in phi_res:
         content = chunk['message']['content']
@@ -243,7 +243,7 @@ def run_multi_agent_pipeline(location_name, infrastructure_data, competitor_data
     """
     qwen_res = ollama.chat(model='qwen2.5:3b', messages=[{'role': 'user', 'content': qwen_prompt}], stream=True)
     
-    yield "THOUGHT_START:[Agent 2] Performing demographic & market gap analysis"
+    yield "> **?? Neural Synthesis Log (Agent 2)**  \n> Performing demographic & market gap analysis  \n"
     market_gaps = ""
     for chunk in qwen_res:
         content = chunk['message']['content']

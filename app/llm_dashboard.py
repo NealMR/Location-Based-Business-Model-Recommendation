@@ -2,6 +2,7 @@ import streamlit as st
 import folium
 from streamlit_folium import st_folium
 from geopy.geocoders import Nominatim
+import plotly.graph_objects as go
 import sys
 import os
 import time
@@ -192,20 +193,53 @@ with col_right:
             comp_str = "\n".join(scraped_data.get('competitors', []))
             rev_str = "\n".join(scraped_data.get('reviews', []))
             
+            # Render Data Visualization
+            st.markdown("#### 📊 Extracted Market Data")
+            col_chart1, col_chart2 = st.columns(2)
+            
+            # Chart 1: Infrastructure
+            infra_data = scraped_data.get('infrastructure', {})
+            if infra_data:
+                fig1 = go.Figure(data=[go.Bar(x=list(infra_data.keys()), y=list(infra_data.values()), marker_color='#58A6FF')])
+                fig1.update_layout(title="Local Infrastructure Density", paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)', height=250, margin=dict(l=0, r=0, t=30, b=0))
+                col_chart1.plotly_chart(fig1, use_container_width=True)
+                
+            # Chart 2: Competitors
+            comp_count = len(scraped_data.get('competitors', []))
+            rev_count = len(scraped_data.get('reviews', []))
+            fig2 = go.Figure(data=[go.Bar(x=['Competitors', 'Reviews'], y=[comp_count, rev_count], marker_color='#3FB950')])
+            fig2.update_layout(title="Market Saturation (Scraped)", paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)', height=250, margin=dict(l=0, r=0, t=30, b=0))
+            col_chart2.plotly_chart(fig2, use_container_width=True)
+            
             update_log(f"> Scraping complete.<br>> Chunking unstructured DOM data for KV-Cache...<br>> Waking {selected_model}...", 60)
             time.sleep(1)
             
             update_log("> Neural synthesis initiated.<br>> Streaming report...", 90)
             
-            report_container = st.empty()
+            # Render the report inside a native Streamlit container
+            report_container = st.container(border=True)
+            report_text_box = report_container.empty()
             full_report = ""
             
             for chunk in generate_business_strategy_stream(st.session_state.location_name, infra_str, comp_str, rev_str, model_name=selected_model, api_keys=api_keys):
+                # Clean up <thought> tags if they exist
+                chunk = chunk.replace("<thought>", "> **🧠 Agent Thinking...**\n> ").replace("</thought>", "\n\n")
                 full_report += chunk
-                report_container.markdown(f"<div class='report-box'>{full_report}▌</div>", unsafe_allow_html=True)
+                report_text_box.markdown(full_report + "▌")
                 
-            report_container.markdown(f"<div class='report-box'>{full_report}</div>", unsafe_allow_html=True)
+            report_text_box.markdown(full_report)
             update_log("> Analysis generated successfully.<br>> Process terminated.", 100)
+            
+            # PDF / Print Button
+            st.markdown(
+                \"\"\"
+                <br>
+                <a href="javascript:window.print()" style="background-color:#238636; color:white; padding:10px 20px; border-radius:5px; text-decoration:none; font-weight:bold; font-size:14px; display:inline-block; text-align:center;">
+                   🖨️ Print / Save as PDF
+                </a>
+                \"\"\", 
+                unsafe_allow_html=True
+            )
             
         except Exception as e:
             update_log(f"> [ERROR] Execution Failed.<br>> Details: {e}", 100)
