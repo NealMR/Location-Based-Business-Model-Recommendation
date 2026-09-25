@@ -78,64 +78,64 @@ Reviews: {review_data}
 
 ### CRITICAL INSTRUCTIONS:
 1. Start with `<thought>...</thought>` tags. Evaluate the ecosystem, filter ideas through the Recommendation Gate, and derive metrics.
-2. After the thought block, output the final report STRICTLY matching the structure and Markdown formatting below. You MUST use triple backticks for the ASCII bars to preserve spacing.
+2. After the thought block, output the final report STRICTLY matching the structure and Markdown formatting below. Use Markdown tables, clean headings, and bullet points. DO NOT USE ANY EMOJIS OR ASCII ART IN YOUR OUTPUT.
 
 # MARKET INTELLIGENCE REPORT
 
-**📍 LOCATION**
+**LOCATION**  
 [Analyze coordinates/data to determine Area]
 
-**AREA PROFILE**
+**AREA PROFILE**  
 [e.g., Medical + Education + Residential]
 
 ---
 ## 1. LOCAL DEMAND
 
-```text
-[Segment 1]          ████████████████  HIGH
-[Segment 2]          ████████          MEDIUM
-[Segment 3]          ████              LOW
-```
+| Customer Segment | Demand Intensity | Rationale |
+| :--- | :--- | :--- |
+| [Segment 1] | **HIGH** | [Brief reason] |
+| [Segment 2] | **MEDIUM** | [Brief reason] |
+| [Segment 3] | **LOW** | [Brief reason] |
 
 **Primary customer groups:**
-[Group 1] • [Group 2] • [Group 3]
+* [Group 1]
+* [Group 2]
+* [Group 3]
 
 ---
 ## 2. DETECTED NEEDS
 
-**HIGH**
-- [Need 1]
-- [Need 2]
+**Critical Market Gaps:**
+* [Need 1]
+* [Need 2]
 
-**MEDIUM**
-- [Need 3]
+**Secondary Market Gaps:**
+* [Need 3]
 
 ---
 ## 3. COMPETITIVE LANDSCAPE
 
-```text
-[Category 1]         HIGH competition
-[Category 2]         MEDIUM
-[Category 3]         LOW
-[Category 4]         UNKNOWN
-```
+| Business Category | Saturation Level | Key Players |
+| :--- | :--- | :--- |
+| [Category 1] | **HIGH** | [Names] |
+| [Category 2] | **MEDIUM** | [Names] |
+| [Category 3] | **LOW** | [Names] |
 
-- **Direct competitors:** [X]
-- **Indirect competitors:** [Y]
-- **Local complaints:** [List top 2-3 themes from reviews, or "Insufficient review evidence"]
+* **Direct competitors:** [X]
+* **Indirect competitors:** [Y]
+* **Local complaints:** [List top 2-3 themes from reviews, or "Insufficient review evidence"]
 
 ---
 ## 4. OPPORTUNITY & EVIDENCE CHAIN
 
-**HIGH-DEMAND + LOW-COMPETITION**
-**[Opportunity Name]**
+### [Opportunity Name]
 *Recommendation Status: [SUPPORTED / INSUFFICIENT DATA]*
 
-**Why:**
-- **[FACT]:** [Observed fact from data]
-- **[DERIVED]:** [Calculation or density based on data]
-- **[INTERPRETATION]:** [Reasonable interpretation]
-- **[HYPOTHESIS]:** [Possible opportunity requiring validation]
+> **Evidence Chain:**
+> * **[FACT]:** [Observed fact from data]
+> * **[DERIVED]:** [Calculation or density based on data]
+> * **[INTERPRETATION]:** [Reasonable interpretation]
+> * **[HYPOTHESIS]:** [Possible opportunity requiring validation]
 
 ---
 ## 5. BUSINESS OPTIONS
