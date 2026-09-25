@@ -1,28 +1,48 @@
-# Location-Based Business Model Recommendation
+# AI Location Intelligence & Business Recommender
 
-This project recommends the viability of various business types (e.g., Restaurants, Gyms, Pharmacies) across 150 localities in Mumbai. It leverages OpenStreetMap data for infrastructure density and integrates it with local commercial rent estimates and footfall scoring models.
+An end-to-end Machine Learning and Generative AI pipeline that analyzes geographical infrastructure, scrapes local market data, and autonomously recommends highly viable business models for specific localities.
 
-## Structure
-- `data/` - Raw inputs and processed features
-- `models/` - Trained Random Forest models
-- `scripts/` - Data ingestion, processing, and training pipeline
-- `app/` - Streamlit dashboard and CLI prediction tools
+This project was built to determine the viability of various commercial business types (Restaurants, Gyms, Pharmacies, etc.) across different neighborhoods by combining quantitative geospatial data with qualitative LLM-driven market gap analysis.
 
-## Setup
+## 🚀 Key Features
 
-1. Install dependencies:
+*   **Machine Learning Prediction:** Uses trained Random Forest models to predict business viability based on infrastructure density (schools, transit, hospitals) and estimated local rent.
+*   **Live Market Scraping:** Utilizes a headless `Playwright` scraper to extract real-time competitor density and customer sentiment directly from Google Maps.
+*   **Multi-Agent LLM Strategy (Local AI):** Employs a local AI pipeline (via `Ollama`) orchestrating multiple models:
+    *   **Agent 1 (Phi-3):** Synthesizes raw scraped DOM data into structured competitor profiles.
+    *   **Agent 2 (Qwen 2.5):** Analyzes the synthesized data to identify local market gaps.
+    *   **Agent 3 (Llama 3.1):** Acts as the "Chief Strategist" to output a comprehensive, evidence-based business strategy report.
+*   **Interactive Dashboard:** A fully featured Streamlit web application to visualize demographic insights and stream the AI-generated business recommendations live.
+
+## 📁 Repository Structure
+
+*   `app/` - Streamlit dashboards (`dashboard.py` for ML stats, `llm_dashboard.py` for live AI generation).
+*   `data/` - Datasets containing localities, OpenStreetMap (OSM) features, and ground-truth validation.
+*   `models/` - Pre-trained Random Forest models for fast inference.
+*   `scripts/` - Core data ingestion pipelines, the Playwright scraper, and the Multi-Agent LLM logic.
+*   `test_pipeline.py` / `auto_tuner.py` - End-to-end testing and autonomous location evaluation scripts.
+
+## 🛠️ Setup & Installation
+
+**1. Install dependencies**
 ```bash
 pip install -r requirements.txt
+playwright install chromium
 ```
 
-2. Generate data and train models (requires Google Maps API key):
+**2. Ensure Local LLMs are running**
+If you plan to use the local AI strategy features, ensure [Ollama](https://ollama.com/) is installed and running, and pull the required models:
 ```bash
-export GOOGLE_MAPS_API_KEY="your_api_key_here"
-python scripts/run_all.py
+ollama run phi3
+ollama run qwen2.5:3b
+ollama run llama3.1
 ```
-*(Note: The pipeline includes a fallback mode if the API key is unavailable or restricted).*
 
-3. Run the interactive dashboard:
+**3. Run the interactive dashboard**
 ```bash
 streamlit run app/dashboard.py
 ```
+*(To run the generative AI dashboard, run `streamlit run app/llm_dashboard.py`)*
+
+---
+*Note: The pipeline includes a fallback mode if live API scraping is restricted or unavailable.*
